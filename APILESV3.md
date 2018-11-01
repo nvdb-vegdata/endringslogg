@@ -1,0 +1,151 @@
+# NVDB API LES V3 - Endringslogg og implementasjonsplan
+Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av V3.
+
+# Fullførte sprinter
+### Sprint 1. 13. februar
+* Dokumentasjon og spesifisering av endepunkter og responser
+* Endepunker med blanding av reelle og dummy-data.
+
+### Sprint 2. 6. mars
+* Indeksering og endepunkt for usegmentert vegnett
+
+### Sprint 3. 3. april
+* Parametre for filtrering av usegmenter vegnett
+* Innføre segmentert vegnett (likt det i V2)
+
+### Sprint 4. 24. april
+* Indeksering og eksponering av objektert binær-egenskaper
+* Eksponering av NVDB transaksjonslogg
+* Indekserer lenker der alle lenker har sluttdato
+
+### Sprint 5. 15. mai
+* Innslag i `tillatte_verdier` har fått feltet `navn` endret til `verdi` Dersom det er et tall-enum er dette ikke lengre en streng.
+* For et attributt på en vegobjekttype i datakatalogen manglet kortnavn og attributtypekategori. Dette er lagt til.
+* Alle attributtyper listes ut på `/vegobjekttyper/attributtypekategorier`
+* Geometriattributtyper manglet dimensjon. Dette er lagt til.
+* Dersom et objekt er slettet fra NVDB gir apiet status 410 i stedet for 404.
+
+### Sprint 6. 5. juni
+* Definisjon av liste- og strukturattributter i datakatalog.
+
+### Sprint 7. 26. juni
+* Vegnettsgeometri og egengeomtri normaliseres til `LINESTRING`(Gis ut som `MULTILINESTRING` siden typen i NVDB er dette)
+* Forbedringer av spørreparametre for noder
+* Gi ut definisjonen av objekters geometriattributt i datakatalog. : vegobjekttype.stedfesting er lagt til denne gir informasjon om stedfestingen for vegobjekttypen. Dette feltet kan være et listeattributt som inneholder selve stedfestingsattributtet.
+* `attributtype.liste` - felt er fjernet. `attributetype.type` er lagt til. Denne vil inneholde beskrive hvilken type attributtypen er, eks `Liste`.
+* `Datatype` Liste, id 38 er lagt til for Listeattributter.
+* vegobjekttype.relasjonstyper er endret slik at det vil komme et liste-nivå dersom den aktuelle assosiasjonen er en liste.
+
+### Sprint 8. 14. august
+* Støtte spørring med polygon
+* /vegobjekter/{id} oppe med reelle data. Kontraktsområde har ikke historikk. Søkeparametre for vegsystemreferanse og avanserte spørringer virker ikke.
+* Begrepsendring for vegnettet. Referanselenk -> Lenkesekvens, Dellenke -> Lenke
+* I datakatalogen har vegobjekttypenes kategorier fått informasjon om primærkategori.
+* Lenker har fått `måledato`, `målemetode`, `typeVeg` og `detaljnivå`
+* Egenskaper som ligger inni geometrien blir eksponert.
+
+### Sprint 9. 4. september
+* Lokasjons- og assosiasjonsegenskapene for et vegobjekt blir gitt ut som egenskaper i tillegg til den forenklede representasjonen vi allerede har.
+* egenskap.datatype_tekst er fjernet, egenskap.datatype har verdien datatype_tekst hadde.
+* egenskap.viktighet_tekst fjernet, egenskap.viktighet har verdien egenskap.viktighet_tekst hadde.
+* transaksjonsobjekt.transaksjonstype_tekst fjernet, transaksjonsobjekt.transaksjonstype har verdien transaksjonstype_tekst hadde.
+* veglenke.topologinivå_tekst fjernet, veglenke.topologinivå har verdien veglenke.topologinivå_tekst hadde.
+* veglenke.detaljnivå har tekstverdier
+* veglenke.typeVeg har tekstverdier
+* veglenke.typeVeg_sosi har tekstverdier
+* veglenke.målemetode har tekstverdier
+* lenkesekvens, lenke er endret til veglenkesekvens og veglenke.
+* stedfesting.felt er endret fra tekst til liste av tekst. (feltet kunne før være `"1#2"`, dette er nå `["1", "2"]`)
+* Felter lagt til i datakatalogen: 
+    * Assosiasjonsegenskaper med alle sine egenskaper. (grunnverdier + affiliation, feature_type_id, inside_parent, start_date, end_date, association_requirement, association_requirement_comment)
+    * baseegenskaper: sosinavn, caption, readOnly, complementaryattrtypeid, plainviewreftext, heightreftext, reqheightref, reqaccuracyplan, reqaccuracyheight, referencesosi,  referencegeometry, conditionalRequiremens.
+    * Blobegenskap.blobformat
+    * featuretype.state, category, simpleversionon, coverage, additionalinfo
+    * Tekst. dato.-, tidegenskap.format
+    * Integer., Real.complementarysign 
+    * Enum.isDefault
+    * Localtional.movable, insideparent
+    * PrimitiveAttribute.isdirectionsensitive, isextentsensitive
+    * Spatial.insideparent
+
+Navn i apiet:
+* affiliation - tilknytning
+* inside_parent - innenfor_mor
+* association_requirement,
+* association_requirement_comment
+* sosinavn - sosinavn
+* caption - ledetekst
+* readOnly - skrivebeskyttet
+* complementaryattrtypeid - komplementær_egenskapstype
+* plainviewreftext - grunnrissreferanse
+* heightreftext - høydereferanse
+* reqheightref - høydereferanse_tall (tror dette er href, vil helst ikke brukt href siden det har annen mening i api)
+* reqaccuracyplan - nøyaktighetskrav_grunnriss
+* reqaccuracyheight - nøyaktighetskrav_høyde
+* referencesosi - sosi_referanse
+* referencegeometry - referansegeometri_tilstrekkelig
+* conditionalRequirements - tilleggskrav
+* blobformat - mediatype
+* state - status (Mangler tekstverdier for denne)
+* category - CATEGORY (Mangler tekstverdier for denne) Burde det vi allerede kaller kategorier kalles grupper?
+* simpleversionon - simpleversionon (Trenger navn)
+* coverage - dekning
+* additionalinfo - tilleggsinformasjon
+* format - feltmønster
+* complementarysign - fortegnsendring_snu
+* isDefault - standardverdi
+* movable - flyttbar
+* isdirectionsensitive - ajourhold_snu
+* isextentsensitive - lengdeavhengig_verdi
+
+### Sprint 10 
+* Gir ut Turnextent
+* Segmentering påbegynt
+* /vegobjekter/#?id=x,y,z
+
+### Sprint 11
+* /vegobjekter/#?id=x,y,z og /vegnett/...?id=x,y,z er endret til `?ider=x,y,z`
+* Gir endelig ut struktur, liste, liste med struktur, assosiasjon og liste med assosiasjoner.
+* Takler `/` i navn for kontraktsområde og riksvegrute. 
+* egenskapen `styringsparametere` er fjernet fra vegobjekttyper og dems egenskaper. Mange av feltene under vegobjekttypens styringsparametre kommer fra dets lokasjonsegenskap. Alle verdiene vil bli listet ut der de kommer fra.
+* Datakatalogverdier som ikke gis ut fordi de skal ut av datakatalogen eller alle instanser mangler verdi:
+   * vegobjekttype.,tillattverdi.illustrationid
+   * featuretype.filterOn
+   * featuretype.coverage (alle instanser har verdi `1`)
+   * featurettype.context.description
+   * featurettype.context.indexon
+   * egenskapstype.no
+   * lokasjonsegenskap.suppleringslengde (UPDATE_LENGTH)
+   * lokasjonsegenskap.ajourhold_i (UPDATE_I)
+   * lokasjonsegenskap.retning_relevant (DIR)
+   * lokasjonsegenskap.flyttbar (transferable_between_levels)
+   * lokasjonsegenskap.høyde (HEIGHT_LEVEL) / .høyde_relevant (heightlevel)
+* Egenskaper som har endret navn:
+   * ajourhold_splitt -> vegnettsajourhold_splitt
+   * dekningsgrad -> overlappsautomatikk
+   * overlapp -> overlapp_ok
+   * sektype2_Ok -> konnekteringslenke_ok
+
+### Sprint 11
+* Segmentering av vegnett og vegobjekter
+
+### Sprint 12
+* Segmentering av vegnett og vegobjekter
+
+## Grov forventet fremdrift
+
+### Q3
+* Spesifisering av strengrepresentasjonen av den nye vegreferansemodellen
+* Gi ut attributter av type liste og struktur
+* All funksjonalitet for uthenting av vegobjekter virker igjen.
+
+### Q4
+* Autentisering for tilgang til sensitive datatyper og egenskaper.
+* Filtrere usegmentert vegnett basert på vegreferanse
+* Historiske objekter refererer til vegreferanse
+* Segmentere vegnett og objekter på den nye vegreferansemodellen
+* Gjeldende objekter refererer til ny vegreferanse
+
+### Q1 2019
+* Avansert spørring virker igjen
+* Alle endepunkter støtter POST 
