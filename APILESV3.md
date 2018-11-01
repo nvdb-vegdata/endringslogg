@@ -140,12 +140,12 @@ Navn i apiet:
 * All funksjonalitet for uthenting av vegobjekter virker igjen.
 
 ### Q4
-* Autentisering for tilgang til sensitive datatyper og egenskaper.
 * Filtrere usegmentert vegnett basert på vegreferanse
 * Historiske objekter refererer til vegreferanse
 * Segmentere vegnett og objekter på den nye vegreferansemodellen
 * Gjeldende objekter refererer til ny vegreferanse
 
 ### Q1 2019
+* Autentisering for tilgang til sensitive datatyper og egenskaper.
 * Avansert spørring virker igjen
 * Alle endepunkter støtter POST 
