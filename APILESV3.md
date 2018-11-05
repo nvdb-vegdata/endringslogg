@@ -131,6 +131,7 @@ Navn i apiet:
 
 ### Sprint 12
 * Segmentering av vegnett og vegobjekter
+* Antallet desimaler i koordinater er begrenset til åtte.
 
 ## Grov forventet fremdrift
 
@@ -149,3 +150,4 @@ Navn i apiet:
 * Autentisering for tilgang til sensitive datatyper og egenskaper.
 * Avansert spørring virker igjen
 * Alle endepunkter støtter POST 
+* Respons for vegobjekt-egenskaper reduseres til kun data, ikke felter for datatype, egenskapstypenavn.
