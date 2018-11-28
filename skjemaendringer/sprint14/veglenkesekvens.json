@@ -25,9 +25,8 @@
         }
     } ],
     "veglenker" : [ {
-        "id" : 1,
-        "konnekteringslenke" : false,
-        "detaljert" : false,
+        "veglenkenummer" : 1,
+	"type": "HOVED",
         "startport" : 1,
         "sluttport" : 2,
         "lengde" : 567.684721917086,
