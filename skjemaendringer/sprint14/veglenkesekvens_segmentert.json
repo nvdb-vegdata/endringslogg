@@ -1,0 +1,112 @@
+[
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {},
+    "netelementid": 265,
+    "startposisjon": 0,
+    "sluttposisjon": 0.23210437,
+    "kortform": "0.0-0.23210437@265",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "37039",
+    "sluttnode": "37028",
+    "geometri": {
+      "wkt": "LINESTRING (164158.1 6522052.2, ...........)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 9,
+    "vegavdeling": 9,
+    "kommune": 901,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {},
+    "netelementid": 265,
+    "startposisjon": 0.30625552,
+    "sluttposisjon": 0.34281563,
+    "kortform": "0.30625552-0.34281563@265",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "37026",
+    "sluttnode": "37030",
+    "geometri": {
+      "wkt": "LINESTRING (164038.6 6521953.9, ...........)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 9,
+    "vegavdeling": 9,
+    "kommune": 901,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {},
+    "netelementid": 265,
+    "startposisjon": 0.23210437,
+    "sluttposisjon": 0.30625552,
+    "kortform": "0.23210437-0.30625552@265",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "37028",
+    "sluttnode": "37026",
+    "geometri": {
+      "wkt": "LINESTRING (164041.15 6521991.06, ....)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 9,
+    "vegavdeling": 9,
+    "kommune": 901,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {},
+    "netelementid": 265,
+    "startposisjon": 0.34281563,
+    "sluttposisjon": 0.51402564,
+    "kortform": "0.34281563-0.51402564@265",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "37030",
+    "sluttnode": "37021",
+    "geometri": {
+      "wkt": "LINESTRING (164048.9 6521936.2, ............)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 9,
+    "vegavdeling": 9,
+    "kommune": 901,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {},
+    "netelementid": 265,
+    "startposisjon": 0.51402564,
+    "sluttposisjon": 1,
+    "kortform": "0.51402564-1.0@265",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "37021",
+    "sluttnode": "1265131",
+    "geometri": {
+      "wkt": "LINESTRING (163985.2 6521869, ........)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 9,
+    "vegavdeling": 9,
+    "kommune": 901,
+    "typeVeg": "Ikke implementert"
+  }
+]
