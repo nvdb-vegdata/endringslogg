@@ -1,0 +1,68 @@
+[
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801661",
+    "metadata": {},
+    "netelementid": 2801661,
+    "startposisjon": 0.91471866,
+    "sluttposisjon": 1,
+    "kortform": "0.91471866-1.0@2801661",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "2801670",
+    "sluttnode": "2801669",
+    "geometri": {
+      "wkt": "LINESTRING (995771.66 7842014.08, 995771.89 7842012.7, 995772.71 7842010.22, 995773.94 7842007.8, 995775.58 7842005.53)",
+      "srid": 32633
+    },
+    "region": 5,
+    "fylke": 20,
+    "vegavdeling": 20,
+    "kommune": 2025,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801661",
+    "metadata": {},
+    "netelementid": 2801661,
+    "startposisjon": 0.84249164,
+    "sluttposisjon": 0.91471866,
+    "kortform": "0.84249164-0.91471866@2801661",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "2801671",
+    "sluttnode": "2801670",
+    "geometri": {
+      "wkt": "LINESTRING (995772.12 7842022.05, 995771.76 7842020.82, 995771.39 7842018.17, 995771.42 7842015.5, 995771.66 7842014.08)",
+      "srid": 32633
+    },
+    "region": 5,
+    "fylke": 20,
+    "vegavdeling": 20,
+    "kommune": 2025,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801661",
+    "metadata": {},
+    "netelementid": 2801661,
+    "startposisjon": 0,
+    "sluttposisjon": 0.84249164,
+    "kortform": "0.0-0.84249164@2801661",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "2801669",
+    "sluttnode": "2801671",
+    "geometri": {
+      "wkt": "LINESTRING (995775.58 7842005.53, 995777.41 7842003.67, 995779.58 7842002.04, 995781.97 7842000.77, 995784.41 7841999.9, 995787.06 7841999.38, 995789.74 7841999.26, 995792.39 7841999.55, 995794.96 7842000.23, 995796.25 7842000.79, 995797.41 7842001.29, 995799.68 7842002.7, 995801.81 7842004.55, 995803.54 7842006.59, 995804.92 7842008.81, 995805.99 7842011.31, 995806.65 7842013.84, 995806.93 7842016.55, 995806.82 7842019.16, 995806.29 7842021.83, 995805.47 7842024.14, 995804.36 7842026.28, 995802.81 7842028.45, 995800.95 7842030.36, 995798.84 7842031.97, 995797.28 7842032.87, 995794.79 7842033.92, 995792.13 7842034.59, 995789.45 7842034.84, 995786.74 7842034.68, 995784.05 7842034.09, 995782.04 7842033.32, 995779.33 7842031.89, 995777.27 7842030.3, 995775.31 7842028.23, 995773.8 7842026.05, 995772.51 7842023.36, 995772.12 7842022.05)",
+      "srid": 32633
+    },
+    "region": 5,
+    "fylke": 20,
+    "vegavdeling": 20,
+    "kommune": 2025,
+    "typeVeg": "Ikke implementert"
+  }
+]

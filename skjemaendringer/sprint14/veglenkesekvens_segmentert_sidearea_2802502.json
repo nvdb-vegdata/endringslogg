@@ -1,0 +1,68 @@
+[
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2802502",
+    "metadata": {},
+    "netelementid": 2802502,
+    "startposisjon": 0.01783109,
+    "sluttposisjon": 0.97730951,
+    "kortform": "0.01783109-0.97730951@2802502",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "2874697",
+    "sluttnode": "2874698",
+    "geometri": {
+      "wkt": "LINESTRING (371296.55722 7137471.56442, 371286.97 7137483.45, 371279.67 7137501.99, 371277.49 7137510.21, 371275.04 7137518.81, 371274.02 7137524.81, 371273.3 7137531.09, 371272.89 7137539.07, 371272.8 7137549.14, 371275.41 7137563.61, 371280.02 7137578.92, 371286.05 7137595.43, 371296.9 7137619.39, 371301.45865 7137624.7312)",
+      "srid": 32633
+    },
+    "region": 4,
+    "fylke": 50,
+    "vegavdeling": 50,
+    "kommune": 5041,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2802502",
+    "metadata": {},
+    "netelementid": 2802502,
+    "startposisjon": 0,
+    "sluttposisjon": 0.01783109,
+    "kortform": "0.0-0.01783109@2802502",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": true,
+    "startnode": "2802500",
+    "sluttnode": "2874697",
+    "geometri": {
+      "wkt": "LINESTRING (371299.61914 7137471.60156, 371296.55722 7137471.56442)",
+      "srid": 32633
+    },
+    "region": 4,
+    "fylke": 50,
+    "vegavdeling": 50,
+    "kommune": 5041,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2802502",
+    "metadata": {},
+    "netelementid": 2802502,
+    "startposisjon": 0.97730951,
+    "sluttposisjon": 1,
+    "kortform": "0.97730951-1.0@2802502",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": true,
+    "startnode": "2874698",
+    "sluttnode": "2802501",
+    "geometri": {
+      "wkt": "LINESTRING (371301.45865 7137624.7312, 371305.25 7137625.62109)",
+      "srid": 32633
+    },
+    "region": 4,
+    "fylke": 50,
+    "vegavdeling": 50,
+    "kommune": 5041,
+    "typeVeg": "Ikke implementert"
+  }
+]

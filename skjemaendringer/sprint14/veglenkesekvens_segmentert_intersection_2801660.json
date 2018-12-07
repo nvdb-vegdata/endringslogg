@@ -1,0 +1,134 @@
+[
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801660",
+    "metadata": {},
+    "netelementid": 2801660,
+    "startposisjon": 0.91719832,
+    "sluttposisjon": 1,
+    "kortform": "0.91719832-1.0@2801660",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "2801664",
+    "sluttnode": "2801663",
+    "geometri": {
+      "wkt": "LINESTRING (995370.68 7841931.49, 995371.33 7841931.15, 995373.36 7841930.38, 995375.59 7841929.84, 995377.32 7841929.62, 995379.63 7841929.6)",
+      "srid": 32633
+    },
+    "region": 5,
+    "fylke": 20,
+    "vegavdeling": 20,
+    "kommune": 2025,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801660",
+    "metadata": {},
+    "netelementid": 2801660,
+    "startposisjon": 0.26795347,
+    "sluttposisjon": 0.35377672,
+    "kortform": "0.26795347-0.35377672@2801660",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "2801667",
+    "sluttnode": "2801668",
+    "geometri": {
+      "wkt": "LINESTRING (995396.18 7841950.34, 995395.57 7841952.88, 995395.2 7841953.92, 995394.69 7841955.07, 995394.01 7841956.36, 995393.14 7841957.71, 995392.18 7841958.93)",
+      "srid": 32633
+    },
+    "region": 5,
+    "fylke": 20,
+    "vegavdeling": 20,
+    "kommune": 2025,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801660",
+    "metadata": {},
+    "netelementid": 2801660,
+    "startposisjon": 0.35377672,
+    "sluttposisjon": 0.83265502,
+    "kortform": "0.35377672-0.83265502@2801660",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "2801668",
+    "sluttnode": "2801665",
+    "geometri": {
+      "wkt": "LINESTRING (995392.18 7841958.93, 995391.19 7841959.96, 995389.94 7841961.1, 995388.77 7841962.01, 995387.38 7841962.88, 995385.49 7841963.8, 995383.9 7841964.37, 995382.24 7841964.8, 995380.59 7841965.06, 995378.97 7841965.16, 995377.26 7841965.11, 995375.58 7841964.9, 995373.91 7841964.51, 995372.57 7841964.09, 995371.11 7841963.49, 995369.8 7841962.8, 995368.46 7841961.96, 995367.22 7841961, 995366.08 7841959.96, 995365.05 7841958.84, 995364.1 7841957.62, 995363.45 7841956.6, 995362.53 7841954.91, 995361.92 7841953.44, 995361.41 7841951.77, 995361.07 7841950.11, 995360.87 7841948.11, 995360.94 7841945.65, 995361.35 7841943.18, 995361.95 7841941.26, 995362.74 7841939.4, 995363.71 7841937.7)",
+      "srid": 32633
+    },
+    "region": 5,
+    "fylke": 20,
+    "vegavdeling": 20,
+    "kommune": 2025,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801660",
+    "metadata": {},
+    "netelementid": 2801660,
+    "startposisjon": 0,
+    "sluttposisjon": 0.18193011,
+    "kortform": "0.0-0.18193011@2801660",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "2801663",
+    "sluttnode": "2801666",
+    "geometri": {
+      "wkt": "LINESTRING (995379.63 7841929.6, 995381.97 7841929.88, 995383.99 7841930.39, 995386.05 7841931.18, 995387.9 7841932.16, 995389.08 7841932.95, 995390.23 7841933.85, 995391.73 7841935.3, 995393.03 7841936.89, 995393.85 7841938.13, 995394.65 7841939.6, 995395.22 7841940.89)",
+      "srid": 32633
+    },
+    "region": 5,
+    "fylke": 20,
+    "vegavdeling": 20,
+    "kommune": 2025,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801660",
+    "metadata": {},
+    "netelementid": 2801660,
+    "startposisjon": 0.18193011,
+    "sluttposisjon": 0.26795347,
+    "kortform": "0.18193011-0.26795347@2801660",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "2801666",
+    "sluttnode": "2801667",
+    "geometri": {
+      "wkt": "LINESTRING (995395.22 7841940.89, 995395.77 7841942.51, 995396.16 7841944.19, 995396.39 7841946, 995396.44 7841947.61, 995396.18 7841950.34)",
+      "srid": 32633
+    },
+    "region": 5,
+    "fylke": 20,
+    "vegavdeling": 20,
+    "kommune": 2025,
+    "typeVeg": "Ikke implementert"
+  },
+  {
+    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801660",
+    "metadata": {},
+    "netelementid": 2801660,
+    "startposisjon": 0.83265502,
+    "sluttposisjon": 0.91719832,
+    "kortform": "0.83265502-0.91719832@2801660",
+    "medium": "T",
+    "temakode": 7001,
+    "konnekteringslenke": false,
+    "startnode": "2801665",
+    "sluttnode": "2801664",
+    "geometri": {
+      "wkt": "LINESTRING (995363.71 7841937.7, 995364.91 7841936.05, 995366.25 7841934.6, 995367.79 7841933.27, 995369.5 7841932.12, 995370.68 7841931.49)",
+      "srid": 32633
+    },
+    "region": 5,
+    "fylke": 20,
+    "vegavdeling": 20,
+    "kommune": 2025,
+    "typeVeg": "Ikke implementert"
+  }
+]
