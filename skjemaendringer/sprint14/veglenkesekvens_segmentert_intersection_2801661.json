@@ -1,68 +1,170 @@
 [
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801661",
-    "metadata": {},
-    "netelementid": 2801661,
-    "startposisjon": 0.91471866,
-    "sluttposisjon": 1,
-    "kortform": "0.91471866-1.0@2801661",
-    "medium": "T",
-    "temakode": 7001,
-    "konnekteringslenke": false,
-    "startnode": "2801670",
-    "sluttnode": "2801669",
-    "geometri": {
-      "wkt": "LINESTRING (995771.66 7842014.08, 995771.89 7842012.7, 995772.71 7842010.22, 995773.94 7842007.8, 995775.58 7842005.53)",
-      "srid": 32633
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801661",
+    "metadata": {
+      "startdato": "2018-01-04"
     },
-    "region": 5,
-    "fylke": 20,
-    "vegavdeling": 20,
-    "kommune": 2025,
-    "typeVeg": "Ikke implementert"
-  },
-  {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801661",
-    "metadata": {},
-    "netelementid": 2801661,
-    "startposisjon": 0.84249164,
-    "sluttposisjon": 0.91471866,
-    "kortform": "0.84249164-0.91471866@2801661",
-    "medium": "T",
-    "temakode": 7001,
-    "konnekteringslenke": false,
-    "startnode": "2801671",
-    "sluttnode": "2801670",
-    "geometri": {
-      "wkt": "LINESTRING (995772.12 7842022.05, 995771.76 7842020.82, 995771.39 7842018.17, 995771.42 7842015.5, 995771.66 7842014.08)",
-      "srid": 32633
-    },
-    "region": 5,
-    "fylke": 20,
-    "vegavdeling": 20,
-    "kommune": 2025,
-    "typeVeg": "Ikke implementert"
-  },
-  {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801661",
-    "metadata": {},
-    "netelementid": 2801661,
+    "veglenkesekvens": 2801661,
     "startposisjon": 0,
-    "sluttposisjon": 0.84249164,
-    "kortform": "0.0-0.84249164@2801661",
-    "medium": "T",
-    "temakode": 7001,
-    "konnekteringslenke": false,
-    "startnode": "2801669",
-    "sluttnode": "2801671",
+    "sluttposisjon": 0.84249163,
+    "kortform": "0.0-0.84249163@2801661",
+    "veglenkenummer": 1,
+    "referanse": "2801661-1",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Rundkjøring",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (995775.58 7842005.53, 995777.41 7842003.67, 995779.58 7842002.04, 995781.97 7842000.77, 995784.41 7841999.9, 995787.06 7841999.38, 995789.74 7841999.26, 995792.39 7841999.55, 995794.96 7842000.23, 995796.25 7842000.79, 995797.41 7842001.29, 995799.68 7842002.7, 995801.81 7842004.55, 995803.54 7842006.59, 995804.92 7842008.81, 995805.99 7842011.31, 995806.65 7842013.84, 995806.93 7842016.55, 995806.82 7842019.16, 995806.29 7842021.83, 995805.47 7842024.14, 995804.36 7842026.28, 995802.81 7842028.45, 995800.95 7842030.36, 995798.84 7842031.97, 995797.28 7842032.87, 995794.79 7842033.92, 995792.13 7842034.59, 995789.45 7842034.84, 995786.74 7842034.68, 995784.05 7842034.09, 995782.04 7842033.32, 995779.33 7842031.89, 995777.27 7842030.3, 995775.31 7842028.23, 995773.8 7842026.05, 995772.51 7842023.36, 995772.12 7842022.05)",
+      "wkt": "LINESTRING Z (995775.58 7842005.53 16.03, 995777.41 7842003.67 16.01, 995779.58 7842002.04 15.98, 995781.97 7842000.77 15.95, 995784.41 7841999.9 15.92, 995787.06 7841999.38 15.87, 995789.74 7841999.26 15.83, 995792.39 7841999.55 15.78, 995794.96 7842000.23 15.73, 995796.25 7842000.79 15.71, 995797.41 7842001.29 15.69, 995799.68 7842002.7 15.63, 995801.81 7842004.55 15.57, 995803.54 7842006.59 15.53, 995804.92 7842008.81 15.49, 995805.99 7842011.31 15.45, 995806.65 7842013.84 15.42, 995806.93 7842016.55 15.39, 995806.82 7842019.16 15.37, 995806.29 7842021.83 15.35, 995805.47 7842024.14 15.35, 995804.36 7842026.28 15.35, 995802.81 7842028.45 15.37, 995800.95 7842030.36 15.39, 995798.84 7842031.97 15.41, 995797.28 7842032.87 15.44, 995794.79 7842033.92 15.47, 995792.13 7842034.59 15.51, 995789.45 7842034.84 15.56, 995786.74 7842034.68 15.6, 995784.05 7842034.09 15.66, 995782.04 7842033.32 15.69, 995779.33 7842031.89 15.76, 995777.27 7842030.3 15.8, 995775.31 7842028.23 15.85, 995773.8 7842026.05 15.9, 995772.51 7842023.36 15.94, 995772.12 7842022.05 15.96)",
       "srid": 32633
     },
     "region": 5,
     "fylke": 20,
     "vegavdeling": 20,
     "kommune": 2025,
-    "typeVeg": "Ikke implementert"
+    "vegsystemreferanse": {
+      "vegsystem": {
+        "id": 891134263,
+        "versjon": 1,
+        "vegkategori": "E",
+        "fase": "A",
+        "nummer": 6
+      },
+      "strekning": {
+        "id": 891132866,
+        "versjon": 1,
+        "strekning": 1180,
+        "delstrekning": 1,
+        "arm": "N",
+        "adskilte_løp": "N",
+        "trafikantgruppe": "K",
+        "meter": 590
+      },
+      "kryssystem": {
+        "id": 891133196,
+        "versjon": 1,
+        "kryssystem": 1209,
+        "kryssdel": 1,
+        "fra_meter": 0,
+        "til_meter": 93.517,
+        "trafikantgruppe": "K"
+      },
+      "kortform": "EA6 S1180D1 M590 KD1209D1 M0-93"
+    }
+  },
+  {
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801661",
+    "metadata": {
+      "startdato": "2018-01-04"
+    },
+    "veglenkesekvens": 2801661,
+    "startposisjon": 0.91471865,
+    "sluttposisjon": 1,
+    "kortform": "0.91471865-1.0@2801661",
+    "veglenkenummer": 9,
+    "referanse": "2801661-9",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Rundkjøring",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1"
+    ],
+    "geometri": {
+      "wkt": "LINESTRING Z (995771.66 7842014.08 16.04, 995771.89 7842012.7 16.04, 995772.71 7842010.22 16.05, 995773.94 7842007.8 16.05, 995775.58 7842005.53 16.03)",
+      "srid": 32633
+    },
+    "region": 5,
+    "fylke": 20,
+    "vegavdeling": 20,
+    "kommune": 2025,
+    "vegsystemreferanse": {
+      "vegsystem": {
+        "id": 891134263,
+        "versjon": 1,
+        "vegkategori": "E",
+        "fase": "A",
+        "nummer": 6
+      },
+      "strekning": {
+        "id": 891132866,
+        "versjon": 1,
+        "strekning": 1180,
+        "delstrekning": 1,
+        "arm": "N",
+        "adskilte_løp": "N",
+        "trafikantgruppe": "K",
+        "meter": 590
+      },
+      "kryssystem": {
+        "id": 891133196,
+        "versjon": 1,
+        "kryssystem": 1209,
+        "kryssdel": 1,
+        "fra_meter": 101.534,
+        "til_meter": 111,
+        "trafikantgruppe": "K"
+      },
+      "kortform": "EA6 S1180D1 M590 KD1209D1 M101-111"
+    }
+  },
+  {
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/2801661",
+    "metadata": {
+      "startdato": "2018-01-04"
+    },
+    "veglenkesekvens": 2801661,
+    "startposisjon": 0.84249163,
+    "sluttposisjon": 0.91471865,
+    "kortform": "0.84249163-0.91471865@2801661",
+    "veglenkenummer": 8,
+    "referanse": "2801661-8",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Rundkjøring",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1"
+    ],
+    "geometri": {
+      "wkt": "LINESTRING Z (995772.12 7842022.05 15.96, 995771.76 7842020.82 15.98, 995771.39 7842018.17 16.01, 995771.42 7842015.5 16.03, 995771.66 7842014.08 16.04)",
+      "srid": 32633
+    },
+    "region": 5,
+    "fylke": 20,
+    "vegavdeling": 20,
+    "kommune": 2025,
+    "vegsystemreferanse": {
+      "vegsystem": {
+        "id": 891134263,
+        "versjon": 1,
+        "vegkategori": "E",
+        "fase": "A",
+        "nummer": 6
+      },
+      "strekning": {
+        "id": 891132866,
+        "versjon": 1,
+        "strekning": 1180,
+        "delstrekning": 1,
+        "arm": "N",
+        "adskilte_løp": "N",
+        "trafikantgruppe": "K",
+        "meter": 590
+      },
+      "kryssystem": {
+        "id": 891133196,
+        "versjon": 1,
+        "kryssystem": 1209,
+        "kryssdel": 1,
+        "fra_meter": 93.517,
+        "til_meter": 101.534,
+        "trafikantgruppe": "K"
+      },
+      "kortform": "EA6 S1180D1 M590 KD1209D1 M93-101"
+    }
   }
 ]

@@ -1,56 +1,64 @@
 {
-    "id" : 2,
-    "href" : "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/2",
-    "låst_lengde" : true,
-    "lengde" : 567.684758488283,
-    "porter" : [ {
-        "id" : 1,
-        "relativPosisjon" : 0.0,
-        "tilkobling" : {
-            "portid" : 1,
-            "netelementid" : 1264801,
-            "netelementtype" : 50001,
-            "netelementtype_tekst" : "Node",
-            "href" : "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/noder/1264801"
-        }
-    }, {
-        "id" : 2,
-        "relativPosisjon" : 1.0,
-        "tilkobling" : {
-            "portid" : 1,
-            "netelementid" : 1264802,
-            "netelementtype" : 50001,
-            "netelementtype_tekst" : "Node",
-            "href" : "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/noder/1264802"
-        }
-    } ],
-    "veglenker" : [ {
-        "veglenkenummer" : 1,
+  "veglenkesekvensid": 2,
+  "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/2",
+  "låst_lengde": true,
+  "lengde": 567.684758488283,
+  "porter": [
+    {
+      "id": 1,
+      "relativPosisjon" : 0.0,
+      "tilkobling": {
+        "portid": 1,
+        "netelementid": 1264801,
+        "netelementtype": 50001,
+        "netelementtype_tekst": "Node",
+        "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/noder/1264801"
+      }
+    },
+    {
+      "id": 2,
+      "relativPosisjon" : 1.0,
+      "tilkobling": {
+        "portid": 1,
+        "netelementid": 1264802,
+        "netelementtype": 50001,
+        "netelementtype_tekst": "Node",
+        "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/noder/1264802"
+      }
+    }
+  ],
+  "veglenker": [
+    {
+      "veglenkenummer": 1,
 	"type": "HOVED",
-        "startport" : 1,
-        "sluttport" : 2,
-        "lengde" : 567.684721917086,
-        "geometri" : {
-            "wkt" : "...",
-            "srid" : 32633,
-            "kvalitet" : {
-                "metode" : 23,
-                "nøyaktighet" : 200,
-                "høydenøyaktighet" : -1,
-                "toleranse" : -1,
-                "synlighet" : 99
-            },
-            "datafangstdato" : "1999-05-18",
-            "kommune" : 926,
-            "temakode" : 7001,
-            "lengde" : 567.684721917086
+      "startport": 1,
+      "sluttport": 2,
+      "lengde": 567.684721917086,
+      "geometri": {
+        "wkt": "...",
+        "srid": 32633,
+        "kvalitet": {
+          "metode": 23,
+          "nøyaktighet": 200,
+          "høydenøyaktighet": -1,
+          "toleranse": -1,
+          "synlighet": 99
         },
-        "måleMetode" : "Geometrisk",
-        "detaljnivå" : "Vegtrase og kjørebanenivå",
-        "typeVeg" : "Enkel bilveg",
-        "typeVeg_sosi" : "enkelBilveg",
-        "felt" : [ "1", "2" ],
-        "startdato" : "1950-01-01",
-        "sluttdato" : "2009-10-01"
-    } ]
+        "datafangstdato": "1999-05-18",
+        "kommune": 926,
+        "temakode": 7001,
+        "lengde": 567.684721917086
+      },
+      "måleMetode": "Geometrisk",
+      "detaljnivå" : "Vegtrase og kjørebane",
+      "typeVeg": "Enkel bilveg",
+      "typeVeg_sosi": "enkelBilveg",
+      "kjørefelt": [
+        "1",
+        "2"
+      ],
+      "startdato": "1950-01-01",
+      "sluttdato": "2009-10-01"
+    }
+  ]
 }

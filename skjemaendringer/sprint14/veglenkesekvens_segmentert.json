@@ -1,112 +1,402 @@
 [
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
-    "metadata": {},
-    "netelementid": 265,
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {
+      "startdato": "2018-01-01"
+    },
+    "veglenkesekvens": 265,
     "startposisjon": 0,
-    "sluttposisjon": 0.23210437,
-    "kortform": "0.0-0.23210437@265",
-    "medium": "T",
-    "temakode": 7001,
-    "konnekteringslenke": false,
-    "startnode": "37039",
-    "sluttnode": "37028",
+    "sluttposisjon": 0.23210436,
+    "kortform": "0.0-0.23210436@265",
+    "veglenkenummer": 1,
+    "referanse": "265-1",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Enkel bilveg",
+    "måleMetode": "Geometrisk",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (164158.1 6522052.2, ...........)",
+      "wkt": "LINESTRING Z (164158.1 6522052.2 86, 164146.3 6522049.2 86.2, 164138.3 6522045 86.3, 164132 6522042.4 86.8, 164124.6 6522038.8 86.8, 164117.4 6522034.5 86.8, 164109 6522028.3 86.9, 164100.7 6522022.4 86.8, 164092.2 6522016.6 86.7, 164085 6522011.2 86.5, 164075.6 6522006 86.1, 164067.3 6522001.7 85.5, 164058.6 6521998.7 85.1, 164051.3 6521996.6 84.5, 164045 6521994.1 84.2, 164041.15 6521991.06 84.15)",
       "srid": 32633
     },
     "region": 2,
     "fylke": 9,
     "vegavdeling": 9,
     "kommune": 901,
-    "typeVeg": "Ikke implementert"
+    "vegsystemreferanse": {
+      "vegsystem": {
+        "id": 888898665,
+        "versjon": 1,
+        "vegkategori": "K",
+        "fase": "V",
+        "nummer": 4880
+      },
+      "strekning": {
+        "id": 888898677,
+        "versjon": 1,
+        "strekning": 1,
+        "delstrekning": 1,
+        "arm": "N",
+        "adskilte_løp": "N",
+        "trafikantgruppe": "K",
+        "fra_meter": 0,
+        "til_meter": 133.218
+      },
+      "kortform": "KV4880 S1D1 M0-133"
+    }
   },
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
-    "metadata": {},
-    "netelementid": 265,
-    "startposisjon": 0.30625552,
-    "sluttposisjon": 0.34281563,
-    "kortform": "0.30625552-0.34281563@265",
-    "medium": "T",
-    "temakode": 7001,
-    "konnekteringslenke": false,
-    "startnode": "37026",
-    "sluttnode": "37030",
-    "geometri": {
-      "wkt": "LINESTRING (164038.6 6521953.9, ...........)",
-      "srid": 32633
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {
+      "startdato": "2018-01-01"
     },
-    "region": 2,
-    "fylke": 9,
-    "vegavdeling": 9,
-    "kommune": 901,
-    "typeVeg": "Ikke implementert"
-  },
-  {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
-    "metadata": {},
-    "netelementid": 265,
-    "startposisjon": 0.23210437,
+    "veglenkesekvens": 265,
+    "startposisjon": 0.23210436,
     "sluttposisjon": 0.30625552,
-    "kortform": "0.23210437-0.30625552@265",
-    "medium": "T",
-    "temakode": 7001,
-    "konnekteringslenke": false,
-    "startnode": "37028",
-    "sluttnode": "37026",
+    "kortform": "0.23210436-0.30625552@265",
+    "veglenkenummer": 2,
+    "referanse": "265-2",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Enkel bilveg",
+    "måleMetode": "Geometrisk",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (164041.15 6521991.06, ....)",
+      "wkt": "LINESTRING Z (164041.15 6521991.06 84.15, 164039.2 6521989 84.1, 164036.9 6521981.3 83.7, 164035.6 6521973.4 83.4, 164035.7 6521965.2 83.1, 164036.8 6521958.6 82.5, 164038.6 6521953.9 82.3)",
       "srid": 32633
     },
     "region": 2,
     "fylke": 9,
     "vegavdeling": 9,
     "kommune": 901,
-    "typeVeg": "Ikke implementert"
+    "vegsystemreferanse": {
+      "vegsystem": {
+        "id": 888898665,
+        "versjon": 1,
+        "vegkategori": "K",
+        "fase": "V",
+        "nummer": 4880
+      },
+      "strekning": {
+        "id": 888898679,
+        "versjon": 1,
+        "strekning": 1,
+        "delstrekning": 1,
+        "arm": "N",
+        "adskilte_løp": "N",
+        "trafikantgruppe": "K",
+        "fra_meter": 133.218,
+        "til_meter": 172.074
+      },
+      "kortform": "KV4880 S1D1 M133-172"
+    }
   },
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
-    "metadata": {},
-    "netelementid": 265,
-    "startposisjon": 0.34281563,
-    "sluttposisjon": 0.51402564,
-    "kortform": "0.34281563-0.51402564@265",
-    "medium": "T",
-    "temakode": 7001,
-    "konnekteringslenke": false,
-    "startnode": "37030",
-    "sluttnode": "37021",
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {
+      "startdato": "2018-01-01"
+    },
+    "veglenkesekvens": 265,
+    "startposisjon": 0.30625552,
+    "sluttposisjon": 0.34281562,
+    "kortform": "0.30625552-0.34281562@265",
+    "veglenkenummer": 3,
+    "referanse": "265-3",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Enkel bilveg",
+    "måleMetode": "Geometrisk",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (164048.9 6521936.2, ............)",
+      "wkt": "LINESTRING Z (164038.6 6521953.9 82.3, 164042 6521948.7 82.1, 164045.2 6521942.6 81.4, 164048.9 6521936.2 80.9)",
       "srid": 32633
     },
     "region": 2,
     "fylke": 9,
     "vegavdeling": 9,
     "kommune": 901,
-    "typeVeg": "Ikke implementert"
+    "vegsystemreferanse": {
+      "vegsystem": {
+        "id": 888898665,
+        "versjon": 1,
+        "vegkategori": "K",
+        "fase": "V",
+        "nummer": 4880
+      },
+      "strekning": {
+        "id": 888898681,
+        "versjon": 1,
+        "strekning": 1,
+        "delstrekning": 1,
+        "arm": "N",
+        "adskilte_løp": "N",
+        "trafikantgruppe": "K",
+        "fra_meter": 172.074,
+        "til_meter": 192.623
+      },
+      "kortform": "KV4880 S1D1 M172-192"
+    }
   },
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
-    "metadata": {},
-    "netelementid": 265,
-    "startposisjon": 0.51402564,
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {
+      "startdato": "2018-01-01"
+    },
+    "veglenkesekvens": 265,
+    "startposisjon": 0.34281562,
+    "sluttposisjon": 0.51402563,
+    "kortform": "0.34281562-0.51402563@265",
+    "veglenkenummer": 4,
+    "referanse": "265-4",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Enkel bilveg",
+    "måleMetode": "Geometrisk",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
+    "geometri": {
+      "wkt": "LINESTRING Z (164048.9 6521936.2 80.9, 164048.3 6521932.3 80.5, 164045.5 6521926.5 80, 164041.1 6521920 79.2, 164035.3 6521914 78.4, 164028.3 6521907.3 77.5, 164020.9 6521900.7 76.3, 164013.6 6521895.1 75.6, 164004.6 6521889.4 74.7, 163995.9 6521884.7 74.2, 163990.7 6521881 73.7, 163986.7 6521876.1 73.7, 163985.2 6521869 73.3)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 9,
+    "vegavdeling": 9,
+    "kommune": 901,
+    "vegsystemreferanse": {
+      "vegsystem": {
+        "id": 888898665,
+        "versjon": 1,
+        "vegkategori": "K",
+        "fase": "V",
+        "nummer": 4880
+      },
+      "strekning": {
+        "id": 888898683,
+        "versjon": 1,
+        "strekning": 1,
+        "delstrekning": 1,
+        "arm": "N",
+        "adskilte_løp": "N",
+        "trafikantgruppe": "K",
+        "fra_meter": 192.623,
+        "til_meter": 288.856
+      },
+      "kortform": "KV4880 S1D1 M192-288"
+    }
+  },
+  {
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {
+      "startdato": "2015-01-05",
+      "sluttdato": "2018-01-01"
+    },
+    "veglenkesekvens": 265,
+    "startposisjon": 0.51402563,
     "sluttposisjon": 1,
-    "kortform": "0.51402564-1.0@265",
-    "medium": "T",
-    "temakode": 7001,
-    "konnekteringslenke": false,
-    "startnode": "37021",
-    "sluttnode": "1265131",
+    "kortform": "0.51402563-1.0@265",
+    "veglenkenummer": 5,
+    "referanse": "265-5",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Enkel bilveg",
+    "måleMetode": "Geometrisk",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (163985.2 6521869, ........)",
+      "wkt": "LINESTRING Z (163985.2 6521869 73.3, 163979.9 6521868.5 73.1, 163974.4 6521867.1 73.1, 163970 6521865.5 73, 163966.9 6521864.3 73, 163961.7 6521862.5 73, 163954.2 6521859.4 73, 163946.4 6521857.4 72.9, 163939.5 6521855.5 72.6, 163936.8 6521854.7 72.7, 163929.7 6521851.1 72.3, 163924.2 6521846.6 72.1, 163919.4 6521840.5 71.5, 163915.6 6521834.4 71, 163912.7 6521828.4 70.5, 163909.9 6521823.2 70.2, 163905.8 6521817.9 69.6, 163901.4 6521813.5 68.8, 163895.3 6521808.8 67.6, 163888.1 6521803.6 67.3, 163882.5 6521800.1 66.7, 163876.7 6521796.6 65.9, 163869.8 6521791.1 65, 163864.3 6521787.2 64.5, 163858.7 6521780.9 64.1, 163855.2 6521775.4 64, 163852 6521768.2 63.8, 163848.8 6521761.4 63.8, 163845.1 6521753 63.7, 163841.2 6521744 63.8, 163836.5 6521735.8 63.7, 163831.4 6521730.7 63.7, 163824.5 6521726.2 63.6, 163818.8 6521723.5 63.5, 163811.4 6521721.9 63.4, 163804.6 6521720 63.4, 163798.7 6521718.5 63.4, 163792.3 6521715.9 63.3, 163787.5 6521712.9 63.5, 163783.9 6521710.4 63.4, 163781.6 6521708.8 63)",
       "srid": 32633
     },
     "region": 2,
     "fylke": 9,
     "vegavdeling": 9,
     "kommune": 901,
-    "typeVeg": "Ikke implementert"
+    "vegsystemreferanse": {
+      "vegsystem": {
+        "id": 888898665,
+        "versjon": 1,
+        "vegkategori": "K",
+        "fase": "V",
+        "nummer": 4880
+      },
+      "kortform": "KV4880"
+    }
+  },
+  {
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {
+      "startdato": "1950-01-01",
+      "sluttdato": "2015-01-05"
+    },
+    "veglenkesekvens": 265,
+    "startposisjon": 0,
+    "sluttposisjon": 0.23210436,
+    "kortform": "0.0-0.23210436@265",
+    "veglenkenummer": 1,
+    "referanse": "265-1",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Enkel bilveg",
+    "måleMetode": "Geometrisk",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
+    "geometri": {
+      "wkt": "LINESTRING Z (164158.1 6522052.2 86, 164146.3 6522049.2 86.2, 164138.3 6522045 86.3, 164132 6522042.4 86.8, 164124.6 6522038.8 86.8, 164117.4 6522034.5 86.8, 164109 6522028.3 86.9, 164100.7 6522022.4 86.8, 164092.2 6522016.6 86.7, 164085 6522011.2 86.5, 164075.6 6522006 86.1, 164067.3 6522001.7 85.5, 164058.6 6521998.7 85.1, 164051.3 6521996.6 84.5, 164045 6521994.1 84.2, 164041.15 6521991.06 84.15)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 9,
+    "vegavdeling": 9,
+    "kommune": 901
+  },
+  {
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {
+      "startdato": "2015-01-05",
+      "sluttdato": "2018-01-01"
+    },
+    "veglenkesekvens": 265,
+    "startposisjon": 0.23210436,
+    "sluttposisjon": 0.30625552,
+    "kortform": "0.23210436-0.30625552@265",
+    "veglenkenummer": 2,
+    "referanse": "265-2",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Enkel bilveg",
+    "måleMetode": "Geometrisk",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
+    "geometri": {
+      "wkt": "LINESTRING Z (164041.15 6521991.06 84.15, 164039.2 6521989 84.1, 164036.9 6521981.3 83.7, 164035.6 6521973.4 83.4, 164035.7 6521965.2 83.1, 164036.8 6521958.6 82.5, 164038.6 6521953.9 82.3)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 9,
+    "vegavdeling": 9,
+    "kommune": 901,
+    "vegsystemreferanse": {
+      "vegsystem": {
+        "id": 888898665,
+        "versjon": 1,
+        "vegkategori": "K",
+        "fase": "V",
+        "nummer": 4880
+      },
+      "kortform": "KV4880"
+    }
+  },
+  {
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {
+      "startdato": "1950-01-01",
+      "sluttdato": "2015-01-05"
+    },
+    "veglenkesekvens": 265,
+    "startposisjon": 0.34281562,
+    "sluttposisjon": 0.51402563,
+    "kortform": "0.34281562-0.51402563@265",
+    "veglenkenummer": 4,
+    "referanse": "265-4",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Enkel bilveg",
+    "måleMetode": "Geometrisk",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
+    "geometri": {
+      "wkt": "LINESTRING Z (164048.9 6521936.2 80.9, 164048.3 6521932.3 80.5, 164045.5 6521926.5 80, 164041.1 6521920 79.2, 164035.3 6521914 78.4, 164028.3 6521907.3 77.5, 164020.9 6521900.7 76.3, 164013.6 6521895.1 75.6, 164004.6 6521889.4 74.7, 163995.9 6521884.7 74.2, 163990.7 6521881 73.7, 163986.7 6521876.1 73.7, 163985.2 6521869 73.3)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 9,
+    "vegavdeling": 9,
+    "kommune": 901
+  },
+  {
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {
+      "startdato": "2015-01-05",
+      "sluttdato": "2018-01-01"
+    },
+    "veglenkesekvens": 265,
+    "startposisjon": 0,
+    "sluttposisjon": 0.23210436,
+    "kortform": "0.0-0.23210436@265",
+    "veglenkenummer": 1,
+    "referanse": "265-1",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Enkel bilveg",
+    "måleMetode": "Geometrisk",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
+    "geometri": {
+      "wkt": "LINESTRING Z (164158.1 6522052.2 86, 164146.3 6522049.2 86.2, 164138.3 6522045 86.3, 164132 6522042.4 86.8, 164124.6 6522038.8 86.8, 164117.4 6522034.5 86.8, 164109 6522028.3 86.9, 164100.7 6522022.4 86.8, 164092.2 6522016.6 86.7, 164085 6522011.2 86.5, 164075.6 6522006 86.1, 164067.3 6522001.7 85.5, 164058.6 6521998.7 85.1, 164051.3 6521996.6 84.5, 164045 6521994.1 84.2, 164041.15 6521991.06 84.15)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 9,
+    "vegavdeling": 9,
+    "kommune": 901,
+    "vegsystemreferanse": {
+      "vegsystem": {
+        "id": 888898665,
+        "versjon": 1,
+        "vegkategori": "K",
+        "fase": "V",
+        "nummer": 4880
+      },
+      "kortform": "KV4880"
+    }
+  },
+  {
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/265",
+    "metadata": {
+      "startdato": "1950-01-01",
+      "sluttdato": "2015-01-05"
+    },
+    "veglenkesekvens": 265,
+    "startposisjon": 0.23210436,
+    "sluttposisjon": 0.30625552,
+    "kortform": "0.23210436-0.30625552@265",
+    "veglenkenummer": 2,
+    "referanse": "265-2",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Enkel bilveg",
+    "måleMetode": "Geometrisk",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
+    "geometri": {
+      "wkt": "LINESTRING Z (164041.15 6521991.06 84.15, 164039.2 6521989 84.1, 164036.9 6521981.3 83.7, 164035.6 6521973.4 83.4, 164035.7 6521965.2 83.1, 164036.8 6521958.6 82.5, 164038.6 6521953.9 82.3)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 9,
+    "vegavdeling": 9,
+    "kommune": 901
   }
 ]

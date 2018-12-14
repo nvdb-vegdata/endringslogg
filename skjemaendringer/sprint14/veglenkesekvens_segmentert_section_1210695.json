@@ -1,231 +1,312 @@
 [
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
-    "metadata": {},
-    "netelementid": 1210695,
-    "startposisjon": 0.29251562,
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
+    "metadata": {
+      "startdato": "2012-09-01",
+      "sluttdato": "2013-05-29"
+    },
+    "veglenkesekvens": 1210695,
+    "startposisjon": 0.29251561,
     "sluttposisjon": 0.88767539,
-    "kortform": "0.29251562-0.88767539@1210695",
-    "topologinivå": "Vegtrasé",
-    "medium": "T",
-    "temakode": 7012,
-    "konnekteringslenke": false,
-    "startnode": "1210761",
-    "sluttnode": "2801639",
+    "kortform": "0.29251561-0.88767539@1210695",
+    "veglenkenummer": 2,
+    "referanse": "1210695-2",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase",
+    "typeVeg": "Kanalisert veg",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (92668.324 6464508.69302, 92669.29 6464508.45, 92670.92 6464508.1, 92674.81 6464507.35, 92676.75 6464506.97, 92678.41 6464506.69, 92680.02 6464506.46, 92681.74 6464506.22, 92683.9 6464505.97, 92687.07 6464505.66, 92688.86 6464505.48, 92690.66 6464505.34, 92692.59 6464505.2, 92694.62 6464505.12, 92696.53 6464505.05, 92698.55 6464505.03, 92700.56 6464505.07, 92702.55 6464505.11, 92704.78 6464505.22, 92710.72 6464505.62, 92712.8 6464505.76, 92717.97 6464506.36, 92722.34 6464506.85, 92726.69 6464507.36, 92731.04 6464507.87, 92735.32 6464508.4, 92737.41 6464508.66, 92739.48 6464508.98, 92741.57 6464509.18, 92743.67 6464509.32, 92745.57 6464509.49, 92747.25 6464509.56, 92749.13 6464509.56, 92750.36 6464509.55)",
+      "wkt": "LINESTRING Z (92668.324 6464508.69302 15.11747, 92669.29 6464508.45 15.16, 92670.92 6464508.1 15.25, 92674.81 6464507.35 15.52, 92676.75 6464506.97 15.57, 92678.41 6464506.69 15.74, 92680.02 6464506.46 15.8, 92681.74 6464506.22 15.92, 92683.9 6464505.97 16.07, 92687.07 6464505.66 16.29, 92688.86 6464505.48 16.4, 92690.66 6464505.34 16.51, 92692.59 6464505.2 16.63, 92694.62 6464505.12 16.72, 92696.53 6464505.05 16.81, 92698.55 6464505.03 16.89, 92700.56 6464505.07 17.02, 92702.55 6464505.11 17.15, 92704.78 6464505.22 17.26, 92710.72 6464505.62 17.67, 92712.8 6464505.76 17.78, 92717.97 6464506.36 18.09, 92722.34 6464506.85 18.4, 92726.69 6464507.36 18.66, 92731.04 6464507.87 18.89, 92735.32 6464508.4 19.16, 92737.41 6464508.66 19.27, 92739.48 6464508.98 19.43, 92741.57 6464509.18 19.45, 92743.67 6464509.32 19.6, 92745.57 6464509.49 19.65, 92747.25 6464509.56 19.73, 92749.13 6464509.56 19.8, 92750.36 6464509.55 19.86)",
       "srid": 32633
     },
     "region": 2,
     "fylke": 10,
     "vegavdeling": 10,
-    "kommune": 1001,
-    "typeVeg": "Ikke implementert"
+    "kommune": 1001
   },
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
-    "metadata": {},
-    "netelementid": 1210695,
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
+    "metadata": {
+      "startdato": "2016-12-31",
+      "sluttdato": "2017-04-28"
+    },
+    "veglenkesekvens": 1210695,
     "startposisjon": 0,
     "sluttposisjon": 0.20528924,
     "kortform": "0.0-0.20528924@1210695",
-    "topologinivå": "Vegtrasé",
-    "medium": "T",
-    "temakode": 7012,
-    "konnekteringslenke": false,
-    "startnode": "1210752",
-    "sluttnode": "2801638",
+    "veglenkenummer": 1,
+    "referanse": "1210695-1",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase",
+    "typeVeg": "Kanalisert veg",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (92630.58 6464523.75, 92631.92 6464522.97, 92633.67 6464521.97, 92635.28 6464521.18, 92637.04 6464520.33, 92639.4 6464519.12, 92641.9 6464517.91, 92645.16 6464516.67, 92648.2 6464515.5, 92649.8 6464514.87, 92650.94 6464514.44, 92652.13 6464513.99, 92653.47 6464513.52, 92654.8 6464513, 92656.77 6464512.25)",
+      "wkt": "LINESTRING Z (92630.58 6464523.75 13.82, 92631.92 6464522.97 13.9, 92633.67 6464521.97 13.96, 92635.28 6464521.18 13.97, 92637.04 6464520.33 14.03, 92639.4 6464519.12 14.14, 92641.9 6464517.91 14.19, 92645.16 6464516.67 14.32, 92648.2 6464515.5 14.38, 92649.8 6464514.87 14.48, 92650.94 6464514.44 14.49, 92652.13 6464513.99 14.53, 92653.47 6464513.52 14.62, 92654.8 6464513 14.63, 92656.77 6464512.25 14.7)",
       "srid": 32633
     },
     "region": 2,
     "fylke": 10,
     "vegavdeling": 10,
-    "kommune": 1001,
-    "typeVeg": "Ikke implementert"
+    "kommune": 1001
   },
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
-    "metadata": {},
-    "netelementid": 1210695,
-    "startposisjon": 0,
-    "sluttposisjon": 0.20528924,
-    "kortform": "0.0-0.20528924@1210695",
-    "topologinivå": "Vegtrasé",
-    "medium": "T",
-    "temakode": 7012,
-    "konnekteringslenke": false,
-    "startnode": "1210752",
-    "sluttnode": "2801638",
-    "geometri": {
-      "wkt": "LINESTRING (92630.58 6464523.75, 92631.92 6464522.97, 92633.67 6464521.97, 92635.28 6464521.18, 92637.04 6464520.33, 92639.4 6464519.12, 92641.9 6464517.91, 92645.16 6464516.67, 92648.2 6464515.5, 92649.8 6464514.87, 92650.94 6464514.44, 92652.13 6464513.99, 92653.47 6464513.52, 92654.8 6464513, 92656.77 6464512.25)",
-      "srid": 32633
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
+    "metadata": {
+      "startdato": "2016-02-01",
+      "sluttdato": "2016-12-31"
     },
-    "region": 2,
-    "fylke": 10,
-    "vegavdeling": 10,
-    "kommune": 1001,
-    "typeVeg": "Ikke implementert"
-  },
-  {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
-    "metadata": {},
-    "netelementid": 1210695,
-    "startposisjon": 0,
-    "sluttposisjon": 0.20528924,
-    "kortform": "0.0-0.20528924@1210695",
-    "topologinivå": "Vegtrasé",
-    "medium": "T",
-    "temakode": 7012,
-    "konnekteringslenke": false,
-    "startnode": "1210752",
-    "sluttnode": "2801638",
-    "geometri": {
-      "wkt": "LINESTRING (92630.58 6464523.75, 92631.92 6464522.97, 92633.67 6464521.97, 92635.28 6464521.18, 92637.04 6464520.33, 92639.4 6464519.12, 92641.9 6464517.91, 92645.16 6464516.67, 92648.2 6464515.5, 92649.8 6464514.87, 92650.94 6464514.44, 92652.13 6464513.99, 92653.47 6464513.52, 92654.8 6464513, 92656.77 6464512.25)",
-      "srid": 32633
-    },
-    "region": 2,
-    "fylke": 10,
-    "vegavdeling": 10,
-    "kommune": 1001,
-    "typeVeg": "Ikke implementert"
-  },
-  {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
-    "metadata": {},
-    "netelementid": 1210695,
-    "startposisjon": 0,
-    "sluttposisjon": 0.20528924,
-    "kortform": "0.0-0.20528924@1210695",
-    "topologinivå": "Vegtrasé",
-    "medium": "T",
-    "temakode": 7012,
-    "konnekteringslenke": false,
-    "startnode": "1210752",
-    "sluttnode": "2801638",
-    "geometri": {
-      "wkt": "LINESTRING (92630.58 6464523.75, 92631.92 6464522.97, 92633.67 6464521.97, 92635.28 6464521.18, 92637.04 6464520.33, 92639.4 6464519.12, 92641.9 6464517.91, 92645.16 6464516.67, 92648.2 6464515.5, 92649.8 6464514.87, 92650.94 6464514.44, 92652.13 6464513.99, 92653.47 6464513.52, 92654.8 6464513, 92656.77 6464512.25)",
-      "srid": 32633
-    },
-    "region": 2,
-    "fylke": 10,
-    "vegavdeling": 10,
-    "kommune": 1001,
-    "typeVeg": "Ikke implementert"
-  },
-  {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
-    "metadata": {},
-    "netelementid": 1210695,
+    "veglenkesekvens": 1210695,
     "startposisjon": 0.20528924,
-    "sluttposisjon": 0.29251562,
-    "kortform": "0.20528924-0.29251562@1210695",
-    "topologinivå": "Vegtrasé",
-    "medium": "T",
-    "temakode": 7012,
-    "konnekteringslenke": false,
-    "startnode": "2801638",
-    "sluttnode": "1210761",
+    "sluttposisjon": 0.29251561,
+    "kortform": "0.20528924-0.29251561@1210695",
+    "veglenkenummer": 3,
+    "referanse": "1210695-3",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase",
+    "typeVeg": "Kanalisert veg",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (92656.77 6464512.25, 92659.49 6464511.3, 92662.52 6464510.37, 92664.79 6464509.68, 92666.26 6464509.26, 92667.7 6464508.85, 92668.324 6464508.69302)",
+      "wkt": "LINESTRING Z (92656.77 6464512.25 14.7, 92659.49 6464511.3 14.82, 92662.52 6464510.37 14.94, 92664.79 6464509.68 14.98, 92666.26 6464509.26 15.05, 92667.7 6464508.85 15.09, 92668.324 6464508.69302 15.11747)",
       "srid": 32633
     },
     "region": 2,
     "fylke": 10,
     "vegavdeling": 10,
-    "kommune": 1001,
-    "typeVeg": "Ikke implementert"
+    "kommune": 1001
   },
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
-    "metadata": {},
-    "netelementid": 1210695,
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
+    "metadata": {
+      "startdato": "2016-12-31",
+      "sluttdato": "2017-04-28"
+    },
+    "veglenkesekvens": 1210695,
     "startposisjon": 0.20528924,
-    "sluttposisjon": 0.29251562,
-    "kortform": "0.20528924-0.29251562@1210695",
-    "topologinivå": "Vegtrasé",
-    "medium": "T",
-    "temakode": 7012,
-    "konnekteringslenke": false,
-    "startnode": "2801638",
-    "sluttnode": "1210761",
+    "sluttposisjon": 0.29251561,
+    "kortform": "0.20528924-0.29251561@1210695",
+    "veglenkenummer": 3,
+    "referanse": "1210695-3",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase",
+    "typeVeg": "Kanalisert veg",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (92656.77 6464512.25, 92659.49 6464511.3, 92662.52 6464510.37, 92664.79 6464509.68, 92666.26 6464509.26, 92667.7 6464508.85, 92668.324 6464508.69302)",
+      "wkt": "LINESTRING Z (92656.77 6464512.25 14.7, 92659.49 6464511.3 14.82, 92662.52 6464510.37 14.94, 92664.79 6464509.68 14.98, 92666.26 6464509.26 15.05, 92667.7 6464508.85 15.09, 92668.324 6464508.69302 15.11747)",
       "srid": 32633
     },
     "region": 2,
     "fylke": 10,
     "vegavdeling": 10,
-    "kommune": 1001,
-    "typeVeg": "Ikke implementert"
+    "kommune": 1001
   },
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
-    "metadata": {},
-    "netelementid": 1210695,
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
+    "metadata": {
+      "startdato": "2017-04-28",
+      "sluttdato": "2018-01-01"
+    },
+    "veglenkesekvens": 1210695,
     "startposisjon": 0.20528924,
-    "sluttposisjon": 0.29251562,
-    "kortform": "0.20528924-0.29251562@1210695",
-    "topologinivå": "Vegtrasé",
-    "medium": "T",
-    "temakode": 7012,
-    "konnekteringslenke": false,
-    "startnode": "2801638",
-    "sluttnode": "1210761",
+    "sluttposisjon": 0.29251561,
+    "kortform": "0.20528924-0.29251561@1210695",
+    "veglenkenummer": 3,
+    "referanse": "1210695-3",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase",
+    "typeVeg": "Kanalisert veg",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (92656.77 6464512.25, 92659.49 6464511.3, 92662.52 6464510.37, 92664.79 6464509.68, 92666.26 6464509.26, 92667.7 6464508.85, 92668.324 6464508.69302)",
+      "wkt": "LINESTRING Z (92656.77 6464512.25 14.7, 92659.49 6464511.3 14.82, 92662.52 6464510.37 14.94, 92664.79 6464509.68 14.98, 92666.26 6464509.26 15.05, 92667.7 6464508.85 15.09, 92668.324 6464508.69302 15.11747)",
       "srid": 32633
     },
     "region": 2,
     "fylke": 10,
     "vegavdeling": 10,
-    "kommune": 1001,
-    "typeVeg": "Ikke implementert"
+    "kommune": 1001
   },
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
-    "metadata": {},
-    "netelementid": 1210695,
-    "startposisjon": 0.29251562,
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
+    "metadata": {
+      "startdato": "2018-01-02"
+    },
+    "veglenkesekvens": 1210695,
+    "startposisjon": 0.29251561,
     "sluttposisjon": 0.88767539,
-    "kortform": "0.29251562-0.88767539@1210695",
-    "medium": "T",
-    "temakode": 7001,
-    "konnekteringslenke": false,
-    "startnode": "1210761",
-    "sluttnode": "2801639",
+    "kortform": "0.29251561-0.88767539@1210695",
+    "veglenkenummer": 6,
+    "referanse": "1210695-6",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase og kjørebane",
+    "typeVeg": "Enkel bilveg",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (92668.324 6464508.69302, 92669.29 6464508.45, 92670.92 6464508.1, 92674.81 6464507.35, 92676.75 6464506.97, 92678.41 6464506.69, 92680.02 6464506.46, 92681.74 6464506.22, 92683.9 6464505.97, 92687.07 6464505.66, 92688.86 6464505.48, 92690.66 6464505.34, 92692.59 6464505.2, 92694.62 6464505.12, 92696.53 6464505.05, 92698.55 6464505.03, 92700.56 6464505.07, 92702.55 6464505.11, 92704.78 6464505.22, 92710.72 6464505.62, 92712.8 6464505.76, 92717.97 6464506.36, 92722.34 6464506.85, 92726.69 6464507.36, 92731.04 6464507.87, 92735.32 6464508.4, 92737.41 6464508.66, 92739.48 6464508.98, 92741.57 6464509.18, 92743.67 6464509.32, 92745.57 6464509.49, 92747.25 6464509.56, 92749.13 6464509.56, 92750.36 6464509.55)",
+      "wkt": "LINESTRING Z (92668.324 6464508.69302 15.11747, 92669.29 6464508.45 15.16, 92670.92 6464508.1 15.25, 92674.81 6464507.35 15.52, 92676.75 6464506.97 15.57, 92678.41 6464506.69 15.74, 92680.02 6464506.46 15.8, 92681.74 6464506.22 15.92, 92683.9 6464505.97 16.07, 92687.07 6464505.66 16.29, 92688.86 6464505.48 16.4, 92690.66 6464505.34 16.51, 92692.59 6464505.2 16.63, 92694.62 6464505.12 16.72, 92696.53 6464505.05 16.81, 92698.55 6464505.03 16.89, 92700.56 6464505.07 17.02, 92702.55 6464505.11 17.15, 92704.78 6464505.22 17.26, 92710.72 6464505.62 17.67, 92712.8 6464505.76 17.78, 92717.97 6464506.36 18.09, 92722.34 6464506.85 18.4, 92726.69 6464507.36 18.66, 92731.04 6464507.87 18.89, 92735.32 6464508.4 19.16, 92737.41 6464508.66 19.27, 92739.48 6464508.98 19.43, 92741.57 6464509.18 19.45, 92743.67 6464509.32 19.6, 92745.57 6464509.49 19.65, 92747.25 6464509.56 19.73, 92749.13 6464509.56 19.8, 92750.36 6464509.55 19.86)",
       "srid": 32633
     },
     "region": 2,
     "fylke": 10,
     "vegavdeling": 10,
     "kommune": 1001,
-    "typeVeg": "Ikke implementert"
+    "vegsystemreferanse": {
+      "vegsystem": {
+        "id": 888814508,
+        "versjon": 1,
+        "vegkategori": "F",
+        "fase": "V",
+        "nummer": 3
+      },
+      "strekning": {
+        "id": 888814814,
+        "versjon": 1,
+        "strekning": 1,
+        "delstrekning": 1,
+        "arm": "N",
+        "adskilte_løp": "N",
+        "trafikantgruppe": "K",
+        "fra_meter": 8385.821,
+        "til_meter": 8551.384
+      },
+      "kortform": "FV3 S1D1 M8385-8551"
+    }
   },
   {
-    "href": "https://www.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
-    "metadata": {},
-    "netelementid": 1210695,
-    "startposisjon": 0.88767539,
-    "sluttposisjon": 1,
-    "kortform": "0.88767539-1.0@1210695",
-    "topologinivå": "Vegtrasé",
-    "medium": "T",
-    "temakode": 7012,
-    "konnekteringslenke": false,
-    "startnode": "2801639",
-    "sluttnode": "1210763",
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
+    "metadata": {
+      "startdato": "2015-12-04",
+      "sluttdato": "2016-02-01"
+    },
+    "veglenkesekvens": 1210695,
+    "startposisjon": 0.29251561,
+    "sluttposisjon": 0.88767539,
+    "kortform": "0.29251561-0.88767539@1210695",
+    "veglenkenummer": 2,
+    "referanse": "1210695-2",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase",
+    "typeVeg": "Kanalisert veg",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
     "geometri": {
-      "wkt": "LINESTRING (92750.36 6464509.55, 92751.02 6464509.55, 92752.89 6464509.59, 92754.52 6464509.57, 92758.31 6464509.24, 92760.33 6464509.06, 92761.92 6464508.88, 92763.27 6464508.62, 92765.45 6464508.13)",
+      "wkt": "LINESTRING Z (92668.324 6464508.69302 15.11747, 92669.29 6464508.45 15.16, 92670.92 6464508.1 15.25, 92674.81 6464507.35 15.52, 92676.75 6464506.97 15.57, 92678.41 6464506.69 15.74, 92680.02 6464506.46 15.8, 92681.74 6464506.22 15.92, 92683.9 6464505.97 16.07, 92687.07 6464505.66 16.29, 92688.86 6464505.48 16.4, 92690.66 6464505.34 16.51, 92692.59 6464505.2 16.63, 92694.62 6464505.12 16.72, 92696.53 6464505.05 16.81, 92698.55 6464505.03 16.89, 92700.56 6464505.07 17.02, 92702.55 6464505.11 17.15, 92704.78 6464505.22 17.26, 92710.72 6464505.62 17.67, 92712.8 6464505.76 17.78, 92717.97 6464506.36 18.09, 92722.34 6464506.85 18.4, 92726.69 6464507.36 18.66, 92731.04 6464507.87 18.89, 92735.32 6464508.4 19.16, 92737.41 6464508.66 19.27, 92739.48 6464508.98 19.43, 92741.57 6464509.18 19.45, 92743.67 6464509.32 19.6, 92745.57 6464509.49 19.65, 92747.25 6464509.56 19.73, 92749.13 6464509.56 19.8, 92750.36 6464509.55 19.86)",
       "srid": 32633
     },
     "region": 2,
     "fylke": 10,
     "vegavdeling": 10,
-    "kommune": 1001,
-    "typeVeg": "Ikke implementert"
+    "kommune": 1001
+  },
+  {
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
+    "metadata": {
+      "startdato": "2016-12-31",
+      "sluttdato": "2017-04-28"
+    },
+    "veglenkesekvens": 1210695,
+    "startposisjon": 0.29251561,
+    "sluttposisjon": 0.88767539,
+    "kortform": "0.29251561-0.88767539@1210695",
+    "veglenkenummer": 2,
+    "referanse": "1210695-2",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase",
+    "typeVeg": "Kanalisert veg",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
+    "geometri": {
+      "wkt": "LINESTRING Z (92668.324 6464508.69302 15.11747, 92669.29 6464508.45 15.16, 92670.92 6464508.1 15.25, 92674.81 6464507.35 15.52, 92676.75 6464506.97 15.57, 92678.41 6464506.69 15.74, 92680.02 6464506.46 15.8, 92681.74 6464506.22 15.92, 92683.9 6464505.97 16.07, 92687.07 6464505.66 16.29, 92688.86 6464505.48 16.4, 92690.66 6464505.34 16.51, 92692.59 6464505.2 16.63, 92694.62 6464505.12 16.72, 92696.53 6464505.05 16.81, 92698.55 6464505.03 16.89, 92700.56 6464505.07 17.02, 92702.55 6464505.11 17.15, 92704.78 6464505.22 17.26, 92710.72 6464505.62 17.67, 92712.8 6464505.76 17.78, 92717.97 6464506.36 18.09, 92722.34 6464506.85 18.4, 92726.69 6464507.36 18.66, 92731.04 6464507.87 18.89, 92735.32 6464508.4 19.16, 92737.41 6464508.66 19.27, 92739.48 6464508.98 19.43, 92741.57 6464509.18 19.45, 92743.67 6464509.32 19.6, 92745.57 6464509.49 19.65, 92747.25 6464509.56 19.73, 92749.13 6464509.56 19.8, 92750.36 6464509.55 19.86)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 10,
+    "vegavdeling": 10,
+    "kommune": 1001
+  },
+  {
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
+    "metadata": {
+      "startdato": "2013-05-29",
+      "sluttdato": "2015-12-04"
+    },
+    "veglenkesekvens": 1210695,
+    "startposisjon": 0,
+    "sluttposisjon": 0.20528924,
+    "kortform": "0.0-0.20528924@1210695",
+    "veglenkenummer": 1,
+    "referanse": "1210695-1",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase",
+    "typeVeg": "Kanalisert veg",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
+    "geometri": {
+      "wkt": "LINESTRING Z (92630.58 6464523.75 13.82, 92631.92 6464522.97 13.9, 92633.67 6464521.97 13.96, 92635.28 6464521.18 13.97, 92637.04 6464520.33 14.03, 92639.4 6464519.12 14.14, 92641.9 6464517.91 14.19, 92645.16 6464516.67 14.32, 92648.2 6464515.5 14.38, 92649.8 6464514.87 14.48, 92650.94 6464514.44 14.49, 92652.13 6464513.99 14.53, 92653.47 6464513.52 14.62, 92654.8 6464513 14.63, 92656.77 6464512.25 14.7)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 10,
+    "vegavdeling": 10,
+    "kommune": 1001
+  },
+  {
+    "href": "https://nvdbw01.kantega.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert/1210695",
+    "metadata": {
+      "startdato": "2016-02-01",
+      "sluttdato": "2016-12-31"
+    },
+    "veglenkesekvens": 1210695,
+    "startposisjon": 0,
+    "sluttposisjon": 0.20528924,
+    "kortform": "0.0-0.20528924@1210695",
+    "veglenkenummer": 1,
+    "referanse": "1210695-1",
+    "type": "Hoved",
+    "detaljnivå": "Vegtrase",
+    "typeVeg": "Kanalisert veg",
+    "måleMetode": "Metrert",
+    "kjørefelt": [
+      "1",
+      "2"
+    ],
+    "geometri": {
+      "wkt": "LINESTRING Z (92630.58 6464523.75 13.82, 92631.92 6464522.97 13.9, 92633.67 6464521.97 13.96, 92635.28 6464521.18 13.97, 92637.04 6464520.33 14.03, 92639.4 6464519.12 14.14, 92641.9 6464517.91 14.19, 92645.16 6464516.67 14.32, 92648.2 6464515.5 14.38, 92649.8 6464514.87 14.48, 92650.94 6464514.44 14.49, 92652.13 6464513.99 14.53, 92653.47 6464513.52 14.62, 92654.8 6464513 14.63, 92656.77 6464512.25 14.7)",
+      "srid": 32633
+    },
+    "region": 2,
+    "fylke": 10,
+    "vegavdeling": 10,
+    "kommune": 1001
   }
 ]
