@@ -139,10 +139,11 @@ Navn i apiet:
 * Vegkart-versjon som bruker Les V3
 
 #### Responsendringer
-* [Veglenkesekvenser](https://github.com/nvdb-vegdata/nvdb-api-client/commit/8a2909537090c42caabf4d74336cce7de957af20)
+* [Veglenkesekvenser](https://github.com/nvdb-vegdata/nvdb-api-client/commit/8a2909537090c42caabf4d74336cce7de957af20) 
 * [Segmentert vegnett](https://github.com/nvdb-vegdata/nvdb-api-client/commit/286ca561abb46f33d20218e17f4d0d96e9032e8c)
 * [Vegobjekter](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c51c9a2d054b13b13c36fa955e6f8af63f27cef5)
 
+For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen](https://nvdbapilesv3.docs.apiary.io)
 
 ## Grov forventet fremdrift
 
