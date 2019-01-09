@@ -151,6 +151,9 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 * Vegkart: Klikk i kart viser vegsystemreferanse i punkt.
 * Vegkart: Vegsystemreferanse vises i treffliste. 
 
+#### Responsendringer
+* [Veglenkesekvenser](https://github.com/nvdb-vegdata/nvdb-api-client/commit/0835b98deac4bdc39c16fc0e57ba8130f4c3525e#diff-6f9ed187bf7b5d1c57ca059ef52bc580) 
+* [Segmentert vegnett](https://github.com/nvdb-vegdata/nvdb-api-client/commit/25a40c9d461df1cb4be3bcee1603915865a08c1f)
 
 ## Grov forventet fremdrift
 
