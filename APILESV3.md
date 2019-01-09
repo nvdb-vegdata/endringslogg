@@ -145,21 +145,24 @@ Navn i apiet:
 
 For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen](https://nvdbapilesv3.docs.apiary.io)
 
+### Sprint 15
+* Endepunktet `/posisjon` virker med vegsystemreferanse.
+* Filtrering på vegsystemreferanse implementert.
+* Vegkart: Klikk i kart viser vegsystemreferanse i punkt.
+* Vegkart: Vegsystemreferanse vises i treffliste. 
+
+
 ## Grov forventet fremdrift
-
-### Q3
-* Spesifisering av strengrepresentasjonen av den nye vegreferansemodellen
-* Gi ut attributter av type liste og struktur
-* All funksjonalitet for uthenting av vegobjekter virker igjen.
-
-### Q4
-* Filtrere usegmentert vegnett basert på vegreferanse
-* Historiske objekter refererer til vegreferanse
-* Segmentere vegnett og objekter på den nye vegreferansemodellen
-* Gjeldende objekter refererer til ny vegreferanse
 
 ### Q1 2019
 * Autentisering for tilgang til sensitive datatyper og egenskaper.
+* Respons for vegobjekt-egenskaper reduseres til kun data, ikke felter for datatype, egenskapstypenavn.
+* Historiske objekter refererer til vegreferanse
+* Gi ut informasjon om objekter som er oppdatert på grunn av endringer i vegsystemreferanse, kontraktsområde, eller riksvegrute.
+
+### Fremtid
+* Filtrere usegmentert vegnett basert på vegreferanse
 * Avansert spørring virker igjen
 * Alle endepunkter støtter POST 
-* Respons for vegobjekt-egenskaper reduseres til kun data, ikke felter for datatype, egenskapstypenavn.
+* Mulighet for å finne rute mellom to punkter på vegnettet.
+* Vise vegobjekter og vegnett som er gyldig på et gitt tidspunkt.
