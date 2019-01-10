@@ -169,3 +169,4 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 * Alle endepunkter støtter POST 
 * Mulighet for å finne rute mellom to punkter på vegnettet.
 * Vise vegobjekter og vegnett som er gyldig på et gitt tidspunkt.
+* GeoJSON-respons
