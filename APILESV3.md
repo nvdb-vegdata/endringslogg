@@ -154,6 +154,9 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 #### Responsendringer
 * [Veglenkesekvenser](https://github.com/nvdb-vegdata/nvdb-api-client/commit/0835b98deac4bdc39c16fc0e57ba8130f4c3525e#diff-6f9ed187bf7b5d1c57ca059ef52bc580) 
 * [Segmentert vegnett](https://github.com/nvdb-vegdata/nvdb-api-client/commit/25a40c9d461df1cb4be3bcee1603915865a08c1f)
+* [Vegobjekter](https://github.com/nvdb-vegdata/nvdb-api-client/compare/5d0d1612909b18fd933f8739eaaf3adb933a2d8d...6bf51df#diff-b5f334c16ceccbb3987030524a0e828c)
+* [Statistikk](https://github.com/nvdb-vegdata/nvdb-api-client/compare/5d0d1612909b18fd933f8739eaaf3adb933a2d8d...6bf51df#diff-0532efd44a5bb56170adcd5e71e91b59) (`strekningslengde` er endret til `lengde`)
+
 
 ## Grov forventet fremdrift
 
