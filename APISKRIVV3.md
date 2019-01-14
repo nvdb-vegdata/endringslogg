@@ -50,7 +50,9 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
     * Under elementet `<korriger>/<vegobjekt>` *må* `startdato` (obligatorisk) og `sluttdato` (valgfritt) angis i et nytt subelement `<gyldighetsperiode>`.
     * Under elementet `<delvisKorriger>/<vegobjekt>` *kan* `<startdato>` (obligatorisk) og `<sluttdato>`(valgfritt) angis i et nytt subelement `<gyldighetsperiode>`.
     * Under elementene `<lenke>` og `<node>` er elementene `<startdato>` (obligatorisk) og `<sluttdato>` (valgfritt) flyttet inn i et nytt subelement `<gyldighetsperiode>`.
-
+* `GET /endringssett/{id}/status` :
+      * Elementet `<resultat>/<vegobjekter>/<vegobjekt>` har fått en ny attributt `versjon`.
+       
 #### Oppdaterte XML-skjemaer
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/lenke.xsd
