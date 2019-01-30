@@ -163,6 +163,7 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 #### Responsendringer
 * [feltoversikt](https://github.com/nvdb-vegdata/nvdb-api-client/pull/39/commits/88c7ff0c267834a4b5254fb90e1cab80d1981b06#diff-6f9ed187bf7b5d1c57ca059ef52bc580)
 * [kontraktsområder og riksvegruter](https://github.com/nvdb-vegdata/nvdb-api-client/pull/40/commits/9b360b427edef8f219608f2f987eb48ab0ed6c78#diff-b0d53d0a9e6e6803388e704a4fb2ced9)
+* [typeVeg_sosi for segmenter](https://github.com/nvdb-vegdata/nvdb-api-client/commit/dd8574c9aa300bedb75a6190c16cdf70faf691aa)
 
 ## Grov forventet fremdrift
 
