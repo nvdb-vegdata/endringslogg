@@ -145,21 +145,37 @@ Navn i apiet:
 
 For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen](https://nvdbapilesv3.docs.apiary.io)
 
+### Sprint 15
+* Endepunktet `/posisjon` virker med vegsystemreferanse.
+* Filtrering på vegsystemreferanse implementert.
+* Vegkart: Klikk i kart viser vegsystemreferanse i punkt.
+* Vegkart: Vegsystemreferanse vises i treffliste. 
+
+#### Responsendringer
+* [Veglenkesekvenser](https://github.com/nvdb-vegdata/nvdb-api-client/commit/0835b98deac4bdc39c16fc0e57ba8130f4c3525e#diff-6f9ed187bf7b5d1c57ca059ef52bc580) 
+* [Segmentert vegnett](https://github.com/nvdb-vegdata/nvdb-api-client/compare/25a40c9d461df1cb4be3bcee1603915865a08c1f...bc4cedfbf160fd01054963a317bef630eb023e28#diff-aa744b112391254b8ac2f40dab92f673)
+* [Vegobjekter](https://github.com/nvdb-vegdata/nvdb-api-client/compare/5d0d1612909b18fd933f8739eaaf3adb933a2d8d...6bf51df#diff-b5f334c16ceccbb3987030524a0e828c)
+* [Statistikk](https://github.com/nvdb-vegdata/nvdb-api-client/compare/5d0d1612909b18fd933f8739eaaf3adb933a2d8d...6bf51df#diff-0532efd44a5bb56170adcd5e71e91b59) (`strekningslengde` er endret til `lengde`)
+
+### Sprint 16
+* 
+
+#### Responsendringer
+* [feltoversikt](https://github.com/nvdb-vegdata/nvdb-api-client/pull/39/commits/88c7ff0c267834a4b5254fb90e1cab80d1981b06#diff-6f9ed187bf7b5d1c57ca059ef52bc580)
+* [kontraktsområder og riksvegruter](https://github.com/nvdb-vegdata/nvdb-api-client/pull/40/commits/9b360b427edef8f219608f2f987eb48ab0ed6c78#diff-b0d53d0a9e6e6803388e704a4fb2ced9)
+
 ## Grov forventet fremdrift
-
-### Q3
-* Spesifisering av strengrepresentasjonen av den nye vegreferansemodellen
-* Gi ut attributter av type liste og struktur
-* All funksjonalitet for uthenting av vegobjekter virker igjen.
-
-### Q4
-* Filtrere usegmentert vegnett basert på vegreferanse
-* Historiske objekter refererer til vegreferanse
-* Segmentere vegnett og objekter på den nye vegreferansemodellen
-* Gjeldende objekter refererer til ny vegreferanse
 
 ### Q1 2019
 * Autentisering for tilgang til sensitive datatyper og egenskaper.
+* Respons for vegobjekt-egenskaper reduseres til kun data, ikke felter for datatype, egenskapstypenavn.
+* Historiske objekter refererer til vegreferanse
+* Gi ut informasjon om objekter som er oppdatert på grunn av endringer i vegsystemreferanse, kontraktsområde, eller riksvegrute.
+
+### Fremtid
+* Filtrere usegmentert vegnett basert på vegreferanse
 * Avansert spørring virker igjen
 * Alle endepunkter støtter POST 
-* Respons for vegobjekt-egenskaper reduseres til kun data, ikke felter for datatype, egenskapstypenavn.
+* Mulighet for å finne rute mellom to punkter på vegnettet.
+* Vise vegobjekter og vegnett som er gyldig på et gitt tidspunkt.
+* GeoJSON-respons
