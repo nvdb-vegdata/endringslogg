@@ -161,6 +161,7 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 * Filtering av vegobjekter med vegsystemreferanse
 * Segmenter inkluderer kontraktsområde og riksvegrute
 * Meterverdier for objekters vegsystemreferanse var ikke tilpasset objektets stedfesting
+* Maks sidestørrelse ved paginering er økt til 50 000
 
 #### Responsendringer
 * [feltoversikt](https://github.com/nvdb-vegdata/nvdb-api-client/pull/39/commits/88c7ff0c267834a4b5254fb90e1cab80d1981b06#diff-6f9ed187bf7b5d1c57ca059ef52bc580)
