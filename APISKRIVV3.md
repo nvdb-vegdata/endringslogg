@@ -59,7 +59,7 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/node.xsd
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
-### API Skriv - Sprint 16
+### Sprint 16
 * To nye endepunkter for å levere gjeldende versjon av valideringsregelsett
     * `GET /regelsett/vegnettobjekttype/versjon` : Responderer med payload som beskriver gjeldende versjon av regelsettet (se XML-skjema for `<versjon>`).
     * `GET /regelsett/lenke/versjon` : Responderer med payload som beskriver gjeldende versjon av regelsettet (se XML-skjema for `<versjon>`).
