@@ -51,7 +51,7 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
     * Under elementet `<delvisKorriger>/<vegobjekt>` *kan* `<startdato>` (obligatorisk) og `<sluttdato>`(valgfritt) angis i et nytt subelement `<gyldighetsperiode>`.
     * Under elementene `<lenke>` og `<node>` er elementene `<startdato>` (obligatorisk) og `<sluttdato>` (valgfritt) flyttet inn i et nytt subelement `<gyldighetsperiode>`.
 * `GET /endringssett/{id}/status` :
-      * Elementet `<resultat>/<vegobjekter>/<vegobjekt>` har fått en ny attributt `versjon`.
+    * Elementet `<resultat>/<vegobjekter>/<vegobjekt>` har fått en ny attributt `versjon`.
        
 #### Oppdaterte XML-skjemaer
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
@@ -59,6 +59,17 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/node.xsd
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
+### API Skriv - Sprint 16
+* To nye endepunkter for å levere gjeldende versjon av valideringsregelsett
+    * `GET /regelsett/vegnettobjekttype/versjon` : Responderer med payload som beskriver gjeldende versjon av regelsettet (se XML-skjema for `<versjon>`).
+    * `GET /regelsett/lenke/versjon` : Responderer med payload som beskriver gjeldende versjon av regelsettet (se XML-skjema for `<versjon>`).
+* `GET /regelsett/vegnettobjekttype` : Rotelementet er omdøpt fra `<regelListe>` til `<regelsett>`. Et nytt subelement `<versjon>` er innført, med samme informasjon som over.
+* `GET /regelsett/lenke` : Rotelementet er omdøpt fra `<regelListe>` til `<regelsett>`. Et nytt subelement `<versjon>` er innført, med samme informasjon som over.
+       
+#### Oppdaterte XML-skjemaer
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/vegnettobjekttype.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/lenke.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/versjon.xsd
 
 
 ## Grov forventet fremdrift
@@ -68,3 +79,4 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 * Validering av unikhet for vegsystemreferanser (Vegsystem og Strekning)
 * Støtte for multiple effektdatoer i endringssett
 * Trigge statistikkberegning
+
