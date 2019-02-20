@@ -70,9 +70,9 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 * Støtte for multiple endringsdatoer i endringssett
     * `GET|POST /endringssett` :
         * Under elementet `<endringssett>` er `<effektdato>` fjernet.
-        * Under elementet `<endringssett>/<registrer>/<vegobjekter>/<vegobjekt>` *må* subelementet `<gyldighetsperiode>` angis.
-        * Under elementet `<endringssett>/<oppdater>/<vegobjekter>/<vegobjekt>` *må* subelementet `<gyldighetsperiode>` angis.
-        * Under elementet `<endringssett>/<delvisOppdater>/<vegobjekter>/<vegobjekt>` *må* subelementet `<gyldighetsperiode>` angis.
+        * Under elementet `<endringssett>/<registrer>/<vegobjekter>/<vegobjekt>` *må* subelementet `<gyldighetsperiode>` angis. Subelementet `<sluttdato>` er fjernet.
+        * Under elementet `<endringssett>/<oppdater>/<vegobjekter>/<vegobjekt>` *må* subelementet `<gyldighetsperiode>` angis. Subelementet `<sluttdato>` er fjernet.
+        * Under elementet `<endringssett>/<delvisOppdater>/<vegobjekter>/<vegobjekt>` *må* subelementet `<gyldighetsperiode>` angis. Subelementet `<sluttdato>` er fjernet.
         * Under elementet `<endringssett>/<slett>/<vegobjekter>/<vegobjekt>` *må* subelementet `<lukkedato>` angis.
         * Under elementet `<endringssett>/<slett>/<vegobjekter>/<vegobjekt>` *må* subelementet `<kaskadesletting>` angis. Attributten med samme navn er fjernet.
 * Innført fullstendige navn på `Detaljnivå`-verdier
