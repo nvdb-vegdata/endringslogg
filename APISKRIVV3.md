@@ -65,11 +65,47 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
     * `GET /regelsett/lenke/versjon` : Responderer med payload som beskriver gjeldende versjon av regelsettet (se XML-skjema for `<versjon>`).
 * `GET /regelsett/vegnettobjekttype` : Rotelementet er omdøpt fra `<regelListe>` til `<regelsett>`. Et nytt subelement `<versjon>` er innført, med samme informasjon som over.
 * `GET /regelsett/lenke` : Rotelementet er omdøpt fra `<regelListe>` til `<regelsett>`. Et nytt subelement `<versjon>` er innført, med samme informasjon som over.
-       
+
+### API Skriv - Sprint 17
+* Støtte for multiple endringsdatoer i endringssett
+    * `GET|POST /endringssett` :
+        * Under elementet `<endringssett>` er `<effektdato>` fjernet.
+        * Under elementet `<endringssett>/<registrer>/<vegobjekter>/<vegobjekt>` *må* subelementet `<gyldighetsperiode>` angis.
+        * Under elementet `<endringssett>/<oppdater>/<vegobjekter>/<vegobjekt>` *må* subelementet `<gyldighetsperiode>` angis.
+        * Under elementet `<endringssett>/<delvisOppdater>/<vegobjekter>/<vegobjekt>` *må* subelementet `<gyldighetsperiode>` angis.
+        * Under elementet `<endringssett>/<slett>/<vegobjekter>/<vegobjekt>` *må* subelementet `<lukkedato>` angis.
+        * Under elementet `<endringssett>/<slett>/<vegobjekter>/<vegobjekt>` *må* subelementet `<kaskadesletting>` angis. Attributten med samme navn er fjernet.
+* Innført fullstendige navn på `Detaljnivå`-verdier
+    * `GET|POST /endringssett` :
+        * VT => VEGTRASE
+        * VTKB => VEGTRASE_OG_KJØREBANE
+        * KB => KJØREBANE
+        * KF => KJØREFELT
+* Innført korrekte navn på lenke og lenkesekvens:
+    * `GET|POST /endringssett` :
+        * lenke(r) => veglenke(r)
+        * lenkesekvens(er) => veglenkesekvens(er)
+        * lenkesekvensNvdbId => veglenkesekvensNvdbId
+        * lenkesekvensTempId => veglenkesekvensTempId
+        * lenkesekvenstilkobling => veglenkesekvenstilkobling
+    * `GET|POST /lås` :
+        * lenkesekvens => veglenkesekvens
+        * Lokasjonsrelevans:
+            * LENKE => VEGLENKESEKVENS
+            * LENKE_OG_NODE => VEGLENKESEKVENS_OG_NODE
+    * `GET /regelsett/lenke` :
+        * URL endret til `/regelsett/veglenke`
+    * `GET /les/lenkesekvens` :
+        * URL endret til `/les/veglenkesekvens`
+    * Ordlyd på enkelte feilkoder (String) endret tilsvarende
+            
 #### Oppdaterte XML-skjemaer
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/vegnettobjekttype.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/lenke.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/versjon.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/veglenke.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/veglenkesekvens.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/lås/lås.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/veglenke.xsd
 
 
 ## Grov forventet fremdrift
@@ -77,6 +113,5 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 
 ### Q1 2019
 * Validering av unikhet for vegsystemreferanser (Vegsystem og Strekning)
-* Støtte for multiple effektdatoer i endringssett
 * Trigge statistikkberegning
 
