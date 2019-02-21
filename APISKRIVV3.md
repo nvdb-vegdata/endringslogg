@@ -66,7 +66,7 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 * `GET /regelsett/vegnettobjekttype` : Rotelementet er omdøpt fra `<regelListe>` til `<regelsett>`. Et nytt subelement `<versjon>` er innført, med samme informasjon som over.
 * `GET /regelsett/lenke` : Rotelementet er omdøpt fra `<regelListe>` til `<regelsett>`. Et nytt subelement `<versjon>` er innført, med samme informasjon som over.
 
-### API Skriv - Sprint 17
+### Sprint 17
 * Støtte for multiple endringsdatoer i endringssett
     * `GET|POST /endringssett` :
         * Under elementet `<endringssett>` er `<effektdato>` fjernet.
