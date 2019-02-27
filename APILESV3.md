@@ -168,6 +168,15 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 * [kontraktsområder og riksvegruter](https://github.com/nvdb-vegdata/nvdb-api-client/pull/40/commits/9b360b427edef8f219608f2f987eb48ab0ed6c78#diff-b0d53d0a9e6e6803388e704a4fb2ced9)
 * [typeVeg_sosi for segmenter](https://github.com/nvdb-vegdata/nvdb-api-client/commit/dd8574c9aa300bedb75a6190c16cdf70faf691aa)
 
+### Sprint 17
+* Funksjonalitet for autentisering og eksponering av sensitive vegobjekttyper og egenskaper
+* Filtrere usegmentert vegnett basert på vegreferanse
+* srid=32633 erstattet med 6173
+
+#### Responsendringer
+* [vegobjekttype.sensitiv](https://github.com/nvdb-vegdata/nvdb-api-client/commit/23cbd8b41db66486fafa7d227e262d2c2e6476fa#diff-27353fb10dea09a01ca0fd1f557abb65)
+
+
 ## Grov forventet fremdrift
 
 ### Q1 2019
@@ -177,7 +186,6 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 * Gi ut informasjon om objekter som er oppdatert på grunn av endringer i vegsystemreferanse, kontraktsområde, eller riksvegrute.
 
 ### Fremtid
-* Filtrere usegmentert vegnett basert på vegreferanse
 * Avansert spørring virker igjen
 * Alle endepunkter støtter POST 
 * Mulighet for å finne rute mellom to punkter på vegnettet.
