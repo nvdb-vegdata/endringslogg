@@ -92,7 +92,7 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
         * lenkesekvens => veglenkesekvens
         * Lokasjonsrelevans:
             * LENKE => VEGLENKESEKVENS
-            * LENKE_OG_NODE => VEGLENKESEKVENS_OG_NODE
+            * LENKE_ELLER_NODE => VEGLENKESEKVENS_ELLER_NODE
     * `GET /regelsett/lenke` :
         * URL endret til `/regelsett/veglenke`
     * `GET /les/lenkesekvens` :
