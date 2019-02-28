@@ -1,7 +1,7 @@
 # Vegkart - Endringslogg
 ## Leveranser 2019
 
-### 2019-3 [levert] Ytelse
+### 2019-3 [12. februar 2019] Ytelse
 * Færre spørringer mot API
 * Bruk forenklte geometri på høyt zoom-nivå
 * Mulighet til å kopiere vegreferanse etter klikk i kartet
