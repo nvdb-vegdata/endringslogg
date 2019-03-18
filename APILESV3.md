@@ -176,17 +176,19 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 #### Responsendringer
 * [vegobjekttype.sensitiv](https://github.com/nvdb-vegdata/nvdb-api-client/commit/23cbd8b41db66486fafa7d227e262d2c2e6476fa#diff-27353fb10dea09a01ca0fd1f557abb65)
 
+### Sprint 18
+* Autentisering for tilgang til sensitive datatyper og egenskaper. (https://apilesv3.utv.atlas.vegvesen.no, kun personlige brukere)
+* Vegkart støtter å filtrere på vegsystemreferanse
 
 ## Grov forventet fremdrift
 
-### Q1 2019
-* Autentisering for tilgang til sensitive datatyper og egenskaper.
+### Q2 2019
+* Avansert spørring virker igjen
 * Respons for vegobjekt-egenskaper reduseres til kun data, ikke felter for datatype, egenskapstypenavn.
 * Historiske objekter refererer til vegreferanse
-* Gi ut informasjon om objekter som er oppdatert på grunn av endringer i vegsystemreferanse, kontraktsområde, eller riksvegrute.
 
 ### Fremtid
-* Avansert spørring virker igjen
+* Gi ut informasjon om objekter som er oppdatert på grunn av endringer i vegsystemreferanse, kontraktsområde, eller riksvegrute.
 * Alle endepunkter støtter POST 
 * Mulighet for å finne rute mellom to punkter på vegnettet.
 * Vise vegobjekter og vegnett som er gyldig på et gitt tidspunkt.
