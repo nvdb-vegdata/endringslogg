@@ -107,11 +107,15 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/lås/lås.xsd
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/veglenke.xsd
 
+### Sprint 18
+* Ingen kontraktsendringer
 
 ## Grov forventet fremdrift
 
 
-### Q1 2019
+### 2019
+* Oppdatering uten versjonering
 * Validering av unikhet for vegsystemreferanser (Vegsystem og Strekning)
 * Trigge statistikkberegning
+* Måleserier
 
