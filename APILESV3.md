@@ -180,6 +180,14 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 * Autentisering for tilgang til sensitive datatyper og egenskaper. (https://apilesv3.utv.atlas.vegvesen.no, kun personlige brukere)
 * Vegkart støtter å filtrere på vegsystemreferanse
 
+### Sprint 18.1
+* Felt på vegobjekttype for å vise at det skal kun eksistere én versjon av et vegobjekt.
+
+#### Responsendringer
+* [vegobjekttype.en_versjon](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c4f3db325e96fca97c6d0653c0bb4ae811c1364f#diff-27353fb10dea09a01ca0fd1f557abb65)
+
+### Sprint 19
+
 ## Grov forventet fremdrift
 
 ### Q2 2019
