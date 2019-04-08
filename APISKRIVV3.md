@@ -110,18 +110,35 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 ### Sprint 18
 * Ingen kontraktsendringer
 
-### Sprint 19
+### API Skriv - Sprint 19
 * Støtte for oppdatering uten ny versjon (overskriving av siste versjon):
     * `GET|POST /endringssett` :
         * På elementet `<endringssett>/<oppdater>/<vegobjekter>/<vegobjekt>` *kan* attributten `overskriv` angis. Tillatte verdier er `JA` og `NEI`. Om attributten ikke oppgis antas verdien `NEI`. 
         * På elementet `<endringssett>/<delvisOppdater>/<vegobjekter>/<vegobjekt>` *kan* attributten `overskriv` angis. Tillatte verdier er `JA` og `NEI`. Om attributten ikke oppgis antas verdien `NEI`. 
-        
+* TypeVeg "Turveg" omdøpt til "Gatetun":
+    * `GET|POST /endringssett` :
+        * `TypeVeg.TURVEG` endret til `TypeVeg.GATETUN`
+    * `GET /regelsett/veglenke` :
+        * `TypeVeg.TURVEG` endret til `TypeVeg.GATETUN`
+    * `GET /regelsett/vegnettobjekttype` :
+        * `TypeVeg.TURVEG` endret til `TypeVeg.GATETUN`
+* Antall låser i låseliste :
+    * `GET /lås` :
+        * På elementet `<låser>` er det lagt på en ny attributt `totaltAntall` som angir antall låser i NVDB.
+* Oppdrag- og transaksjonendepunktene har fått nye URLer:
+    * `GET /les/v1/oppdrag` :
+        * URL endret til `/v1/oppdrag`
+    * `GET /les/v1/transaksjon` :
+        * URL endret til `/v1/transaksjon`
+
 #### Oppdaterte XML-skjemaer
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
-    
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/veglenke.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/vegnettobjekttype.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/lås/lås-liste.xsd
+
 
 ## Grov forventet fremdrift
-
 
 ### 2019
 * Operasjonen "slett" omdøpes til "lukk"
