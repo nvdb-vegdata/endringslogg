@@ -187,17 +187,22 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 * [vegobjekttype.en_versjon](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c4f3db325e96fca97c6d0653c0bb4ae811c1364f#diff-27353fb10dea09a01ca0fd1f557abb65)
 
 ### Sprint 19
+* /omrader/regioner, /omrader/vegavdelinger er fjernet
+* Fylker og kommuner hentes fra objekttype 945 og 946
+* ?segmentering=true med områdefilter virker igjen.
+* /veg virker igjen
+
 
 ## Grov forventet fremdrift
 
-### Q2 2019
+### Q3 2019
 * Avansert spørring virker igjen
+* Vise vegobjekter og vegnett som er gyldig på et gitt tidspunkt.
 * Respons for vegobjekt-egenskaper reduseres til kun data, ikke felter for datatype, egenskapstypenavn.
 * Historiske objekter refererer til vegreferanse
 
 ### Fremtid
 * Gi ut informasjon om objekter som er oppdatert på grunn av endringer i vegsystemreferanse, kontraktsområde, eller riksvegrute.
-* Alle endepunkter støtter POST 
+* Alle endepunkter støtter POST der det er hensiksmessig
 * Mulighet for å finne rute mellom to punkter på vegnettet.
-* Vise vegobjekter og vegnett som er gyldig på et gitt tidspunkt.
 * GeoJSON-respons
