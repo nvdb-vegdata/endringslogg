@@ -110,7 +110,7 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 ### Sprint 18
 * Ingen kontraktsendringer
 
-### API Skriv - Sprint 19
+### Sprint 19
 * Støtte for oppdatering uten ny versjon (overskriving av siste versjon):
     * `GET|POST /endringssett` :
         * På elementet `<endringssett>/<oppdater>/<vegobjekter>/<vegobjekt>` *kan* attributten `overskriv` angis. Tillatte verdier er `JA` og `NEI`. Om attributten ikke oppgis antas verdien `NEI`. 
@@ -136,6 +136,11 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/veglenke.xsd
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/vegnettobjekttype.xsd
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/lås/lås-liste.xsd
+
+### Sprint 20
+* X-Client header kreves ved POST/PUT/PATCH/DELETE mot endepunktene: 
+    * /v3/endringssett 
+    * /v1/lås 
 
 
 ## Grov forventet fremdrift
