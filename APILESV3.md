@@ -192,11 +192,12 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 * ?segmentering=true med områdefilter virker igjen.
 * /veg virker igjen
 
+### Sprint 20
+* Avansert spørring virker igjen
 
 ## Grov forventet fremdrift
 
 ### Q3 2019
-* Avansert spørring virker igjen
 * Vise vegobjekter og vegnett som er gyldig på et gitt tidspunkt.
 * Respons for vegobjekt-egenskaper reduseres til kun data, ikke felter for datatype, egenskapstypenavn.
 * Historiske objekter refererer til vegreferanse
