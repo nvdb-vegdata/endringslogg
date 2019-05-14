@@ -142,8 +142,12 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
     * /v3/endringssett 
     * /v1/lås 
 
+### Sprint 21
+* Hovedoperasjonen 'slett' (brukes bare av vegobjekter) har fått det litt mer presise navnet 'lukk':
+    * `GET|POST /endringssett` :
+        * Elementet `<slett>` under `<endringssett>` omdøpt til `<lukk>`
+        * Elementet `<kaskadesletting>` under `<slett>/<vegobjekter>/<vegobjekt>` omdøpt til `<kaskadelukking>`
 
-## Grov forventet fremdrift
+#### Oppdaterte XML-skjemaer
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
-### 2019
-* Operasjonen "slett" omdøpes til "lukk"
