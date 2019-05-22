@@ -195,6 +195,15 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 ### Sprint 20
 * Avansert spørring virker igjen
 
+### Sprint 21
+* 
+
+#### Responsendringer
+* [kvalitet.synlighet endret til synbarhet](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-b0c26f22455c2a62f30cb6a568c7f955L15)
+* [stedfesting.feltoversikt endret til kjørefelt](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-b5f334c16ceccbb3987030524a0e828cL50)
+* [veglenkesekvens.måleMetode,måleDato endret til målemetode,måledato]()
+* Porttilkobling på veglenke: [portid endret til portnummer](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L13), [netelementid endret til nodeid](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L14), [netelementtype og netelementtype_tekst fjernet](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L15)
+
 ## Grov forventet fremdrift
 
 ### Q3 2019
