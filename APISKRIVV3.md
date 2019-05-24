@@ -150,10 +150,16 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 * Harmonisering av ordlyd i APIene:
     * `GET|POST /endringssett` :
         * Attributten `id` på elementet `<veglenke>` er omdøpt til `nummer`. 
-        * Subelementet `<lenkeid>` under elementene `<feil>`, `<advarsel>` og `<notabene>` er omdøpt til `<veglenkenummer>`. 
+        * Subelementet `<lenkeId>` under elementene `<feil>`, `<advarsel>` og `<notabene>` er omdøpt til `<veglenkenummer>`. 
         * Subelementet `<feltkode>` under elementene `<veglenke>/<superstedfesting>`, `<vegobjekt>/<stedfesting>/<punkt>` og `<vegobjekt>/<stedfesting>/<linje>` er omdøpt til `<felt>`. 
         * Subelementet `<kjørefelt>` under elementet `<veglenke>` er omdøpt til `<feltoversikt>`. 
-
+        * Attributten `id` på elementet `<port>` er omdøpt til `nummer`.
+        * Subelementet `<portId>` under elementet `<port>/<veglenkesekvenstilkobling>` er omdøpt til `<portnummer>`.
+        * Subelementet `<portId>` under elementet `<port>/<nodetilkobling>` er omdøpt til `<portnummer>`.
+        * Subelementet `<startportId>` under elementet `<veglenke>` er omdøpt til `<startportnummer>`.
+        * Subelementet `<sluttportId>` under elementet `<veglenke>` er omdøpt til `<sluttportnummer>`.
+        * Subelementet `<portId>` under elementene `<feil>`, `<advarsel>` og `<notabene>` er omdøpt til `<portnummer>`.
+        
 #### Oppdaterte XML-skjemaer
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
