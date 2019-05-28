@@ -196,18 +196,21 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 * Avansert spørring virker igjen
 
 ### Sprint 21
-* 
+* `/status` gir ut informasjon om hva NVDBIND gjør.
+* Retning på stedfestingen av `Strekning`, `Kryssystem` og `Sideanlegg` gis ut i segmentert vegnett.
+* `/vegobjekter/X`, `/vegobjekter/X/statistikk`, og `/vegnett/veglenkesekvenser/segmentert` støtter parametret `?tidspunkt`. Dette filtrer ut de vegobjektene/vegnettsegmentene som var åpne på det gitte tidspunkt. Dersom segmentering er aktivert for vegobjekter vil vegobjektenes geometri- og `lokasjons`-egenskap ha innhold basert på de segmentene for objektet som var aktiv på dette tidspunktet.
+* Det er mulig å hente ut vegobjekter som er oppdatert etter et gitt tidspunkt med `/vegobjekter/X?endret_etter={ISO-tidspunkt}`. Som i V2 er denne litt sensitiv, så det er ikke nødvendigvis synlig forskjell på et objekt selv om det dukker opp med denne filtreringen.
+* `/vegobjekter/X`, `/vegobjekter/X/statistikk`, og `/vegnett/veglenkesekvenser/segmentert` har fått flere muligheter for å filtrere på egenskaper fra vegsystemreferansen. Se `arm`, `veglenketype`, `adskiltelop`, `typeveg`, `detaljniva`, `kryssystem`, `sideanlegg`, `trafikantgruppe` i [dokumentasjonen](https://nvdbapilesv3.docs.apiary.io/#reference/0/vegobjekter-av-type/list-vegobjekter)
 
 #### Responsendringer
 * [kvalitet.synlighet endret til synbarhet](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-b0c26f22455c2a62f30cb6a568c7f955L15)
 * [stedfesting.feltoversikt endret til kjørefelt](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-b5f334c16ceccbb3987030524a0e828cL50)
 * [veglenkesekvens.måleMetode,måleDato endret til målemetode,måledato]()
-* Porttilkobling på veglenke: [portid endret til portnummer](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L13), [netelementid endret til nodeid](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L14), [netelementtype og netelementtype_tekst fjernet](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L15)
+* Porttilkobling på veglenkesekvens/node: [portid endret til portnummer](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L13), [netelementid endret til nodeid om port peker på node](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L14), [netelementid endret til veglenkesekvensid om port peker på node](https://github.com/nvdb-vegdata/nvdb-api-client/commit/051b9892b84525016afa0e6c26c7ed6fbf186920#diff-b0c26f22455c2a62f30cb6a568c7f955R22) [netelementtype og netelementtype_tekst fjernet](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L15)
 
 ## Grov forventet fremdrift
 
 ### Q3 2019
-* Vise vegobjekter og vegnett som er gyldig på et gitt tidspunkt.
 * Respons for vegobjekt-egenskaper reduseres til kun data, ikke felter for datatype, egenskapstypenavn.
 * Historiske objekter refererer til vegreferanse
 
