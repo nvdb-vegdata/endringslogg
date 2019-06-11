@@ -208,6 +208,9 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 * [veglenkesekvens.måleMetode,måleDato endret til målemetode,måledato]()
 * Porttilkobling på veglenkesekvens/node: [portid endret til portnummer](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L13), [netelementid endret til nodeid om port peker på node](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L14), [netelementid endret til veglenkesekvensid om port peker på node](https://github.com/nvdb-vegdata/nvdb-api-client/commit/051b9892b84525016afa0e6c26c7ed6fbf186920#diff-b0c26f22455c2a62f30cb6a568c7f955R22) [netelementtype og netelementtype_tekst fjernet](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L15)
 
+### Sprint 22
+* `transaksjon.tidspunkt` hadde format `yyyy-MM-dd HH:mm:ss` - dette er endret til ISO-8601.
+
 ## Grov forventet fremdrift
 
 ### Q3 2019
