@@ -210,6 +210,7 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 
 ### Sprint 22
 * `transaksjon.tidspunkt` hadde format `yyyy-MM-dd HH:mm:ss` - dette er endret til ISO-8601.
+* `metadata.sidestørrelse` er lagt til i responsen for å signalisere faktisk sidestørrelse ved paginering.
 
 ## Grov forventet fremdrift
 
