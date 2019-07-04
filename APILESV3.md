@@ -214,12 +214,9 @@ For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen
 
 ## Grov forventet fremdrift
 
-### Q3 2019
-* Respons for vegobjekt-egenskaper reduseres til kun data, ikke felter for datatype, egenskapstypenavn.
-* Historiske objekter refererer til vegreferanse
-
 ### Fremtid
 * Gi ut informasjon om objekter som er oppdatert på grunn av endringer i vegsystemreferanse, kontraktsområde, eller riksvegrute.
 * Alle endepunkter støtter POST der det er hensiksmessig
 * Mulighet for å finne rute mellom to punkter på vegnettet.
 * GeoJSON-respons
+* Respons for vegobjekt-egenskaper reduseres til kun data, ikke felter for datatype, egenskapstypenavn.
