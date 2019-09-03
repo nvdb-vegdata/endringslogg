@@ -2,47 +2,120 @@
 Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av V3.
 
 # Fullførte sprinter
-### Sprint 1. 13. februar
-* Dokumentasjon og spesifisering av endepunkter og responser
-* Endepunker med blanding av reelle og dummy-data.
 
-### Sprint 2. 6. mars
-* Indeksering og endepunkt for usegmentert vegnett
+### Sprint 22
+* `transaksjon.tidspunkt` hadde format `yyyy-MM-dd HH:mm:ss` - dette er endret til ISO-8601.
+* `metadata.sidestørrelse` er lagt til i responsen for å signalisere faktisk sidestørrelse ved paginering.
 
-### Sprint 3. 3. april
-* Parametre for filtrering av usegmenter vegnett
-* Innføre segmentert vegnett (likt det i V2)
+### Sprint 20
+* Avansert spørring virker igjen
 
-### Sprint 4. 24. april
-* Indeksering og eksponering av objektert binær-egenskaper
-* Eksponering av NVDB transaksjonslogg
-* Indekserer lenker der alle lenker har sluttdato
+### Sprint 21
+* `/status` gir ut informasjon om hva NVDBIND gjør.
+* Retning på stedfestingen av `Strekning`, `Kryssystem` og `Sideanlegg` gis ut i segmentert vegnett.
+* `/vegobjekter/X`, `/vegobjekter/X/statistikk`, og `/vegnett/veglenkesekvenser/segmentert` støtter parametret `?tidspunkt`. Dette filtrer ut de vegobjektene/vegnettsegmentene som var åpne på det gitte tidspunkt. Dersom segmentering er aktivert for vegobjekter vil vegobjektenes geometri- og `lokasjons`-egenskap ha innhold basert på de segmentene for objektet som var aktiv på dette tidspunktet.
+* Det er mulig å hente ut vegobjekter som er oppdatert etter et gitt tidspunkt med `/vegobjekter/X?endret_etter={ISO-tidspunkt}`. Som i V2 er denne litt sensitiv, så det er ikke nødvendigvis synlig forskjell på et objekt selv om det dukker opp med denne filtreringen.
+* `/vegobjekter/X`, `/vegobjekter/X/statistikk`, og `/vegnett/veglenkesekvenser/segmentert` har fått flere muligheter for å filtrere på egenskaper fra vegsystemreferansen. Se `arm`, `veglenketype`, `adskiltelop`, `typeveg`, `detaljniva`, `kryssystem`, `sideanlegg`, `trafikantgruppe` i [dokumentasjonen](https://nvdbapilesv3.docs.apiary.io/#reference/0/vegobjekter-av-type/list-vegobjekter)
 
-### Sprint 5. 15. mai
-* Innslag i `tillatte_verdier` har fått feltet `navn` endret til `verdi` Dersom det er et tall-enum er dette ikke lengre en streng.
-* For et attributt på en vegobjekttype i datakatalogen manglet kortnavn og attributtypekategori. Dette er lagt til.
-* Alle attributtyper listes ut på `/vegobjekttyper/attributtypekategorier`
-* Geometriattributtyper manglet dimensjon. Dette er lagt til.
-* Dersom et objekt er slettet fra NVDB gir apiet status 410 i stedet for 404.
+#### Responsendringer
+* [kvalitet.synlighet endret til synbarhet](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-b0c26f22455c2a62f30cb6a568c7f955L15)
+* [stedfesting.feltoversikt endret til kjørefelt](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-b5f334c16ceccbb3987030524a0e828cL50)
+* [veglenkesekvens.måleMetode,måleDato endret til målemetode,måledato]()
+* Porttilkobling på veglenkesekvens/node: [portid endret til portnummer](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L13), [netelementid endret til nodeid om port peker på node](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L14), [netelementid endret til veglenkesekvensid om port peker på node](https://github.com/nvdb-vegdata/nvdb-api-client/commit/051b9892b84525016afa0e6c26c7ed6fbf186920#diff-b0c26f22455c2a62f30cb6a568c7f955R22) [netelementtype og netelementtype_tekst fjernet](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L15)
 
-### Sprint 6. 5. juni
-* Definisjon av liste- og strukturattributter i datakatalog.
+### Sprint 19
+* /omrader/regioner, /omrader/vegavdelinger er fjernet
+* Fylker og kommuner hentes fra objekttype 945 og 946
+* ?segmentering=true med områdefilter virker igjen.
+* /veg virker igjen
 
-### Sprint 7. 26. juni
-* Vegnettsgeometri og egengeomtri normaliseres til `LINESTRING`(Gis ut som `MULTILINESTRING` siden typen i NVDB er dette)
-* Forbedringer av spørreparametre for noder
-* Gi ut definisjonen av objekters geometriattributt i datakatalog. : vegobjekttype.stedfesting er lagt til denne gir informasjon om stedfestingen for vegobjekttypen. Dette feltet kan være et listeattributt som inneholder selve stedfestingsattributtet.
-* `attributtype.liste` - felt er fjernet. `attributetype.type` er lagt til. Denne vil inneholde beskrive hvilken type attributtypen er, eks `Liste`.
-* `Datatype` Liste, id 38 er lagt til for Listeattributter.
-* vegobjekttype.relasjonstyper er endret slik at det vil komme et liste-nivå dersom den aktuelle assosiasjonen er en liste.
+### Sprint 18.1
+* Felt på vegobjekttype for å vise at det skal kun eksistere én versjon av et vegobjekt.
 
-### Sprint 8. 14. august
-* Støtte spørring med polygon
-* /vegobjekter/{id} oppe med reelle data. Kontraktsområde har ikke historikk. Søkeparametre for vegsystemreferanse og avanserte spørringer virker ikke.
-* Begrepsendring for vegnettet. Referanselenk -> Lenkesekvens, Dellenke -> Lenke
-* I datakatalogen har vegobjekttypenes kategorier fått informasjon om primærkategori.
-* Lenker har fått `måledato`, `målemetode`, `typeVeg` og `detaljnivå`
-* Egenskaper som ligger inni geometrien blir eksponert.
+#### Responsendringer
+* [vegobjekttype.en_versjon](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c4f3db325e96fca97c6d0653c0bb4ae811c1364f#diff-27353fb10dea09a01ca0fd1f557abb65)
+
+### Sprint 18
+* Autentisering for tilgang til sensitive datatyper og egenskaper. (https://apilesv3.utv.atlas.vegvesen.no, kun personlige brukere)
+* Vegkart støtter å filtrere på vegsystemreferanse
+
+### Sprint 17
+* Funksjonalitet for autentisering og eksponering av sensitive vegobjekttyper og egenskaper
+* Filtrere usegmentert vegnett basert på vegreferanse
+* srid=32633 erstattet med 6173
+
+#### Responsendringer
+* [vegobjekttype.sensitiv](https://github.com/nvdb-vegdata/nvdb-api-client/commit/23cbd8b41db66486fafa7d227e262d2c2e6476fa#diff-27353fb10dea09a01ca0fd1f557abb65)
+
+### Sprint 16 
+* Filtering av vegobjekter med vegsystemreferanse
+* Segmenter inkluderer kontraktsområde og riksvegrute
+* Meterverdier for objekters vegsystemreferanse var ikke tilpasset objektets stedfesting
+* Maks sidestørrelse ved paginering er økt til 50 000
+
+#### Responsendringer
+* [feltoversikt](https://github.com/nvdb-vegdata/nvdb-api-client/pull/39/commits/88c7ff0c267834a4b5254fb90e1cab80d1981b06#diff-6f9ed187bf7b5d1c57ca059ef52bc580)
+* [kontraktsområder og riksvegruter](https://github.com/nvdb-vegdata/nvdb-api-client/pull/40/commits/9b360b427edef8f219608f2f987eb48ab0ed6c78#diff-b0d53d0a9e6e6803388e704a4fb2ced9)
+* [typeVeg_sosi for segmenter](https://github.com/nvdb-vegdata/nvdb-api-client/commit/dd8574c9aa300bedb75a6190c16cdf70faf691aa)
+
+### Sprint 15
+* Endepunktet `/posisjon` virker med vegsystemreferanse.
+* Filtrering på vegsystemreferanse implementert.
+* Vegkart: Klikk i kart viser vegsystemreferanse i punkt.
+* Vegkart: Vegsystemreferanse vises i treffliste. 
+
+#### Responsendringer
+* [Veglenkesekvenser](https://github.com/nvdb-vegdata/nvdb-api-client/commit/0835b98deac4bdc39c16fc0e57ba8130f4c3525e#diff-6f9ed187bf7b5d1c57ca059ef52bc580) 
+* [Segmentert vegnett](https://github.com/nvdb-vegdata/nvdb-api-client/compare/25a40c9d461df1cb4be3bcee1603915865a08c1f...bc4cedfbf160fd01054963a317bef630eb023e28#diff-aa744b112391254b8ac2f40dab92f673)
+* [Vegobjekter](https://github.com/nvdb-vegdata/nvdb-api-client/compare/5d0d1612909b18fd933f8739eaaf3adb933a2d8d...6bf51df#diff-b5f334c16ceccbb3987030524a0e828c)
+* [Statistikk](https://github.com/nvdb-vegdata/nvdb-api-client/compare/5d0d1612909b18fd933f8739eaaf3adb933a2d8d...6bf51df#diff-0532efd44a5bb56170adcd5e71e91b59) (`strekningslengde` er endret til `lengde`)
+
+### Sprint 14
+* Gir ut segmentert vegnett
+* Gir ut segmenter og vegsystemreferanser for vegobjekter
+* Vegkart-versjon som bruker Les V3
+
+#### Responsendringer
+* [Veglenkesekvenser](https://github.com/nvdb-vegdata/nvdb-api-client/commit/8a2909537090c42caabf4d74336cce7de957af20) 
+* [Segmentert vegnett](https://github.com/nvdb-vegdata/nvdb-api-client/commit/286ca561abb46f33d20218e17f4d0d96e9032e8c)
+* [Vegobjekter](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c51c9a2d054b13b13c36fa955e6f8af63f27cef5)
+
+For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen](https://nvdbapilesv3.docs.apiary.io)
+
+### Sprint 13
+* Segmentering av vegnett og vegobjekter
+* Antallet desimaler i koordinater er begrenset til åtte.
+
+### Sprint 12
+* Segmentering av vegnett og vegobjekter
+
+### Sprint 11
+* /vegobjekter/#?id=x,y,z og /vegnett/...?id=x,y,z er endret til `?ider=x,y,z`
+* Gir endelig ut struktur, liste, liste med struktur, assosiasjon og liste med assosiasjoner.
+* Takler `/` i navn for kontraktsområde og riksvegrute. 
+* egenskapen `styringsparametere` er fjernet fra vegobjekttyper og dems egenskaper. Mange av feltene under vegobjekttypens styringsparametre kommer fra dets lokasjonsegenskap. Alle verdiene vil bli listet ut der de kommer fra.
+* Datakatalogverdier som ikke gis ut fordi de skal ut av datakatalogen eller alle instanser mangler verdi:
+   * vegobjekttype.,tillattverdi.illustrationid
+   * featuretype.filterOn
+   * featuretype.coverage (alle instanser har verdi `1`)
+   * featurettype.context.description
+   * featurettype.context.indexon
+   * egenskapstype.no
+   * lokasjonsegenskap.suppleringslengde (UPDATE_LENGTH)
+   * lokasjonsegenskap.ajourhold_i (UPDATE_I)
+   * lokasjonsegenskap.retning_relevant (DIR)
+   * lokasjonsegenskap.flyttbar (transferable_between_levels)
+   * lokasjonsegenskap.høyde (HEIGHT_LEVEL) / .høyde_relevant (heightlevel)
+* Egenskaper som har endret navn:
+   * ajourhold_splitt -> vegnettsajourhold_splitt
+   * dekningsgrad -> overlappsautomatikk
+   * overlapp -> overlapp_ok
+   * sektype2_Ok -> konnekteringslenke_ok
+
+### Sprint 10 
+* Gir ut Turnextent
+* Segmentering påbegynt
+* /vegobjekter/#?id=x,y,z
 
 ### Sprint 9. 4. september
 * Lokasjons- og assosiasjonsegenskapene for et vegobjekt blir gitt ut som egenskaper i tillegg til den forenklede representasjonen vi allerede har.
@@ -98,120 +171,47 @@ Navn i apiet:
 * isdirectionsensitive - ajourhold_snu
 * isextentsensitive - lengdeavhengig_verdi
 
-### Sprint 10 
-* Gir ut Turnextent
-* Segmentering påbegynt
-* /vegobjekter/#?id=x,y,z
+### Sprint 8. 14. august
+* Støtte spørring med polygon
+* /vegobjekter/{id} oppe med reelle data. Kontraktsområde har ikke historikk. Søkeparametre for vegsystemreferanse og avanserte spørringer virker ikke.
+* Begrepsendring for vegnettet. Referanselenk -> Lenkesekvens, Dellenke -> Lenke
+* I datakatalogen har vegobjekttypenes kategorier fått informasjon om primærkategori.
+* Lenker har fått `måledato`, `målemetode`, `typeVeg` og `detaljnivå`
+* Egenskaper som ligger inni geometrien blir eksponert.
 
-### Sprint 11
-* /vegobjekter/#?id=x,y,z og /vegnett/...?id=x,y,z er endret til `?ider=x,y,z`
-* Gir endelig ut struktur, liste, liste med struktur, assosiasjon og liste med assosiasjoner.
-* Takler `/` i navn for kontraktsområde og riksvegrute. 
-* egenskapen `styringsparametere` er fjernet fra vegobjekttyper og dems egenskaper. Mange av feltene under vegobjekttypens styringsparametre kommer fra dets lokasjonsegenskap. Alle verdiene vil bli listet ut der de kommer fra.
-* Datakatalogverdier som ikke gis ut fordi de skal ut av datakatalogen eller alle instanser mangler verdi:
-   * vegobjekttype.,tillattverdi.illustrationid
-   * featuretype.filterOn
-   * featuretype.coverage (alle instanser har verdi `1`)
-   * featurettype.context.description
-   * featurettype.context.indexon
-   * egenskapstype.no
-   * lokasjonsegenskap.suppleringslengde (UPDATE_LENGTH)
-   * lokasjonsegenskap.ajourhold_i (UPDATE_I)
-   * lokasjonsegenskap.retning_relevant (DIR)
-   * lokasjonsegenskap.flyttbar (transferable_between_levels)
-   * lokasjonsegenskap.høyde (HEIGHT_LEVEL) / .høyde_relevant (heightlevel)
-* Egenskaper som har endret navn:
-   * ajourhold_splitt -> vegnettsajourhold_splitt
-   * dekningsgrad -> overlappsautomatikk
-   * overlapp -> overlapp_ok
-   * sektype2_Ok -> konnekteringslenke_ok
+### Sprint 7. 26. juni
+* Vegnettsgeometri og egengeomtri normaliseres til `LINESTRING`(Gis ut som `MULTILINESTRING` siden typen i NVDB er dette)
+* Forbedringer av spørreparametre for noder
+* Gi ut definisjonen av objekters geometriattributt i datakatalog. : vegobjekttype.stedfesting er lagt til denne gir informasjon om stedfestingen for vegobjekttypen. Dette feltet kan være et listeattributt som inneholder selve stedfestingsattributtet.
+* `attributtype.liste` - felt er fjernet. `attributetype.type` er lagt til. Denne vil inneholde beskrive hvilken type attributtypen er, eks `Liste`.
+* `Datatype` Liste, id 38 er lagt til for Listeattributter.
+* vegobjekttype.relasjonstyper er endret slik at det vil komme et liste-nivå dersom den aktuelle assosiasjonen er en liste.
 
-### Sprint 11
-* Segmentering av vegnett og vegobjekter
+### Sprint 6. 5. juni
+* Definisjon av liste- og strukturattributter i datakatalog.
 
-### Sprint 12
-* Segmentering av vegnett og vegobjekter
-* Antallet desimaler i koordinater er begrenset til åtte.
+### Sprint 5. 15. mai
+* Innslag i `tillatte_verdier` har fått feltet `navn` endret til `verdi` Dersom det er et tall-enum er dette ikke lengre en streng.
+* For et attributt på en vegobjekttype i datakatalogen manglet kortnavn og attributtypekategori. Dette er lagt til.
+* Alle attributtyper listes ut på `/vegobjekttyper/attributtypekategorier`
+* Geometriattributtyper manglet dimensjon. Dette er lagt til.
+* Dersom et objekt er slettet fra NVDB gir apiet status 410 i stedet for 404.
 
-### Sprint 14
-* Gir ut segmentert vegnett
-* Gir ut segmenter og vegsystemreferanser for vegobjekter
-* Vegkart-versjon som bruker Les V3
+### Sprint 4. 24. april
+* Indeksering og eksponering av objektert binær-egenskaper
+* Eksponering av NVDB transaksjonslogg
+* Indekserer lenker der alle lenker har sluttdato
 
-#### Responsendringer
-* [Veglenkesekvenser](https://github.com/nvdb-vegdata/nvdb-api-client/commit/8a2909537090c42caabf4d74336cce7de957af20) 
-* [Segmentert vegnett](https://github.com/nvdb-vegdata/nvdb-api-client/commit/286ca561abb46f33d20218e17f4d0d96e9032e8c)
-* [Vegobjekter](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c51c9a2d054b13b13c36fa955e6f8af63f27cef5)
+### Sprint 3. 3. april
+* Parametre for filtrering av usegmenter vegnett
+* Innføre segmentert vegnett (likt det i V2)
 
-For oversikt over mulige verdier for feltene i responsen se [API-dokumentasjonen](https://nvdbapilesv3.docs.apiary.io)
+### Sprint 2. 6. mars
+* Indeksering og endepunkt for usegmentert vegnett
 
-### Sprint 15
-* Endepunktet `/posisjon` virker med vegsystemreferanse.
-* Filtrering på vegsystemreferanse implementert.
-* Vegkart: Klikk i kart viser vegsystemreferanse i punkt.
-* Vegkart: Vegsystemreferanse vises i treffliste. 
-
-#### Responsendringer
-* [Veglenkesekvenser](https://github.com/nvdb-vegdata/nvdb-api-client/commit/0835b98deac4bdc39c16fc0e57ba8130f4c3525e#diff-6f9ed187bf7b5d1c57ca059ef52bc580) 
-* [Segmentert vegnett](https://github.com/nvdb-vegdata/nvdb-api-client/compare/25a40c9d461df1cb4be3bcee1603915865a08c1f...bc4cedfbf160fd01054963a317bef630eb023e28#diff-aa744b112391254b8ac2f40dab92f673)
-* [Vegobjekter](https://github.com/nvdb-vegdata/nvdb-api-client/compare/5d0d1612909b18fd933f8739eaaf3adb933a2d8d...6bf51df#diff-b5f334c16ceccbb3987030524a0e828c)
-* [Statistikk](https://github.com/nvdb-vegdata/nvdb-api-client/compare/5d0d1612909b18fd933f8739eaaf3adb933a2d8d...6bf51df#diff-0532efd44a5bb56170adcd5e71e91b59) (`strekningslengde` er endret til `lengde`)
-
-### Sprint 16 
-* Filtering av vegobjekter med vegsystemreferanse
-* Segmenter inkluderer kontraktsområde og riksvegrute
-* Meterverdier for objekters vegsystemreferanse var ikke tilpasset objektets stedfesting
-* Maks sidestørrelse ved paginering er økt til 50 000
-
-#### Responsendringer
-* [feltoversikt](https://github.com/nvdb-vegdata/nvdb-api-client/pull/39/commits/88c7ff0c267834a4b5254fb90e1cab80d1981b06#diff-6f9ed187bf7b5d1c57ca059ef52bc580)
-* [kontraktsområder og riksvegruter](https://github.com/nvdb-vegdata/nvdb-api-client/pull/40/commits/9b360b427edef8f219608f2f987eb48ab0ed6c78#diff-b0d53d0a9e6e6803388e704a4fb2ced9)
-* [typeVeg_sosi for segmenter](https://github.com/nvdb-vegdata/nvdb-api-client/commit/dd8574c9aa300bedb75a6190c16cdf70faf691aa)
-
-### Sprint 17
-* Funksjonalitet for autentisering og eksponering av sensitive vegobjekttyper og egenskaper
-* Filtrere usegmentert vegnett basert på vegreferanse
-* srid=32633 erstattet med 6173
-
-#### Responsendringer
-* [vegobjekttype.sensitiv](https://github.com/nvdb-vegdata/nvdb-api-client/commit/23cbd8b41db66486fafa7d227e262d2c2e6476fa#diff-27353fb10dea09a01ca0fd1f557abb65)
-
-### Sprint 18
-* Autentisering for tilgang til sensitive datatyper og egenskaper. (https://apilesv3.utv.atlas.vegvesen.no, kun personlige brukere)
-* Vegkart støtter å filtrere på vegsystemreferanse
-
-### Sprint 18.1
-* Felt på vegobjekttype for å vise at det skal kun eksistere én versjon av et vegobjekt.
-
-#### Responsendringer
-* [vegobjekttype.en_versjon](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c4f3db325e96fca97c6d0653c0bb4ae811c1364f#diff-27353fb10dea09a01ca0fd1f557abb65)
-
-### Sprint 19
-* /omrader/regioner, /omrader/vegavdelinger er fjernet
-* Fylker og kommuner hentes fra objekttype 945 og 946
-* ?segmentering=true med områdefilter virker igjen.
-* /veg virker igjen
-
-### Sprint 20
-* Avansert spørring virker igjen
-
-### Sprint 21
-* `/status` gir ut informasjon om hva NVDBIND gjør.
-* Retning på stedfestingen av `Strekning`, `Kryssystem` og `Sideanlegg` gis ut i segmentert vegnett.
-* `/vegobjekter/X`, `/vegobjekter/X/statistikk`, og `/vegnett/veglenkesekvenser/segmentert` støtter parametret `?tidspunkt`. Dette filtrer ut de vegobjektene/vegnettsegmentene som var åpne på det gitte tidspunkt. Dersom segmentering er aktivert for vegobjekter vil vegobjektenes geometri- og `lokasjons`-egenskap ha innhold basert på de segmentene for objektet som var aktiv på dette tidspunktet.
-* Det er mulig å hente ut vegobjekter som er oppdatert etter et gitt tidspunkt med `/vegobjekter/X?endret_etter={ISO-tidspunkt}`. Som i V2 er denne litt sensitiv, så det er ikke nødvendigvis synlig forskjell på et objekt selv om det dukker opp med denne filtreringen.
-* `/vegobjekter/X`, `/vegobjekter/X/statistikk`, og `/vegnett/veglenkesekvenser/segmentert` har fått flere muligheter for å filtrere på egenskaper fra vegsystemreferansen. Se `arm`, `veglenketype`, `adskiltelop`, `typeveg`, `detaljniva`, `kryssystem`, `sideanlegg`, `trafikantgruppe` i [dokumentasjonen](https://nvdbapilesv3.docs.apiary.io/#reference/0/vegobjekter-av-type/list-vegobjekter)
-
-#### Responsendringer
-* [kvalitet.synlighet endret til synbarhet](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-b0c26f22455c2a62f30cb6a568c7f955L15)
-* [stedfesting.feltoversikt endret til kjørefelt](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-b5f334c16ceccbb3987030524a0e828cL50)
-* [veglenkesekvens.måleMetode,måleDato endret til målemetode,måledato]()
-* Porttilkobling på veglenkesekvens/node: [portid endret til portnummer](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L13), [netelementid endret til nodeid om port peker på node](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L14), [netelementid endret til veglenkesekvensid om port peker på node](https://github.com/nvdb-vegdata/nvdb-api-client/commit/051b9892b84525016afa0e6c26c7ed6fbf186920#diff-b0c26f22455c2a62f30cb6a568c7f955R22) [netelementtype og netelementtype_tekst fjernet](https://github.com/nvdb-vegdata/nvdb-api-client/commit/c2ca89ed3d4e1bdce5a67af3101c1d265b05b672#diff-6f9ed187bf7b5d1c57ca059ef52bc580L15)
-
-### Sprint 22
-* `transaksjon.tidspunkt` hadde format `yyyy-MM-dd HH:mm:ss` - dette er endret til ISO-8601.
-* `metadata.sidestørrelse` er lagt til i responsen for å signalisere faktisk sidestørrelse ved paginering.
-
+### Sprint 1. 13. februar
+* Dokumentasjon og spesifisering av endepunkter og responser
+* Endepunker med blanding av reelle og dummy-data.
 ## Grov forventet fremdrift
 
 ### Fremtid
