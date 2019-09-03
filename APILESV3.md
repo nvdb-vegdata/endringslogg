@@ -1,7 +1,13 @@
 # NVDB API LES V3 - Endringslogg og implementasjonsplan
 Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av V3.
 
-# Fullførte sprinter
+# Fullførte versjoner
+
+### 2019.11.0
+* Response fra `/veg` har riktig kommune (var alltid 0)
+* Stedfesting for `Svingerestriksjon` er komplett representert
+* [Responsrevisjon 1](https://api.vegdata.no/v3/responsrevisjoner.html)
+* Første versjon av [referanseklient i java](https://github.com/nvdb-vegdata/nvdb-api-client/tree/V3) releaset. 
 
 ### Sprint 22
 * `transaksjon.tidspunkt` hadde format `yyyy-MM-dd HH:mm:ss` - dette er endret til ISO-8601.
