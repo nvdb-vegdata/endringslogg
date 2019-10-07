@@ -1,9 +1,24 @@
 # Datafangst - Endringslogg
 ## Leveranser 2019
 
+## Oktober
+
+### Datafangst 2019-6.1.0
+* Endringslogg (denne siden) tilgjengelig som lenke fra Datafangst
+* Endret e-postadresse for kontakt
+* Fikse feil i kart ved visning av sverm (multipoint)
+* Fikse feil som gjør at kontrakts-ID og brukernavn noen ganger blir feil i applikasjonslogg
+
+## September
+
+### Datafangst 2019-5.6.1
+* Rettet feil hvor endring i sideposisjon eller felt ikke kunne lagres alene.
+* Rettet feil hvor man ikke kunne kopiere geometrier til enkelte vegobjekttyper.
+* Datafangst logger metrikker som gjør arbeidet med feilretting og prioritering av saker enklere.
+
 ## August
 
-### DataFangst 2019-5.5.0
+### Datafangst 2019-5.5.0
 *	Ny implementasjn av kontraklisten. Aktiveres fra /admin, eller via https://datafangst.kantega.no/#!/contract2
 *	Eksternt API forteller hvilken featureCollection som benyttes (bug via SINUS)
 *	Klipping av vegobjekter støtter multiline-objekter
