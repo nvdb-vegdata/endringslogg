@@ -3,6 +3,15 @@
 
 ## Oktober
 
+### Datafangst 2019-6.3.4
+* Feil hvor vegobjekter lagt inn fra eksterne programmer (f.eks. Sinus) ble
+  slettet sammen med SOSI-importerte vegobjekter er rettet.
+* En avrunding i stedfesting gav feil på grunn av lenkeposisjon over 1,0.
+  Dette er rettet.
+* Rettet en mengde mindre feil i stedfesting, spesielt i sammenheng med
+  konnekteringslenker.
+* Loggen viser nå objekttype på slettede objekter.
+
 ### Datafangst 2019-6.1.0
 * Endringslogg (denne siden) tilgjengelig som lenke fra Datafangst
 * Endret e-postadresse for kontakt
