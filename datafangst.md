@@ -3,6 +3,15 @@
 
 ## Oktober
 
+### Datafangst 2019-6.3.4
+* Eksterne programmer (f.eks. Sinus) får ikke lenger legge til vegobjekter til
+  SOSI-importer. Dette førte tidligere til at objekter fra eksterne programmer
+  ble slettet sammen med SOSI-filer.
+* "Ukjent feil ved stedfesting" på grunn av lenkeposisjon over 1,0 er rettet.
+* Rettet en mengde mindre feil i stedfesting, spesielt i sammenheng med
+  konnekteringslenker.
+* Loggen viser nå objekttype på slettede objekter.
+
 ### Datafangst 2019-6.1.0
 * Endringslogg (denne siden) tilgjengelig som lenke fra Datafangst
 * Endret e-postadresse for kontakt
