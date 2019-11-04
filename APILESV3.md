@@ -1,7 +1,29 @@
 # NVDB API LES V3 - Endringslogg og implementasjonsplan
 Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av V3.
 
+Oversikt over hvilken installasjon som er installert i hvilket miljø:
+* UTV - https://apilesv3.utv.atlas.vegvesen.no/status/versjoner
+* STM - https://apilesv3-stm.utv.atlas.vegvesen.no/status/versjoner
+* ATM - https://apilesv3.test.atlas.vegvesen.no/status/versjoner
+* PROD - https://apilesv3.atlas.vegvesen.no/status/versjoner
+
 # Fullførte versjoner
+### 2019.16.0 
+* /vegnett/elementer fjernet
+
+### 2019.15.0 (23.10.2019)
+* Ikke feil med HTTP 500 når det er feil i egenskapsfilter
+
+### 2019.14.0 (11.10.2019)
+* Meterverdier rundes av til tre desimaler. For geometri på UTM33-format er det også tre desimaler, WGS84-geometri rundes til åtte desimaler.
+
+### 2019.13.0 (08.10.2019)
+* Fikset duplikater ved paginering av transaksjoner
+
+### 2019.12.0 (16.09.2019)
+* Fikset at trafikantgruppe ble ignorert i vegsystemreferanse-filter
+* Antall 0 ved statistikkspørring med egenskap=area(x)
+* Primitivt endepunkt for finne rute mellom to veglenkesekvensposisjoner/koorinater 
 
 ### 2019.11.0 (3.9.2019)
 * Response fra `/veg` har riktig kommune (var alltid 0)
