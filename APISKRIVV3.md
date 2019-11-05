@@ -166,3 +166,13 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/veglenke.xsd
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/veglenkesekvens.xsd
 
+### API Skriv - Sprint A4
+* `GET /endringssett/{id}` og `GET /endringssett/{id}/status`:
+    * Elementet `<status>` har fått nye subelementer:
+        * `<fremdriftOppdatert>` angir tidspunkt når gjeldende fremdriftsverdi ble satt.
+        * `<blokkerendeLåser>` angir null eller flere id'er til låser som blokkerer behandling av dette endringssettet. Angis kun når fremdrift=VENTER_PÅ_LÅS. Hver lås angis med subelement `<låsId>`.
+        * `<ressurser>` angir en eller flere lenker til relevante ressurser, f.eks. oppdrag. Hver ressurs angis med subelement `<ressurs>`.
+                
+#### Oppdaterte XML-skjemaer
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+
