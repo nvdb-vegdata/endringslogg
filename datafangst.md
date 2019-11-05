@@ -1,6 +1,16 @@
 # Datafangst - Endringslogg
 ## Leveranser 2019
 
+## November
+
+### Datafangst 2019-6.4.7
+* Det er ikke lengre nødvendig å stedfeste vegobjekter før de kan sammenkobles. Dette medfører også at automatisk sammenkobling virker uten at det er stedfestet først.
+* Automatisk sammenkobling med mor i NVDB skal nå virke bedre.
+* Kontraktslista har fått en visuell overhaling.
+* Funksjon for å automatisk fjerne for tette punkter er forbedret.
+* Det er rettet flere feil med data som ikke laster på nettleseren Edge.
+* Det er gjort tekniske endringer som gjør at Datafangst startet litt raskere.
+
 ## Oktober
 
 ### Datafangst 2019-6.3.4
