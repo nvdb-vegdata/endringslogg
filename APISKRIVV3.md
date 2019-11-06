@@ -166,12 +166,45 @@ Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av 
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/veglenke.xsd
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/veglenkesekvens.xsd
 
+### API Skriv - Sprint A2
+* Mulighet til å bestille automatisk håndtering av overlappede vegobjekter:
+    * `GET|POST /endringssett/{id}`:
+        * For `<vegobjekt>` under `<registrer>`, `<oppdater>`, `<delvisOppdater>`, `<korriger>` og `<delvisKorriger>` *kan* det angis et nytt subelement `<validering>`.
+          Under dette elementet *kan* man angi `<overlappsautomatikk>JA</overlappsautomatikk>` dersom man ønsker at eventuelle overlappede vegobjekter skal få sin stedfesting trimmet automatisk,
+          i stedet for å trigge avvisning pga. ulovlig overlapp. Om elementet ikke oppgis antas verdien `NEI`.
+* Lenker til relevante ressurser for oppdrag og transaksjoner:
+    * `GET /oppdrag`:
+        * Nytt subelement `<ressurser>` under `<oppdrag>` angir en eller flere lenker til relevante ressurser for oppdraget. Hver ressurs angis med subelement `<ressurs>`.
+    * `GET /transaksjon`:
+        * Nytt subelement `<ressurser>` under `<transaksjon>` og under `<transaksjon>/<objekttype>` angir en eller flere lenker til relevante ressurser for oppdraget. Hver ressurs angis med subelement `<ressurs>`.
+                  
+#### Oppdaterte XML-skjemaer
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/oppdrag/oppdrag.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/transaksjon/transaksjon.xsd
+
+### API Skriv - Sprint A3
+* Versjonskontroll av korrigeringer:
+    * `GET|POST /endringssett/{id}`:
+        * For `<vegobjekt>/<validering>` under `<korriger>` og `<delvisKorriger>` (samt `<oppdater>`, `<delvisOppdater>` dersom overskriv="JA") *MÅ* det angis et nytt subelement `<lestFraNvdb>`.
+          Her må det angis tidspunkt for innlesing av vegobjektet fra NVDB. Tidspunktet må være "NVDB-tid" som kan hentes fra https://<host>/nvdb/api/v3/status.
+* Mulighet til å bestille automatisk reduksjon av punkttetthet i kurve- og polygongeometri:
+    * `GET|POST /endringssett/{id}`:
+        * For `<vegobjekt>/<validering>` under `<registrer>`, `<oppdater>`, `<delvisOppdater>`, `<korriger>` og `<delvisKorriger>` *kan* det angis et nytt subelement `<reduserPunkttetthet>`.
+          Ved å sette verdien til `JA`, vil nabopunkter i kurve- og polygongeometrier som er tettere enn minsteverdi angitt i Kontrollpanelet bli fjernet, i stedet for å trigge avvisning pga. for tette punkter.
+          Om elementet ikke oppgis antas verdien `NEI`.
+                       
+#### Oppdaterte XML-skjemaer
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
+
 ### API Skriv - Sprint A4
-* `GET /endringssett/{id}` og `GET /endringssett/{id}/status`:
-    * Elementet `<status>` har fått nye subelementer:
-        * `<fremdriftOppdatert>` angir tidspunkt når gjeldende fremdriftsverdi ble satt.
-        * `<blokkerendeLåser>` angir null eller flere id'er til låser som blokkerer behandling av dette endringssettet. Angis kun når fremdrift=VENTER_PÅ_LÅS. Hver lås angis med subelement `<låsId>`.
-        * `<ressurser>` angir en eller flere lenker til relevante ressurser, f.eks. oppdrag. Hver ressurs angis med subelement `<ressurs>`.
+* Flere opplysninger i elementet `<status>` for endringssett:
+    * `GET /endringssett/{id}` og `GET /endringssett/{id}/status`:
+        * Nytt subelement `<fremdriftOppdatert>` angir tidspunkt når gjeldende verdi for `<fremdrift>` ble satt.
+        * Nytt subelement `<blokkerendeLåser>` angir null eller flere id'er til låser som blokkerer behandling av dette endringssettet. Angis kun når fremdrift=VENTER_PÅ_LÅS. Hver lås angis med subelement `<låsId>`.
+        * Nytt subelement `<ressurser>` angir en eller flere lenker til relevante ressurser, f.eks. oppdrag. Hver ressurs angis med subelement `<ressurs>`.
                 
 #### Oppdaterte XML-skjemaer
 * https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
