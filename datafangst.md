@@ -4,8 +4,8 @@
 ## November
 
 ### Datafangst 2019-6.4.10
-* Forbedret dialog for å fjerne vegobjekter fra kontrakten
-* Byggeleder er nå søkbar i ny kontraktsliste
+* Forbedret dialog for å fjerne vegobjekter fra kontrakten.
+* Byggeleder er nå søkbar i ny kontraktsliste.
 
 ### Datafangst 2019-6.4.8
 * Det er ikke lengre nødvendig å stedfeste vegobjekter før de kan sammenkobles. Dette medfører også at automatisk sammenkobling virker uten at det er stedfestet først.
@@ -27,10 +27,10 @@
 * Loggen viser nå objekttype på slettede objekter.
 
 ### Datafangst 2019-6.1.0
-* Endringslogg (denne siden) tilgjengelig som lenke fra Datafangst
-* Endret e-postadresse for kontakt
-* Fikse feil i kart ved visning av sverm (multipoint)
-* Fikse feil som gjør at kontrakts-ID og brukernavn noen ganger blir feil i applikasjonslogg
+* Endringslogg (denne siden) tilgjengelig som lenke fra Datafangst.
+* Endret e-postadresse for kontakt.
+* Fikse feil i kart ved visning av sverm (multipoint).
+* Fikse feil som gjør at kontrakts-ID og brukernavn noen ganger blir feil i applikasjonslogg.
 
 ## September
 
