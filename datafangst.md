@@ -3,6 +3,10 @@
 
 ## November
 
+### Datafangst 2019-6.4.10
+* Forbedret dialog for å fjerne vegobjekter fra kontrakten
+* Byggeleder er nå søkbar i ny kontraktsliste
+
 ### Datafangst 2019-6.4.8
 * Det er ikke lengre nødvendig å stedfeste vegobjekter før de kan sammenkobles. Dette medfører også at automatisk sammenkobling virker uten at det er stedfestet først.
 * Automatisk sammenkobling med mor i NVDB skal nå virke bedre.
