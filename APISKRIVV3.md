@@ -5,6 +5,21 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
 
 ## Fullførte versjoner
 
+### 2019-11.0
+* Støtte for fysisk fjerning av vegobjekter og enkeltversjoner av vegobjekter i endringssett:
+    * `GET|POST /endringssett/{id}`:
+        * Nytt operasjonselement `<fjern>` under `<endringssett>`. Dette elementet forventer subelementer tilsvarende `<lukk>`, altså `<vegobjekter>` med én eller flere `<vegobjekt>` som subelementer. 
+          På elementet `<vegobjekt>` *må* attributtene `typeId` og `nvdbId` angis. På elementet *kan* også attributten `versjon` angis. Dersom denne utelates fjernes hele vegobjektet.
+          I elementet `<vegobjekt>` *må* subelementet `<kaskadefjerning>` angi hvorvidt fjerning også skal utføres på relevante datterobjektversjoner, tilsvarende `<kaskadelukking>` for `<lukk>`. Tillatte verdier er `JA` og `NEI`.
+          Dersom denne settes til `NEI` vil endringssettet avvises hvis vegobjektet som fjernes har sterkt koblede datterobjekter.
+    * Det er kun tillatt å fjerne versjoner "bakfra" i historikken til et vegobjekt. Fjerning av v2 fra et vegobjekt med tre versjoner, vil avvises.
+    * Det er tillatt å fjerne flere versjoner fra samme vegobjekt så lenge de utgjør et sammenhengende intervall. Fjerning av v1 og v3 fra et vegobjekt med tre versjoner avvises.
+    * Ved fjerning vil siste gjenværende (om noen) versjon av vegobjektet få sin sluttdato endret til sluttdatoen fra siste fjernede versjon.
+      Dersom siste gjenværende versjon får sin sluttdato endret via en korrigering i samme endringssett, vil denne påføres uavhengig av hvilken sluttdato siste fjernede versjon hadde.
+    
+#### Oppdaterte XML-skjemaer
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+
 ### 2019-10.0
 * Flere opplysninger i elementet `<status>` for endringssett:
     * `GET /endringssett/{id}` og `GET /endringssett/{id}/status`:
@@ -17,7 +32,7 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
           Bruk av denne verdien fører til at forhåndslåsen fjernes når (hvis) endringssettet når fremdriftsverdien med samme navn, altså når NVDB er oppdatert, men før NVDB API Les sin indeks er ajour.
                 
 #### Oppdaterte XML-skjemaer
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
 ### 2019-9.0
 * Mulighet til å bestille automatisk reduksjon av punkttetthet i kurve- og polygongeometri:
@@ -27,7 +42,7 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
           Om elementet ikke oppgis antas verdien `NEI`.
                        
 #### Oppdaterte XML-skjemaer
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
 ### 2019-7.0
 * Versjonskontroll av korrigeringer:
@@ -36,7 +51,7 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
           Her må det angis tidspunkt for innlesing av vegobjektet fra NVDB. Tidspunktet må være "NVDB-tid" som kan hentes fra https://\<host\>/nvdb/api/v3/status.
                        
 #### Oppdaterte XML-skjemaer
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
 ### 2019-6.0
 * Mulighet til å bestille automatisk håndtering av overlappede vegobjekter:
@@ -51,9 +66,9 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
         * Nytt subelement `<ressurser>` under `<transaksjon>` og under `<transaksjon>/<objekttype>` angir en eller flere lenker til relevante ressurser for oppdraget. Hver ressurs angis med subelement `<ressurs>`.
                   
 #### Oppdaterte XML-skjemaer
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/oppdrag/oppdrag.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/transaksjon/transaksjon.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/oppdrag/oppdrag.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/transaksjon/transaksjon.xsd
 
 ### Sprint 21
 * Hovedoperasjonen 'slett' (brukes bare av vegobjekter) har fått det litt mer presise navnet 'lukk':
@@ -74,10 +89,10 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
         * Subelementet `<portId>` under elementene `<feil>`, `<advarsel>` og `<notabene>` er omdøpt til `<portnummer>`.
         
 #### Oppdaterte XML-skjemaer
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/veglenke.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/veglenkesekvens.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/les/veglenke.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/les/veglenkesekvens.xsd
 
 ### Sprint 20
 * X-Client header kreves ved POST/PUT/PATCH/DELETE mot endepunktene: 
@@ -106,10 +121,10 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
         * URL endret til `/v1/transaksjon`
 
 #### Oppdaterte XML-skjemaer
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/veglenke.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/vegnettobjekttype.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/lås/lås-liste.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/regelsett/veglenke.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/regelsett/vegnettobjekttype.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/lås/lås-liste.xsd
 
 ### Sprint 18
 * Ingen kontraktsendringer
@@ -148,12 +163,12 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
     * Ordlyd på enkelte feilkoder (String) endret tilsvarende
             
 #### Oppdaterte XML-skjemaer
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/veglenke.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/veglenkesekvens.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/lås/lås.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v1/regelsett/veglenke.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/les/veglenke.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/les/veglenkesekvens.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/lås/lås.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/regelsett/veglenke.xsd
 
 ### Sprint 16
 * To nye endepunkter for å levere gjeldende versjon av valideringsregelsett
@@ -175,10 +190,10 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
     * Elementet `<resultat>/<vegobjekter>/<vegobjekt>` har fått en ny attributt `versjon`.
        
 #### Oppdaterte XML-skjemaer
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/lenke.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/les/node.xsd
-* https://nvdbw01.kantega.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/les/vegobjekt.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/les/lenke.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/les/node.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
 ### Sprint 14
 * `POST /lås` : Avvises med 422 og feilkode `FOR_MANGE_LENKESEKVENSER` dersom låsen inneholder mer enn 999 lenkesekvenser.
