@@ -3,6 +3,14 @@
 
 ## November
 
+### Datafangst 2019-7.1.0
+* Manuell stedfesting for punktobjekter er endret slik at disse kan stedfestes selv om avstand til valgt vei er stor.
+* Klipping av geometri i nye linjeobjekter i kontrakt er nå tilgjengelig for alle.
+* Fikset en feil som gjør at bruker blir kastet ut av kontrakt og havner tilbake på kontraktsliste.
+* Fikset feil i tilbakemelding ved arkivering av kontrakt.
+* Sperre for å endre attributter på vegobjekter som skal slettes.
+* Visning av eksisterende vegobjekter i kart oppdaterer seg når kartet flyttes.
+
 ### Datafangst 2019-6.4.10
 * Forbedret dialog for å fjerne vegobjekter fra kontrakten.
 * Byggeleder er nå søkbar i ny kontraktsliste.
