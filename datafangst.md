@@ -6,6 +6,7 @@
 ### Datafangst 2019-7.1.0
 * Manuell stedfesting for punktobjekter er endret slik at disse kan stedfestes selv om avstand til valgt vei er stor.
 * Klipping av geometri i nye linjeobjekter i kontrakt er nå tilgjengelig for alle.
+* Det er mulig å sette dato for endringssett som sendes inn til NVDB.
 * Fikset en feil som gjør at bruker blir kastet ut av kontrakt og havner tilbake på kontraktsliste.
 * Fikset feil i tilbakemelding ved arkivering av kontrakt.
 * Sperre for å endre attributter på vegobjekter som skal slettes.
