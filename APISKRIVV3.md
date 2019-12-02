@@ -5,6 +5,16 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
 
 ## Fullførte versjoner
 
+### 2019-12.0
+* Retning på detaljerte veglenker sin superstedfesting:
+    * `GET|POST /endringssett` : 
+        * Subelementet `<retning>` under elementet `<veglenkesekvens>/<veglenke>/<superstedfesting>` *må* angis. Lovlige verdier er `MED` og `MOT`. Verdien angir den detaljerte veglenken sin retning relativt til
+         hovedveglenkesekvensen den er stedfestet på.
+
+#### Oppdaterte XML-skjemaer
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/les/veglenke.xsd
+
 ### 2019-11.0
 * Støtte for fysisk fjerning av vegobjekter og enkeltversjoner av vegobjekter i endringssett:
     * `GET|POST /endringssett/{id}`:
