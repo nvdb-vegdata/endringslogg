@@ -1,6 +1,30 @@
 # Datafangst - Endringslogg
 ## Leveranser 2019
 
+## Desember
+
+### Datafangst 2019-8.0.2
+
+En stor endring i denne versjonen er at det nå er mulig å endre vegobjekter etter at de første gang er sendt inn til 
+NVDB, og siden sende inn endringer på nytt. Dette gjelder både egenskaper, stedfesting og sammenkobling. På fanen for
+innsending til NVDB vil det vises oppdatert status for innsending, så den har fått noen endringer. Ikonet for at 
+endringer er lagret i NVDB er litt endret for å harmonere bedre med ikonet for innsending. 
+
+Dette er en komplisert endring, så det er mulig at det vil dukke opp feil som vi ikke har funnet under testing.
+I så fall, gi oss beskjed på datafangst-support@vegvesen.no.
+
+Andre endringer i denne versjonen:
+* Internet Explorer tom. versjon 11 og enklete andre gamle nettlesere er sperret fra å logge inn i Datafangst
+* Viser sideposisjon i info for eksisterende NVDB-objekter
+* Viser enheter for attributter på vegobjektfanen
+* Fikset feil med at søk ikke vises når bruker kommer tilbake til kontraktslista
+* Fikset en visningsfeil for markører på stedfestingskart
+* Fikset kopiering av sideposisjon på vegobjektfanen
+* Fikset en feil med sortering på vegobjektfanen
+* Hindrer redigering av sideposisjon når objekt ikke er stedfestet
+* Beskrivende navn for vegobjekter er tilgjengelig på visningsmenyen på vegobjektfanen for enkelte vegobjekttyper
+
+
 ## November
 
 ### Datafangst 2019-7.1.0
