@@ -22,7 +22,7 @@ Andre endringer i denne versjonen:
 * Fikset kopiering av sideposisjon på vegobjektfanen
 * Fikset en feil med sortering på vegobjektfanen
 * Hindrer redigering av sideposisjon når objekt ikke er stedfestet
-* Beskrivende navn for vegobjekter er tilgjengelig på vegobjektfanen for enkelte vegobjekttyper
+* Beskrivende navn for vegobjekter er tilgjengelig på visningsmenyen på vegobjektfanen for enkelte vegobjekttyper
 
 
 ## November
