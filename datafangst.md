@@ -5,10 +5,10 @@
 
 ### Datafangst 2019-8.0.3
 
-* Retter en feil som gjør at man ikke kan ta en kontrakt ut av en
+* Rettet en feil som gjør at man ikke kan ta en kontrakt ut av en
   kontraktsgruppe. Denne feilen oppstår spesielt ved overflytting av kontrakter
   til nye kontraktsgrupper.
-* Retter en feil som gjør at man ikke kan kopiere tomme felter til valgte/alle
+* Rettet en feil som gjør at man ikke kan kopiere tomme felter til valgte/alle
   i datafanen.
 
 ### Datafangst 2019-8.0.2
