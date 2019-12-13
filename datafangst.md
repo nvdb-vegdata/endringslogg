@@ -3,6 +3,14 @@
 
 ## Desember
 
+### Datafangst 2019-8.0.3
+
+* Rettet en feil som gjør at man ikke kan ta en kontrakt ut av en
+  kontraktsgruppe. Denne feilen oppstår spesielt ved overflytting av kontrakter
+  til nye kontraktsgrupper.
+* Rettet en feil som gjør at man ikke kan kopiere tomme felter til valgte/alle
+  i datafanen.
+
 ### Datafangst 2019-8.0.2
 
 En stor endring i denne versjonen er at det nå er mulig å endre vegobjekter etter at de første gang er sendt inn til 
