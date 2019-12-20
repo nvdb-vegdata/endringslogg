@@ -9,7 +9,7 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 ### 2019.17.0 
-* Det gjøres ikke lengre snuing av segmenter der Strekning(916) er stedfestet mot lenkeretningen.
+* Det gjøres ikke lengre snuing av segmenter der Strekning(916) er stedfestet mot lenkeretningen. Se https://api.vegdata.no/v3/retning.html
 
 ### 2019.16.0 
 * /vegnett/elementer fjernet
