@@ -8,6 +8,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 * PROD - https://apilesv3.atlas.vegvesen.no/status/versjoner
 
 # Fullførte versjoner
+### 2019.18.0 
+* `X-Client`-`User-Agent`-kombinasjoner vi mener ikke er gode nok vil bli blokkert.
+
 ### 2019.17.0 
 * Det gjøres ikke lengre snuing av segmenter der Strekning(916) er stedfestet mot lenkeretningen. Se https://api.vegdata.no/v3/retning.html
 
