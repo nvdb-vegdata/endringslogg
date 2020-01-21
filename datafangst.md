@@ -1,4 +1,14 @@
 # Datafangst - Endringslogg
+
+## Leveranser 2020
+
+## Januar
+
+### Datafangst 2019-8.1.6
+* Det er nå mulig for administratorer å arkivere og de-arkivere andres kontrakter.
+* Datafangst bruker nå NVDB Skriv Endringssett API v3. For å passe med endringer i API
+  så brukes nå "lukk" på vegobjekter som skal avsluttes, i stedet for "slett".
+
 ## Leveranser 2019
 
 ## Desember
