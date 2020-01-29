@@ -4,6 +4,22 @@
 
 ## Januar
 
+### Datafangst 2020-1.0.3
+* Overlapp med eksisterende vegobjekter blir nå håndtert automatisk ved innsending til NVDB.
+* Administratorer kan nå endre ansvarlig bruker for en kontrakt.
+* Det er et nytt menyvalg på datafanen for å kopiere sideposisjon fra mor.
+* Ikon for endringslogg vil nå ha en markering når det er lagt ut en ny versjon.
+* Datafangst er oppdatert til å bruke versjon 3 av NVDB Les API.
+* Det er gjort en endring på hvordan Datafangst hånterer versjon av datakatalogen, sånn at det ikke lengre kommer advarsel om feil versjon selv om nyeste versjon brukes.
+* Kartet som vises for vegobjekttype på status-fanen er endret slik at knapp for eksisterende objekter ikke lenger er tilgjengelig.
+* Det er ikke lengre mulig å registrere ekstern bruker fra innloggingsside, nye eksterne brukere må inviteres inn på en kontrakt for å bruke Datafangst.
+* Det er rettet en feil med manuell stedfesting på lange vegsegmenter.
+* Det er rettet en feil som kunne gi systemfeil ved innsending når kobling til datter var fjernet i kontrakt.
+* Det er rettet en feil som gjorde at enkelte endringsett innsendt med Datafangst 2019-8.1.6. ikke ble markert som fullført.
+* Det er rettet en feil med at endringsett som ble opprettet med Datafangst 2019-8.0.3 og tidligere ikke ble satt som fullført på Datafangst 2019-8.1.6.
+* Lenke til Sintefs datakatalog skal nå virke.
+
+
 ### Datafangst 2019-8.1.6
 * Det er nå mulig for administratorer å arkivere og de-arkivere andres kontrakter.
 * Datafangst bruker nå NVDB Skriv Endringssett API v3. For å passe med endringer i API
