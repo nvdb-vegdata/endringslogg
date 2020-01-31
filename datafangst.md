@@ -5,6 +5,9 @@
 ## Januar
 
 ### Datafangst 2020-1.0.3
+* Det er rettet en feil fra 2020-1.0.3 som gjorde at det ikke var mulig å sende inn endringsett med operasjon "korriger".
+
+### Datafangst 2020-1.0.3
 * Overlapp med eksisterende vegobjekter blir nå håndtert automatisk ved innsending til NVDB.
 * Administratorer kan nå endre ansvarlig bruker for en kontrakt.
 * Det er et nytt menyvalg på datafanen for å kopiere sideposisjon fra mor.
