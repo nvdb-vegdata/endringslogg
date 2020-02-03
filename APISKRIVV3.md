@@ -5,6 +5,31 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
 
 ## Fullførte versjoner
 
+### 2020-2.0
+
+* Støtte for delvis oppdatering av multistedfesting:
+    * `GET|POST /endringssett/{id}`:
+        * Ny attributt `operasjon` *kan* angis på `<stedfesting>` sine subelementer `<punkt>` og `<linje>` når disse opptrer under `<delvisOppdater>` eller `<delvisKorriger>`. Attributten kan gis verdien `ny` dersom et nytt punkt eller linje skal legges til eksisterende verdier,
+          eller `slett` dersom den angitte punktet eller linjen skal fjernes fra stedfestingsegenskapen i NVDB. Attributten må angis på *alle* eller *ingen* verdier. Dersom attributten ikke er angitt på noen verdier, erstattes alle gjeldende verdier i NVDB med
+          de angitte verdiene (slik det har vært fram til nå).  
+    * Det er ikke tillatt å fjerne alle gjeldende verdier fra stedfestingen (uten å legge til minst én ny).
+    * Det er ikke tillatt å legge til en verdi som er identisk med eller overlapper en gjeldende verdi.
+
+* Støtte for delvis oppdatering av datterobjektreferanser i assosiasjoner:
+    * `GET|POST /endringssett/{id}`:
+        * Ny attributt `operasjon` *kan* angis på `<assosiasjon>` sine subelementer `<nvdbId>` og `<tempId>` når disse opptrer under `<delvisOppdater>` eller `<delvisKorriger>`. Attributten kan gis verdien `ny` dersom en ny datterobjektreferanse skal legges til eksisterende verdier,
+          eller `slett` dersom den angitte datterobjektreferansen skal fjernes fra assosiasjonen i NVDB. Attributten må angis på *alle* eller *ingen* verdier. Dersom attributten ikke er angitt på noen verdier, erstattes alle gjeldende verdier i NVDB med
+          de angitte verdiene (slik det har vært fram til nå).  
+    * Dersom alle gjeldende verdier fjernes fra assosiasjonen, fjernes assosiasjonsegenskapen i sin helhet fra NVDB.
+    * Det er ikke tillatt å legge til en verdi som er identisk med en gjeldende verdi.
+
+#### Oppdaterte XML-skjemaer
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+
+### 2020-1.0
+
+API Skriv krever ikke lengre at minst én veglenke er oppgitt ved delvis oppdatering av veglenkesekvenser. Det er dermed mulig å angi delvis oppdatering der kun porter endres.
+
 ### 2019-12.0
 * Retning på detaljerte veglenker sin superstedfesting:
     * `GET|POST /endringssett` : 
@@ -22,7 +47,7 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
           På elementet `<vegobjekt>` *må* attributtene `typeId` og `nvdbId` angis. På elementet *kan* også attributten `versjon` angis. Dersom denne utelates fjernes hele vegobjektet.
           I elementet `<vegobjekt>` *må* subelementet `<kaskadefjerning>` angi hvorvidt fjerning også skal utføres på relevante datterobjektversjoner, tilsvarende `<kaskadelukking>` for `<lukk>`. Tillatte verdier er `JA` og `NEI`.
           Dersom denne settes til `NEI` vil endringssettet avvises hvis vegobjektet som fjernes har sterkt koblede datterobjekter.
-    * Det er kun tillatt å fjerne versjoner "bakfra" i historikken til et vegobjekt. Fjerning av v2 fra et vegobjekt med tre versjoner, vil avvises.
+    * Det er kun tillatt å fjerne versjoner "bakfra" i historikken til et vegobjekt. Fjerning av v2 fra et vegobjekt med tre versjoner, vil avvises med mindre v3 også fjernes.
     * Det er tillatt å fjerne flere versjoner fra samme vegobjekt så lenge de utgjør et sammenhengende intervall. Fjerning av v1 og v3 fra et vegobjekt med tre versjoner avvises.
     * Ved fjerning vil siste gjenværende (om noen) versjon av vegobjektet få sin sluttdato endret til sluttdatoen fra siste fjernede versjon.
       Dersom siste gjenværende versjon får sin sluttdato endret via en korrigering i samme endringssett, vil denne påføres uavhengig av hvilken sluttdato siste fjernede versjon hadde.
