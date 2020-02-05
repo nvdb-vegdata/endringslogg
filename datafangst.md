@@ -2,6 +2,20 @@
 
 ## Leveranser 2020
 
+## Februar
+
+### Datafangst 2020-1.1.0
+* Vi har gjeninnført støtten for å hente data fra Les API v2
+* Import av objektliste fra Excel-fil skal nå fungere for alle nye
+  listeversjoner (v4.1 - v4.8) og gamle versjoner ( fra v3.1 - v4.0).
+* Vegobjekter har fått beskrivende navn på sammenkoblings- og
+  stedfestingsfanen
+* To nye objekttyper har fått beskrivende navn (Rørledning og Kum)
+* Ved sammenkobling med mor i NVDB, vil mor nå lagres som OPPDATER og ikke som
+  KORRIGER, og dermed bl.a. få nytt versjonsnummer.
+* Den gamle kontraktslisten er nå helt borte fra Datafangst, og kan ikke
+  lenger sjaltes inn.
+
 ## Januar
 
 ### Datafangst 2020-1.0.3
