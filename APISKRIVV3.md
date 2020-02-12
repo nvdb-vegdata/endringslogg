@@ -23,6 +23,9 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
     * Dersom alle gjeldende verdier fjernes fra assosiasjonen, fjernes assosiasjonsegenskapen i sin helhet fra NVDB.
     * Det er ikke tillatt å legge til en verdi som er identisk med en gjeldende verdi.
 
+* Det er innført tilgangsbegrensning på vegobjektegenskaper som har sensitivitetskoder i Datakatalogen. For å kunne registrere og oppdatere slike egenskaper
+må brukeren nå ha spesifikke roller i LDAP.
+
 #### Oppdaterte XML-skjemaer
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
