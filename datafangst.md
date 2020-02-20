@@ -4,6 +4,14 @@
 
 ## Februar
 
+### Datafangst 2020-1.2.0
+* Vi har fikset en feil som gjorde at kartet viser feil ved oppstart.
+  Kartet hadde en tendens til å vise tilsynelatende tilfeldige kartfliser
+  fra Azerbaijan/Georgia.
+* Rettighetssystemet hadde en feil som gjorde at brukere med tilgang gjennom
+  kontraktsgrupper ikke kunne bruke funksjonen "Kopier sideposisjon fra mor".
+  Dette er nå fikset.
+
 ### Datafangst 2020-1.1.0
 * Import av objektliste fra Excel-fil skal nå fungere for alle nye
   listeversjoner (v4.1-v4.8) og gamle versjoner ( fra v3.1-v4.0).
