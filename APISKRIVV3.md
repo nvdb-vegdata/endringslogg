@@ -5,6 +5,12 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
 
 ## Fullførte versjoner
 
+### 2020-3.0
+
+* Nytt endepunkt for å hente autorisasjoner (datarettigheter) for en bruker: /rest/v1/autorisasjon/{brukernavn}
+    * En fagdatabruker kan bare hente sin egen autorisasjon.
+    * Tjenestebrukere og systemadminbrukere kan hente alle autorisasjoner
+    
 ### 2020-2.0
 
 * Støtte for delvis oppdatering av multistedfesting:
