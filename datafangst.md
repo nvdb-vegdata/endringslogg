@@ -2,6 +2,16 @@
 
 ## Leveranser 2020
 
+## Mars
+
+### Datafangst 2020-1.3.0
+* Datafangst støtter både NN54 og NN2000 som høydesystem inn til NVDB, og er klar for NVDBs overgang til NN2000.
+* Stedfesting bruker nå maks 8 desimaler på posisjon, slik at det blir mindre konflikt med stedfesting som allerede er i NVDB.
+* Automatisk fjerning av for tette punkter er skrudd på for innsending til NVDB, også for gamle data som ikke fikk dette gjort ved første import til Datafangst."
+* Det er rettet en feil med innsending til NVDB når lukkede vegobjekter for en vegobjekttype allerede var sendt inn.
+* Egenskaper som sendes inn via Datafangs API med tom verdi blir nå ikke registrert som egenskaper, dette gjør at det blir færre valideringsfeil når vegobjektere skal redigeres.
+* Det er rettet en feil som gjorde at markering av endring på kontrakt ikke ble borte etter visning av kontrakt.
+
 ## Februar
 
 ### Datafangst 2020-1.2.0
