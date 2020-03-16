@@ -4,6 +4,17 @@
 
 ## Mars
 
+### Datafangst 2020-1.4.0
+* En feil gjorde at man ikke fikk sendt inn lukkinger på en objekttype mer enn
+  én gang. Denne er rettet.
+* En feil gjorde at man ikke fikk sendt inn noen geometrier over APIet.
+* Kartet hadde en feilvisning av objekter langt øst. (spesielt i Finnmark) Dette
+  er rettet.
+* Nå skal tilbakestilte sammenkoblinger vises som "ikke endret", og ikke bli
+  kandidat for lagring.
+* Fikset en feil som gjorde at kartet lastet på nytt når "importer fra NVDB"-
+  boksen dukket opp.
+
 ### Datafangst 2020-1.3.0
 * Datafangst støtter både NN54 og NN2000 som høydesystem inn til NVDB, og er klar for NVDBs overgang til NN2000.
 * Stedfesting bruker nå maks 8 desimaler på posisjon, slik at det blir mindre konflikt med stedfesting som allerede er i NVDB.
