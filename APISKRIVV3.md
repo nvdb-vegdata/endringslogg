@@ -5,11 +5,20 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
 
 ## Fullførte versjoner
 
+### 2020-4.0
+
+* Nytt høydekoordinatsystem i NVDB: NN2000. SRID 6173 (EUREF89 UTM33 NN54) er ikke lenger tillatt og avvises nå med valideringsfeil.
+  Eneste tillatte 3D koordinatsystem er SRID 5793 (EUREF89 UTM33 NN2000). Ved bruk av 2D koordinatsystem, forventes av høydekoordinater
+  er angitt i tråd med NN2000.  
+
 ### 2020-3.0
 
 * Nytt endepunkt for å hente autorisasjoner (datarettigheter) for en bruker: /rest/v1/autorisasjon/{brukernavn}
     * En fagdatabruker kan bare hente sin egen autorisasjon.
     * Tjenestebrukere og systemadminbrukere kan hente alle autorisasjoner
+
+#### Oppdaterte XML-skjemaer
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/autorisasjon/autorisasjon.xsd
     
 ### 2020-2.0
 
