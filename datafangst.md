@@ -5,7 +5,7 @@
 ## Mars
 
 ### Datafangst 2020-1.5.0
-* Kvalitetsparametre for høyde er nå tilgkjengelig sammen med andre kvalitetsparametre.
+* Kvalitetsparametre for høyde er nå tilgjengelig sammen med andre kvalitetsparametre.
 * Administratorer for kontraktsgrupper har nå tilgang til funksjonen "Overskriv NVDB" ved innsending av endringsett.
 * Geometri for låste vegobjekter kan nå kopieres.
 * Det er rettet en feil som ble introdusert i 2020-1.4.0 med at det ikke kom opp dialog for import når man klikket på kurve- eller flate-objekter.
