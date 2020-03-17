@@ -8,7 +8,7 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
 ### 2020-4.0
 
 * Nytt høydekoordinatsystem i NVDB: NN2000. SRID 6173 (EUREF89 UTM33 NN54) er ikke lenger tillatt og avvises nå med valideringsfeil.
-  Eneste tillatte 3D koordinatsystem er SRID 5793 (EUREF89 UTM33 NN2000). Ved bruk av 2D koordinatsystem, forventes av høydekoordinater
+  Eneste tillatte 3D koordinatsystem er SRID 5973 (EUREF89 UTM33 NN2000). Ved bruk av 2D koordinatsystem, forventes av høydekoordinater
   er angitt i tråd med NN2000.  
 
 ### 2020-3.0
