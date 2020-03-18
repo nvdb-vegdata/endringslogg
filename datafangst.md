@@ -4,6 +4,11 @@
 
 ## Mars
 
+### Datafangst 2020-1.5.2
+* Eksport av SOSI-filer fra Datafangst har nå høydereferanse NN2000.
+* Det er rettet en feil som ble introdusert i 2020-1.5.0 med at innsendinger til NVDB alltid overskriver evetuelle nye versjoner av eksisterende vegobjekter.
+* En opppusset versjon av stedfestingsfanen er tilgjengelig for begrenset utprøving.
+
 ### Datafangst 2020-1.5.0
 * Kvalitetsparametre for høyde er nå tilgjengelig sammen med andre kvalitetsparametre.
 * Administratorer for kontraktsgrupper har nå tilgang til funksjonen "Overskriv NVDB" ved innsending av endringsett.
