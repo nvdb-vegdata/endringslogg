@@ -66,7 +66,7 @@
 
 ## Januar
 
-### Datafangst 2020-1.0.3
+### Datafangst 2020-1.0.4
 * Det er rettet en feil fra 2020-1.0.3 som gjorde at det ikke var mulig å sende inn endringsett med operasjon "korriger".
 
 ### Datafangst 2020-1.0.3
