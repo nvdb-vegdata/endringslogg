@@ -4,6 +4,13 @@
 
 ## Mars
 
+### Datafangst 2020-1.6.0
+* Nå er det mulig å gjøre automatisk stedfesting på bare noen typer av gangen.
+* Feilmeldinger på innsending viser nå navn på vegobjekt i stedet for intern id.
+* Nå virker import av API-url også fra nyeste versjon av vegkart (Atlas).
+* Rettet feil som gjorde at man ikke kunne sende inn vegobjekt med kobling til mor i NVDB.
+* Diverse forbedringer på utprøvingsversjon av ny stedfestingsfane.
+
 ### Datafangst 2020-1.5.2
 * Eksport av SOSI-filer fra Datafangst har nå høydereferanse NN2000.
 * Det er rettet en feil som ble introdusert i 2020-1.5.0 med at innsendinger til NVDB alltid overskriver eventuelle nye versjoner av eksisterende vegobjekter.
