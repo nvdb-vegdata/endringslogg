@@ -2,6 +2,17 @@
 
 ## Leveranser 2020
 
+## April
+
+### Datafangst 2020-1.7.0
+* Det er nå mulig å velge flere kjørefelt i avkryssingsmodal (på objekter som kan ha kjørefelt).
+* Et problem med stedfestning med datter innenfor mor på enkelte objekter er nå rettet
+* Gruppering av kartmarkører fungerer nå på zoom-nivåer
+* Et problem med tilganger og flytting av kontrakter er rettet
+* Et problem med endring innsending med endret prosjektreferanse er rettet.
+* Data med valideringsfeil som ikke kan rettes i Datafangst blir avvist ved import
+* Rettet en feil der man kan sette sideposisjon og felt på objekter som ikke kan ha det 
+
 ## Mars
 
 ### Datafangst 2020-1.6.0
