@@ -2,6 +2,18 @@
 
 ## Leveranser 2020
 
+## Mai
+
+### Datafangst 2020-1.8.3
+* Rette en feil der importering av mor og datter fra NVDB i noen tilfeller kunne skape duplikate sammenkoblinger, som førte til feil ved registrering i NVDB
+* Rettet en feil som gjorde at man ikke fikk med valideringsfeil ved opplasting av enkeltobjekter via API
+* Det er nå mulig å sende med høydereferanse på featurecollections i API
+* Innsendinger til Datafangst som inneholder geometrifeil som ikke kan rettes i datafangst, vil nå bli avvis med feilmelding
+* Feilmeldinger som vises i Datafangst kan nå markeres, slik at teksten kan kopieres
+* Feilmeldinger som vises i Datafangst kan nå lukkes med en egen knapp istedet for klikk på teksten
+* Import fra URL, f.eks fra vegkart, vil nå fungere selv om URL-en inneholder linjeskift eller mellomrom
+* Rettet en feil som gjorde at skiltplater med tekst der teksten ikke var satt kunne føre til systemfeil
+
 ## April
 
 ### Datafangst 2020-1.7.0
