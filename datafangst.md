@@ -5,7 +5,7 @@
 ## Mai
 
 ### Datafangst 2020-1.8.3
-* Rette en feil der importering av mor og datter fra NVDB i noen tilfeller kunne skape duplikate sammenkoblinger, som førte til feil ved registrering i NVDB
+* Rettet en feil der importering av mor og datter fra NVDB i noen tilfeller kunne skape duplikate sammenkoblinger, som førte til feil ved registrering i NVDB
 * Rettet en feil som gjorde at man ikke fikk med valideringsfeil ved opplasting av enkeltobjekter via API
 * Det er nå mulig å sende med høydereferanse på featurecollections i API
 * Innsendinger til Datafangst som inneholder geometrifeil som ikke kan rettes i datafangst, vil nå bli avvis med feilmelding
