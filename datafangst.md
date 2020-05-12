@@ -13,6 +13,7 @@
 * Feilmeldinger som vises i Datafangst kan nå lukkes med en egen knapp istedet for klikk på teksten
 * Import fra URL, f.eks fra vegkart, vil nå fungere selv om URL-en inneholder linjeskift eller mellomrom
 * Rettet en feil som gjorde at skiltplater med tekst der teksten ikke var satt kunne føre til systemfeil
+* Rette en feil som gjorde at datafanen av og til kunne gå i hvitt
 
 ## April
 
