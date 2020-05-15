@@ -4,6 +4,18 @@
 
 ## Mai
 
+### Datafangst 2020-1.9.2
+* Rettet en feil i stedfesting som blant annet gjorde at mødre feilaktig ble tolket som for langt unna sine døtre
+* Ny versjon av Stedfestingsfanen settes nå som standard etter en periode med utprøving (meld fra om feil!)
+* Ny versjon av stedfestingsalgoritme (API Skriv istedet for VVI) tilgjengelig for utprøving via admin
+* Toppmenyen har fått seg en ansiktsløftning (takk, Rikke!)
+* Personnavn vises istedet for brukernavn for de brukerne vi har mulighet til å hente det ut for
+* Kontrakter er nå søkbare på personnavn der det er mulig
+* Zoom-nivå i kartet på stedfestingsfanen kan nå låses
+* Opplastinger vi API skal nå ikke like lett havne i blokkerende ERROR-tilstand når baksystemer feiler eller timer ut
+* Duplikate innslag i objektlista skal nå filtreres bort
+* Diverse mindre justeringer og feilrettinger
+
 ### Datafangst 2020-1.8.2
 * Rettet en feil der importering av mor og datter fra NVDB i noen tilfeller kunne skape duplikate sammenkoblinger, som førte til feil ved registrering i NVDB
 * Rettet en feil som gjorde at man ikke fikk med valideringsfeil ved opplasting av enkeltobjekter via API
