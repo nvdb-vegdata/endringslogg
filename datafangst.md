@@ -4,6 +4,16 @@
 
 ## Mai
 
+### Datafangst 2020-1.10.0
+* Det er rettet en feil som gjorde at vegobjekter som har endring i sammenkobling ikke kunne sendes inn igjen etter første innsending
+* Det er retten en feil med innsending av vegobjekter der enkelte attributter mangler verdi
+* Mer robust håndtering av interne feil ved innsending til NVDB
+* Stedfestingsfane vil nå fullføre lasting selv om ikke alle datakilder er tilgjengelige
+* Bedre tilbakemelding ved feil med endring av ansvarlig for kontrakt
+* Det er rettet en feil med tilgang for noen få brukere som har dobbel registrering av roller
+* Datafangst API: Det er nå mulig å legge til vegobjekter i samlinger som har en feilstatus
+
+
 ### Datafangst 2020-1.9.2
 * Rettet en feil i stedfesting som blant annet gjorde at mødre feilaktig ble tolket som for langt unna sine døtre
 * Ny versjon av Stedfestingsfanen settes nå som standard etter en periode med utprøving (meld fra om feil!)
