@@ -2,10 +2,10 @@
 Dette er endringer vi har gjort i hver sprint som er synlige for konsumenter av V3.
 
 Oversikt over hvilken installasjon som er installert i hvilket miljø:
-* UTV - https://apilesv3.utv.atlas.vegvesen.no/status/versjoner
-* STM - https://apilesv3-stm.utv.atlas.vegvesen.no/status/versjoner
-* ATM - https://apilesv3.test.atlas.vegvesen.no/status/versjoner
-* PROD - https://apilesv3.atlas.vegvesen.no/status/versjoner
+* UTV - https://nvdbapiles-v3.utv.atlas.vegvesen.no/status/versjoner
+* STM - https://nvdbapiles-v3-stm.utv.atlas.vegvesen.no/status/versjoner
+* ATM - https://nvdbapiles-v3.test.atlas.vegvesen.no/status/versjoner
+* PROD - https://nvdbapiles-v3.atlas.vegvesen.no/status/versjoner
 
 # Fullførte versjoner
 ### 2020.1.0 
