@@ -8,14 +8,38 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 * PROD - https://nvdbapiles-v3.atlas.vegvesen.no/status/versjoner
 
 # Fullførte versjoner
-### 2020.1.0 
-* `X-Client`-`User-Agent`-kombinasjoner vi mener ikke er gode nok vil bli blokkert.
+
+### 2020.10.0 (16.06.2020)
+* Fikset manglende geometrifelt i lokasjon
+* Fikset vegsystemreferanse mangler i lokasjonsobjekt for vegobjekter-søk
+
+### 2020.9.0 (02.06.2020)
+* Fikset søk på vegobjekt med dybde>=2 gir ukomplette relasjoner
+
+### 2020.7.0 (17.05.2020)
+* Fikset manglende vegsegmenter ved inkludering av vegsegmenter
+
+### 2020.6.0 (17.03.2020)
+* Fikset feil ved summering av strekningslengde med egenskapsfilter
+
+### 2020.5.0 (05.03.2020)
+* Overgang fra NN 1954 til NN2000
+
+### 2020.3.0 (11.02.2020)
+* `Geometri.kvalitet.medium_nvdb` lagt til for å gi ut verdi lagres i NVDB
+
+### 2020.2.0 (24.01.2020)
+* Vekslende svar fra `/posisjon` for nærliggende lenker
+* Verdier i `Geometri.kvalitet` har ikke rett verdi.
+
+### 2020.1.0 (14.01.2020)
+* `X-Client`-`User-Agent`-kombinasjoner vi mener ikke er gode nok vil bli blokkert
 * Bugfikser for /veg og /posisjon
 
-### 2019.17.0 
+### 2019.17.0 (20.12.20219)
 * Det gjøres ikke lengre snuing av segmenter der Strekning(916) er stedfestet mot lenkeretningen. Se https://api.vegdata.no/v3/retning.html
 
-### 2019.16.0 
+### 2019.16.0 (15.11.2019)
 * /vegnett/elementer fjernet
 
 ### 2019.15.0 (23.10.2019)
