@@ -9,6 +9,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2020.11.0 (23.06.2020)
+* Fikset at noen objekter manglet segmentert geometri
+
 ### 2020.10.0 (16.06.2020)
 * Fikset manglende geometrifelt i lokasjon
 * Fikset vegsystemreferanse mangler i lokasjonsobjekt for vegobjekter-søk
