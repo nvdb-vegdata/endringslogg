@@ -9,6 +9,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2020.12.0 (25.06.2020)
+* Intern begrensning på antallet samtidige forespørsler som behandles. Klienter kan få 503 `Behandlingen av forespørselen kunne ikke fullføres innen rimelig tid.`
+
 ### 2020.11.0 (23.06.2020)
 * Fikset at noen objekter manglet segmentert geometri
 
