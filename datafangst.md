@@ -2,6 +2,21 @@
 
 ## Leveranser 2020
 
+## Juni
+
+### Datafangst 2020-1.11.0
+* Datafangst støtter nå fullt ut lagring av samiske tegn, og en lang rekke spesialtegn som tidligere ikke var støttet
+* Stedfesting virker nå også for store linjegeometrier som skal ha punktstedfesting
+* Det er laget en veiledning for brukere som har glemt passord eller mangler tilgang, sånn at de får hjelp på riktig sted
+* Nyeste objektliste for Nye veier er nå også støttet for opplasting
+* Det vises nå hvilken kolonne det sorteres på i datafanen
+* Bedre tilbakemelding ved fjerning av flere vegobjekter fra kontrakt
+* Det er rettet en feil som gjorde at "kopier til alle" på datafanen ikke alltid virket
+* Det er rettet en feil med endring av kontraktsgruppe for kontrakt
+* Administrator kan nå endre kontraktsgruppe for en kontrakt som allerede har en gruppe
+* Det er rettet feil i hvilke brukere som skal ha tilgang til enkelte funksjoner
+* Datafangst API: Mellomrom på starten og slutten av innsendte verdier blir nå bevart
+
 ## Mai
 
 ### Datafangst 2020-1.10.0
