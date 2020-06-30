@@ -5,7 +5,7 @@
 ## Juni
 
 ### Datafangst 2020-1.11.1
-* Det er rettet en feil som gjorde at deltakere på kontrakt ikke kunne importere vegobjekter fra NVDB, denne feilen ble introdusert i 2020-1.11.0
+* Det er rettet en feil som gjorde at deltakere på kontrakt ikke kunne importere vegobjekter fra NVDB (feilen ble introdusert i 2020-1.11.0)
 * Status for innsending til NVDB beholdes når det lastes opp en ny objektliste for kontrakt
 * Det er rettet en feil med at automatisk zoom alltid ble aktivert etter geometriredigering
 
