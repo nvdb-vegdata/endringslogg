@@ -2,13 +2,14 @@
 
 ## Leveranser 2020
 
-## Juli
+## August
 
-### Datafangst 2020-1.12.0
+### Datafangst 2020-1.12.1
 * Prosjektreferanse settes nå kun på vegobjekter i kontrakten, og ikke som tidligere også mor i NVDB (når det er en kobling til mor fra kontrakten)
 * Etter utført stedfesting eller godkjenning av stedfesting nullstilles valgte vegobjekter
 * Tydeligere beskjed om hva som forventes når bruker legges til i kontrakt
 * Ved oppretting av ny kontrakt varsles det hvis noen av feltene har for mye tekst
+* Responstid skal nå være på nivå med 2020-1.10.0, vi har kompensert for databaseendring som gjorde 2020-1.11.0 tregere
 * Det er rettet en feil med at innhold ikke kommer opp på delingslenke (feilen ble introdusert i 2020-1.11.0)
 * Knappen "Skjul registrerte" på datafanen virker nå igjen
 * Det er rettet en feil med at "Marker som feil" ikke var tilgjengelig på nye kommentarer (feilen ble introdusert i 2020-1.11.0)
