@@ -4,6 +4,12 @@
 
 ## August
 
+### Datafangst 2020-1.13.0
+* Datafangst forstår nå status "kansellert" ved innsending til NVDB
+* Tomme verdier for nye vegobjekter blir filtrert ut ved innsending, sånn at endringssett ikke blir avvist
+* Tomme eller slettede verdier blir ikke med når eksisterende vegobjekt kopieres til nytt vegobjekt
+* Det er rettet en feil som gjorde at logg ikke ble oppdatert etter kopiering av vegobjekt
+
 ### Datafangst 2020-1.12.1
 * Prosjektreferanse settes nå kun på vegobjekter i kontrakten, og ikke som tidligere også mor i NVDB (når det er en kobling til mor fra kontrakten)
 * Etter utført stedfesting eller godkjenning av stedfesting nullstilles valgte vegobjekter
