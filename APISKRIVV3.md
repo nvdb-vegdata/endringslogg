@@ -1,21 +1,129 @@
-# NVDB API Skriv V3 - Endringslogg
+# NVDB API Skriv - Endringslogg
 
-Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsumenter av V3.
+Endringsloggen gir oversikt over:
+* kontraktsendringer for API-endepunktene
+* regelendringer i valideringsmotoren
+* endringer i Generator og Kontrollpanel
 
+## Leveranser 2020
 
-## Fullførte versjoner
+### 2020-12.0
+
+* Kan nå kansellere et endringssett med status BEHANDLES.
+* Forbedret beregning av ID-egenskap for Kryssystem- og Sideanlegg-objekter på KPS-veg som er stedfestet på en veglenkes sluttposisjon.
+
+### 2020-11.0
+
+* Stedfestingstjenesten beregner nå stedfesting som er gyldig i vegobjektets levetid.
+* Rettet feil i stedfestingstjenesten som gjorde at den havarerte ved store geometrier.
+* Feilmelding ved mottak av endringssett med både lukking og delvis korrigering av samme vegobjektversjon beskriver nå hvilken id og versjon det er snakk om.
+* Forbedret valideringsmotoren slik at flere valideringsfeil avdekkes og meldes samlet i en behandling.
+* Unnlater nå å gi notabene på endret sideposisjon ved restedfesting av vegobjekter ved utskiftning av vegnettsgeometri når datafeil i NVDB hindrer beregning av opprinnelig sideposisjon.
+* Kontrollpanel: SVV-logoen kan nå klikkes på og vil i så fall åpne Statens vegvesen sin hjemmeside i en ny nettleserfane.
+* Støtter nå rollen nva/5_fagdata_admin. Brukere med denne rollen har samme rettigheter som tjenestebrukere og fagdatabrukere og kan i tillegg se på endringssett uavhengig av eier.
+* Rettet feil i valideringen av superstedfestingen til detaljerte veglenker som førte til at rampe på detaljert veglenke superstedfestet på rampe på hovedveglenke ble avvist.
+* Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte pga numerisk unøyaktighet rundt lenkeposisjon 1.0.
+* Rettet feil ved beregning av ID-egenskap for Kryssystem-objekt på privat veg som er stedfestet på en veglenkes sluttposisjon.
+
+### 2020-10.0
+
+* Støtter nå avkorting av historikk for datterobjekter når assosiasjonen i morobjektet fjernes, uansett levetid i den aktuelle morobjektversjonen.
+* Kontrollpanel: Navbar viser nå en lenke til API-dokumentasjonen.
+* Kontrollpanel: Redesignet navbar for å unngå at knapper skjules under SVV-logo når nettleserbredden blir liten.
+* Kontrollpanel: Rettet feil som gjorde at bare de 1000 første registrerte brukerne ble vist i nedtrekkslisten i fanen 'Datarettigheter'.
+* Rettet feil som førte til havari ved lesing av eksisterende Gate-objekter i NVDB.
+
+### 2020-9.1
+
+* Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte under beregning av sideposisjon.
+* Rettet feil i valideringen av Gate-objekter som førte til avvisning når det ikke var angitt gatenavn.
+* Støtter to nye verdier for sideposisjon i stedfestinger: `R0` som er ekvivalent med `R` og `HV` som er ekvivalent med `VH`.
+* Rettet feil i registrering av nye vegobjekter med svingstedfesting på nyregistrert node som førte til at nodeId ikke ble angitt i NVDB.
+
+#### Oppdaterte XML-skjemaer
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+
+### 2020-9.0
+
+* Rettet feil i validering av kjørefelt i superstedfestingen til detaljerte veglenker som førte til avvisning når et kjørefelt er ugyldig på sluttdato for veglenken.
+* Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte under beregning av sideposisjon.
+* Tjenestebrukere kan nå hente status og fremdrift for alle endringssett uavhengig av eier.
+* Kontrollpanel: Viser flere detaljer i hendelsesloggen til et endringssett når versjonskontroll fører til at behandlingen restartes.
+* Generator: Rettet feil som hindret visning av SQL for gyldige testcase.
+* Rettet feil som gjorde at GET mot /rest/v3/endringssett uten å angi requestparameter `sorterPå` havarerte.
+* Forbedret responsen fra konverteringsendepunktene ved å levere endringssett i tråd med foretrukne standarder i NVDB og API Skriv.
+
+### 2020-8.0
+
+* ID-egenskapen for vegobjekttypene Kryssystem og Sideanlegg beregnes og påføres nå automatisk under behandling.
+* Tillater nå at en delvis oppdatering eller korrigering legger til en ny verdi i en listeegenskap (assosiasjon eller stedfesting) som ikke er populert fra før.
+* Gjorde stedfestingstjenesten mer robust når beregnet rute inneholder singulariteter (punkter).
+* Rettet feil som gjorde det umulig å lukke vegnett der ikke-versjonerbare vegobjekter er delvis stedfestet.
+
+### 2020-7.0
+
+* Støtte for fjerning av noder:
+    * `GET|POST /endringssett/{id}`:
+        * Nytt subelement `<vegnett>/<noder>/<node>` *kan* angis under `<fjern>`. 
+* Endringssett som avvises etterlater ikke lengre tomme oppdrag i NVDB.
+* Forbedret validering av navn og kode for Gate-objekter.
+* Kontrollpanel: Rettet feil som gjorde det umulig å bla videre fra side 1 i endringssettoversikten.
+
+#### Oppdaterte XML-skjemaer
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+
+### 2020-6.0
+
+* Nytt endepunkt for å beregne gyldig stedfesting for et vegobjekt med geometri: /rest/v3/stedfest
+* Støtte for ekstern referanse for et endringssett:
+    * `GET|POST /endringssett/{id}`:
+        * Nytt subelement `<eksternRef>` *kan* angis for `<endringssett>`. Verdien er fritekst (255 tegn) og lar klienter
+          markere endringssettet med en klientspesifikk eller prosjektspesifikk identifikator. 
+* Stedfestingen til Kryssdel-objekter i rundkjøringer blir ikke lengre optimalisert.
+* Endringssett kan nå inneholde korrigering og oppdatering på samme vegobjektversjon. Gjelder også delvise varianter.
+* Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte pga numerisk unøyaktighet rundt lenkeposisjon 1.0.
+* Rettet feil i versjonskontrollen av berikinger i et endringssett som førte til restartet behandling til evig tid.
+* Kan nå kansellere et endringssett med status VENTER og venteårsak VENTER_PÅ_LÅS.
+* Utvidet feilmelding når et nettelement har ubrukte porter med informasjon om hvilke porter som er ubrukte.
+ 
+#### Oppdaterte XML-skjemaer
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/stedfest/stedfest.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
+
+### 2020-5.0
+
+* Ny valideringsregel som avviser endringssett ved gjensidig overlapp mellom vegobjekttypene Strekning (916), Kryssdel (918) og Sideanleggsdel (920).
+* Forbedret valideringsmotoren slik at flere valideringsfeil avdekkes og meldes samlet i en behandling.
+* Rettet feil i transaksjonsendepunktet som førte til overforbruk av minne ved anrop uten søkeparameter.
+* Rettet feil som førte til avvisning pga. ikke-versjonerbar vegobjekttype ved følgeoppdatering etter vegnettslukking.
+
+### 2020-4.1
+
+* Endringssett som behandles under prøvekjøring etterlater ikke lengre tomme oppdrag i NVDB.
+* Ved låsekonflikt omprøves nå behandling etter en pause med randomisert lengde.
+* Angir nå flere detaljer i feilmelding når datterobjekt ikke er stedfestet innenfor mor.
+* Rettet feil som hindret følgeoppdatering med korrigering på samme vegobjektversjon som blir korrigert i endringssettet.
+* Gjorde innhenting av vegkategori for vegnett mer robust når superstedfesting mangler i detaljerte veglenker.
+* Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte når deler av samme vegnett lukkes.
 
 ### 2020-4.0
 
 * Nytt høydekoordinatsystem i NVDB: NN2000. SRID 6173 (EUREF89 UTM33 NN54) er ikke lenger tillatt og avvises nå med valideringsfeil.
   Eneste tillatte 3D koordinatsystem er SRID 5973 (EUREF89 UTM33 NN2000). Ved bruk av 2D koordinatsystem, forventes at høydekoordinater
   er angitt i tråd med NN2000.  
+* Rettet feil som gjorde at lukking av samme vegobjektversjon i to ulike følgeoppdateringer ble avvist som i konflikt med hverandre.
+* Rettet feil i oppslag mot SoaBasis som gjorde at nva-roller ikke ble hentet for tjenestebrukere.
 
 ### 2020-3.0
 
 * Nytt endepunkt for å hente autorisasjoner (datarettigheter) for en bruker: /rest/v1/autorisasjon/{brukernavn}
     * En fagdatabruker kan bare hente sin egen autorisasjon.
     * Tjenestebrukere og systemadminbrukere kan hente alle autorisasjoner
+* Tydeligere feilmelding i 403-respons når bruker mangler rettigheter til å anrope et endepunkt.
+* Rettet feil i beregning av Area Locations for Kommune_2019 som etterlot hull i stedfestingen når en veglenkesekvens krysser en kommunegrense.
+* Rettet feil som i noen tilfeller med store endringssett førte til tidsavbrudd i koblingen mot NVDB-databasen.
+* Rettet feil som førte til avvisning på grunn av manglende sensitiv-rolle ved lukking av vegobjekt.
+* Rettet feil som førte til at transaksjonskontroll havarerte når mer enn 500 vegobjekter ble overskrevet i samme endringssett.
 
 #### Oppdaterte XML-skjemaer
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/autorisasjon/autorisasjon.xsd
@@ -29,7 +137,6 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
           de angitte verdiene (slik det har vært fram til nå).  
     * Det er ikke tillatt å fjerne alle gjeldende verdier fra stedfestingen (uten å legge til minst én ny).
     * Det er ikke tillatt å legge til en verdi som er identisk med eller overlapper en gjeldende verdi.
-
 * Støtte for delvis oppdatering av datterobjektreferanser i assosiasjoner:
     * `GET|POST /endringssett/{id}`:
         * Ny attributt `operasjon` *kan* angis på `<assosiasjon>` sine subelementer `<nvdbId>` og `<tempId>` når disse opptrer under `<delvisOppdater>` eller `<delvisKorriger>`. Attributten kan gis verdien `ny` dersom en ny datterobjektreferanse skal legges til eksisterende verdier,
@@ -37,16 +144,43 @@ Oversikt over kontraktsendringer for NVDB API Skriv som er synlige for konsument
           de angitte verdiene (slik det har vært fram til nå).  
     * Dersom alle gjeldende verdier fjernes fra assosiasjonen, fjernes assosiasjonsegenskapen i sin helhet fra NVDB.
     * Det er ikke tillatt å legge til en verdi som er identisk med en gjeldende verdi.
-
 * Det er innført tilgangsbegrensning på vegobjektegenskaper som har sensitivitetskoder i Datakatalogen. For å kunne registrere og oppdatere slike egenskaper
 må brukeren nå ha spesifikke roller i LDAP.
+* Rettet feil som gjorde at multiple operasjoner på samme vegobjektversjon ble avvist, selv om operasjonene ikke var i konflikt med hverandre.
+* Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte under beregning av sideposisjon.
+* Rettet feil som førte til responskode 500 ved uthenting av endringssett med delvis oppdatering av strukturert geometriegenskap.
 
 #### Oppdaterte XML-skjemaer
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
+### 2020-1.4
+
+* Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte.
+* Rettet feil som førte til at to identiske endringssett med oppdatering av et vegobjekt ble ferdigbehandlet og etablerte to instanser av samme vegobjektversjon i NVDB.  
+
+### 2020-1.3
+
+* Rettet feil som førte til at beregning av Area Location for Fylke_2019 havarerte. 
+
+### 2020-1.2
+
+* Rettet feil som førte til at en node nært opptil svenskegrensen, men på norsk side, ble avvist som utenfor Norge.
+* Rettet feil som førte til at beregning av Area Locations havarerte.
+
+### 2020-1.1
+
+* Rettet feil som førte til at overlappsautomatikk ble utført for delvis oppdatert Gate-objekt, selv om stedfestingen var uendret.
+* Rettet feil som tillot korrigert Vegsystem-objekt å overlappe med et eksisterende Vegsystem-objekt i NVDB.
+* Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte.
+
 ### 2020-1.0
 
-API Skriv krever ikke lengre at minst én veglenke er oppgitt ved delvis oppdatering av veglenkesekvenser. Det er dermed mulig å angi delvis oppdatering der kun porter endres.
+* Krever ikke lengre at minst én veglenke er oppgitt ved delvis oppdatering av veglenkesekvenser. Det er dermed mulig å angi delvis oppdatering der kun porter endres.
+* Tillater nå korrigering uten at bruker har 9_system_admin-rollen
+* Tillater nå multippel stedfesting for Strekning (916)
+* Rettet feil som hindret delvis oppdatering og delvis korrigering av strukturert geometriegenskap
+
+## Leveranser 2019
 
 ### 2019-12.0
 * Retning på detaljerte veglenker sin superstedfesting:
@@ -122,6 +256,8 @@ API Skriv krever ikke lengre at minst én veglenke er oppgitt ved delvis oppdate
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/oppdrag/oppdrag.xsd
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/transaksjon/transaksjon.xsd
+
+## Leveranser under KRR-prosjektet 
 
 ### Sprint 21
 * Hovedoperasjonen 'slett' (brukes bare av vegobjekter) har fått det litt mer presise navnet 'lukk':
