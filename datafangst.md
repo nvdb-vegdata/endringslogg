@@ -4,6 +4,14 @@
 
 ## August
 
+### Datafangst 2020-1.14.0
+* Stedfesting for kurve er forbedret, sånn at den oftere gir resultater som passer med punkt
+* Kontraktsliste laster mye raskere for brukere som er i kontraktsgrupper med mange kontrakter
+* Status på innsendt endringssett til NVDB blir sjekket selv om bruker som sendte det ikke er logger inn
+* Endringssett som får systemfeil i NVDB for status "avvist" i Datafangst i stedet for at den blir hengende på "venter"
+* Forbedret sjekk og feilmelding på manuelle ankerpunkter når veg ikker er valgt
+* Toppmeny har fått bedre støtte for skjermleser
+
 ### Datafangst 2020-1.13.0
 * Datafangst forstår nå status "kansellert" ved innsending til NVDB
 * Tomme verdier for nye vegobjekter blir filtrert ut ved innsending, sånn at endringssett ikke blir avvist
