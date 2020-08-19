@@ -4,6 +4,14 @@
 
 ## August
 
+### Datafangst 2020-2.0.2
+
+* Alle kartlag kan nå vises som gråtonekart i datafanen og stedfestingsfanen ved å klikke på ikonet nederst til venstre i kartet.
+* La til støtte for tastenavigasjon og skjermleser i kontraktlisten
+* Rettet en feil i eksport-fanen som gjorde at vegobjekter importert fra NVDB ikke vistes i listen over andre vegobjekttyper som må sendes inn samtidig
+* Fjernet kontroll av FKB-objekter, samt informasjon som forteller at FKB-objekter ikke vil bli kontrollert.
+* Rettet en feil i eksportfanen som gjorde at funksjonen som skal vise bare uregistrerte vegobjekttyper, istedet viste bare registrerte vegobjekter
+
 ### Datafangst 2020-1.14.0
 * Stedfesting for kurve er forbedret, sånn at den oftere gir resultater som passer med punkt
 * Kontraktsliste laster mye raskere for brukere som er i kontraktsgrupper med mange kontrakter
