@@ -9,6 +9,11 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2020.13.0 (18.08.2020)
+* Mulig å ekskludere assosiasjon- og stedfestingsegenskap. (`?inkluder_egenskaper=alle|basis|geometri|assosiasjon|stedfesting`)
+* Ta imot veglenketype som liste i vegnettssøk. (`?veglenketype=hoved,detaljert`)
+* Fjern støtte for responsrevisjon 0
+
 ### 2020.12.0 (25.06.2020)
 * Intern begrensning på antallet samtidige forespørsler som behandles. Klienter kan få 503 `Behandlingen av forespørselen kunne ikke fullføres innen rimelig tid.`
 
