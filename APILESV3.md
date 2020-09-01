@@ -9,6 +9,13 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2020.14.0 (01.09.2020)
+* Forbedre tilfeller der `/veg` veksler mellom flere responser ved re-lastinger.
+* Fikset at `/vegobjekter/X?veglenkesekvens=Y` ikke returnerte objekter dersom vegobjekt var stedfestet mot veglenkeretning.
+* Respons fra ruteberegning endret til [å inneholde et statusfelt](https://github.com/nvdb-vegdata/nvdb-api-client/commit/2932d0b9c28eb1e182b028dbeaab87ed3c9765a3#diff-f457b5f7152c9026cd604bc51abf9eab)
+* `/omrader/kontraktsomrader` og `/omrader/riksvegruter` inkluderer kommuner og fylker på returnerte objekter.
+* Fikset at `/veglenkesekvenser/segmentert/X` returnerte objekt dersom det var kun ett segment.
+
 ### 2020.13.0 (18.08.2020)
 * Mulig å ekskludere assosiasjon- og stedfestingsegenskap. (`?inkluder_egenskaper=alle|basis|geometri|assosiasjon|stedfesting`)
 * Ta imot veglenketype som liste i vegnettssøk. (`?veglenketype=hoved,detaljert`)
