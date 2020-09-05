@@ -2,11 +2,19 @@
 
 ## Leveranser 2020
 
+### Datafangst 2020-2.1.0
+
+* Når en kontrakt har vegobjekter med sensitive egenskaper må den som skal invitere brukere inn på kontrakten ha rettigheter til å se disse egenskapene
+* Hvis prosjektreferanse settes ved innsending til NVDB, så vil også vegobjektene i Datafangst vise prosjektreferansen etter at innsending er godkjent
+* I administrasjonssiden for kontraktsgrupper vises nå kontrakter, grupper og brukere sortert
+* Sjekk for gyldig e-postadresse eller brukernavn når det legges til deltaker i kontrakt er forbedret
+* Tekst i veileder for innloggingsproblemer er forbedret
+
 ## August
 
 ### Datafangst 2020-2.0.2
 
-* Alle kartlag kan nå vises som gråtonekart i datafanen og stedfestingsfanen ved å klikke på ikonet nederst til venstre i kartet.
+* Alle kartlag kan nå vises som gråtonekart i datafanen og stedfestingsfanen ved å klikke på ikonet nederst til venstre i kartet
 * La til støtte for tastenavigasjon og skjermleser i kontraktlisten
 * Rettet en feil i eksport-fanen som gjorde at vegobjekter importert fra NVDB ikke vistes i listen over andre vegobjekttyper som må sendes inn samtidig
 * Fjernet kontroll av FKB-objekter, samt informasjon som forteller at FKB-objekter ikke vil bli kontrollert.
