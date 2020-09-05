@@ -2,6 +2,8 @@
 
 ## Leveranser 2020
 
+## September
+
 ### Datafangst 2020-2.1.0
 
 * Når en kontrakt har vegobjekter med sensitive egenskaper må den som skal invitere brukere inn på kontrakten ha rettigheter til å se disse egenskapene
