@@ -4,6 +4,9 @@
 
 ## September
 
+### Datafangst 2020-2.1.3
+* Det er rettet en feil som gjorde at interne brukere uten fagdata-rolle ikke fikk logget inn
+
 ### Datafangst 2020-2.1.2
 * Det er rettet en teknisk feil med applikasjonslogg
 
