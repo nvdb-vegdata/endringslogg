@@ -4,6 +4,12 @@
 
 ## September
 
+### Datafangst 2020-2.2.2
+* Eksisterende sammenkoblinger som fjernes vises på sammenkoblingsfanen til de blir sendt inn, og fjerning kan angres før innsending
+* Det er retten en feil med innsending av geometri som har SRID 6173
+* Sletting av sammenkobling gir nå riktig tilstand på om vegobjekt er endret eller ikke etter sletting
+* Teknisk endring: Datafangst bruker nå AAA-tjeneste for å verifisere brukernavn og passord
+
 ### Datafangst 2020-2.1.3
 * Det er rettet en feil som gjorde at interne brukere uten fagdata-rolle ikke fikk logget inn
 
