@@ -4,6 +4,13 @@
 
 ## September
 
+### Datafangst 2020-2.3.1
+* Brukere får nå beskjed når innloggingen er utløpt, og de bes logge inn på nytt.
+* Knapper på innstillingsfanen har fått bedre universell utforming.
+* Bedre feilmelding når vegobjekter blir forkastet ved filopplasting.
+* Kontraktgrupper i innstillingsfanen vises riktig for brukere som ikke har rettigheter i gruppen
+* Skjuler varsel og lenke til forrige versjon av stedfestingsfanen.
+
 ### Datafangst 2020-2.2.2
 * Eksisterende sammenkoblinger som fjernes vises på sammenkoblingsfanen til de blir sendt inn, og fjerning kan angres før innsending
 * Det er retten en feil med innsending av geometri som har SRID 6173
