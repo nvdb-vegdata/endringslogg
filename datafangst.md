@@ -12,7 +12,7 @@
 * Angir arkiveringsstatus for kontrakter via API
 * parameter for å angi destinasjon ved API-kall for å hente feature collections
 * Revidert tekst på automatisk generert e-post til nye brukere, lenke til hjelpeside
-* aktiverer Zoom til senter av kartvinduet ved dobbelklikk for å unngå en feil i kartbiblioteket.
+* aktiverer zoom til senter av kartvinduet ved dobbelklikk for å unngå en feil i kartbiblioteket.
 * Setter geodata-kartet som forvalgt på stedfesting fordi norkartene er veldig trege.
 * Gjør det mulig å zoome lenger inn på geodata-kartene på bekostning av lavere oppløsning.
 * Bedre feilhåndtering i _alternativ stedfesting med API Skriv_ der en stedfestingsfeil ville avbryte alle stedfestinger
