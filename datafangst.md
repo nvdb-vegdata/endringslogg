@@ -4,6 +4,19 @@
 
 ## September
 
+### Datafangst 2020-2.4.0
+* Manuell stedfesting flytter automatisk seg selv og sine døtre inn til sin mor hvis de er sammenkoblet
+* Kontraktgruppelista i instillinger sorteres alfabetisk
+* Sortering av kontrakter, brukere og kontraktgrupper i admin-grensesnittet 
+* Rettet en feil som kunne føre til at nye eller kopierte kontrakter framstod som låst
+* Angir arkiveringsstatus for kontrakter via API
+* parameter for å angi destinasjon ved API-kall for å hente feature collections
+* Revidert tekst på automatisk generert e-post til nye brukere, lenke til hjelpeside
+* aktiverer Zoom til senter av kartvinduet ved dobbelklikk for å unngå en feil i kartbiblioteket.
+* Setter geodata-kartet som forvalgt på stedfesting fordi norkartene er veldig trege.
+* Gjør det mulig å zoome lenger inn på geodata-kartene på bekostning av lavere oppløsning.
+* Bedre feilhåndtering i _alternativ stedfesting med API Skriv_ der en stedfestingsfeil ville avbryte alle stedfestinger
+
 ### Datafangst 2020-2.3.1
 * Brukere får nå beskjed når innloggingen er utløpt, og de bes logge inn på nytt.
 * Knapper på innstillingsfanen har fått bedre universell utforming.
