@@ -3,6 +3,8 @@
 ## Leveranser 2020
 
 ## September
+### Datafangst 2020-2.4.1
+* Rettet en feil som gjorde at stedfesting av vegobjekter med sammenkoblinger kun til NVDB genererte en feilmelding
 
 ### Datafangst 2020-2.4.0
 * Manuell stedfesting flytter automatisk seg selv og sine døtre inn til sin mor hvis de er sammenkoblet.
