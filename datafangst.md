@@ -2,6 +2,18 @@
 
 ## Leveranser 2020
 
+## Oktober
+
+### Datafangst 2020-2.5.0
+* Vedlikeholdskontrakt og samlekontrakt er tilgjengelige som nye kontraktstyper
+* Alle felter i kontraktsliste sorteres riktig med tall og norske tegn
+* Sortering på "Ansvarlig" i kontraktsliste virker igjen
+* Markører for stedfesting kan klikkes for å velge en stedfesting
+* Markører for valgte stedfestinger er uthevet
+* Det er retten en feil med "Skjul koblede" på sammenkobling
+* Administrasjon av rettigheter setter nå medlemskap kontraktsgrupper uavhengig av små eller store bokstaver i brukernavn
+* Det er retten en feil i "Stedfesting med Skriv" som gjorde at det noen ganger ikke kunne stedfestes til valgt vei
+
 ## September
 ### Datafangst 2020-2.4.1
 * Rettet en feil som gjorde at stedfesting av vegobjekter med sammenkoblinger kun til NVDB genererte en feilmelding
