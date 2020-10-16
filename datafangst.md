@@ -11,6 +11,7 @@
 * Flere feilrettinger for stedfesting med Skriv API
 * Det er rettet en feil som gjorde at fjerning av vegobjekter fra kontrakt feilen noen ganger
 * Gammel fane for stedfesting er ikke lengre tilgjengelig
+* Bedre håndtering av feil under henting av vegnett
 
 ### Datafangst 2020-2.5.0
 * Vedlikeholdskontrakt og samlekontrakt er tilgjengelige som nye kontraktstyper
