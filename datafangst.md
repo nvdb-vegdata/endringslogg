@@ -3,6 +3,14 @@
 ## Leveranser 2020
 
 ## Oktober
+### Datafangst 2020-2.6.1
+* Kolonner i kontraktsliste sorteres i stigende rekkefølge ved første klikk
+* Mer av Datakatalogen mellomlagres i nettleser, for raskere oppstart
+* Det er rettet en feil med kopiering av vegobjekt til ny type når type er låst
+* Flere forbedringer for å samkjøre stedfesting for sammenkoblede objekter
+* Flere feilrettinger for stedfesting med Skriv API
+* Det er rettet en feil som gjorde at fjerning av vegobjekter fra kontrakt feilen noen ganger
+* Gammel fane for stedfesting er ikke lengre tilgjengelig
 
 ### Datafangst 2020-2.5.0
 * Vedlikeholdskontrakt og samlekontrakt er tilgjengelige som nye kontraktstyper
