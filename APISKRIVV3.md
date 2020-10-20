@@ -16,6 +16,9 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 * Stedfestingstjenesten tillater nå at beregningsparametere angis i payload.
 * Rettet feil som førte til databasefeil under behandling av endringssett når det søkes i NVDB etter morobjekter til mer enn 1000 vegobjekter.
  
+#### Oppdaterte XML-skjemaer
+ * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/stedfest/stedfest.xsd
+
 ### 2020-14.2
 
 * Etablerte OIDC-pålogging i Kontrollpanel og Generator når API Skriv kjører i Atlas-miljø.
