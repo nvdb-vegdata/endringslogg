@@ -1,11 +1,53 @@
 # NVDB API Skriv - Endringslogg
 
-Endringsloggen gir oversikt over:
+Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkbare for klienter og brukere, f.eks.:
 * kontraktsendringer for API-endepunktene
 * regelendringer i valideringsmotoren
 * endringer i Generator og Kontrollpanel
 
 ## Leveranser 2020
+
+### 2020-15.0
+
+* Utvidet endringssettstatus med notabene ved overlapp i stedfestingen mellom to vegobjekter, når sideposisjon eller kjørefelt er udefinert i ett av dem.
+* Rettet feil i Kontrollpanel og Generator i Atlas-miljø som gjorde at BasicAuthProxy avviste requester med utgått iPlanetDirectoryPro-token.
+* Validering av at et vegobjekt bare har én mor tar nå hensyn til om det finnes multiple mødre i NVDB (datafeil).
+* Stedfestingstjenesten krever ikke lenger at vegfase oppgis sammen med vegkategori.
+* Stedfestingstjenesten tillater nå at beregningsparametere angis i payload.
+* Rettet feil som førte til databasefeil under behandling av endringssett når det søkes i NVDB etter morobjekter til mer enn 1000 vegobjekter.
+ 
+### 2020-14.2
+
+* Etablerte OIDC-pålogging i Kontrollpanel og Generator når API Skriv kjører i Atlas-miljø.
+* Rettet feil som gjorde at responser med ressurslenker brukte http og ikke https i URLer når API Skriv kjører i Atlas-miljø.
+* Forbedret beregning av 'area locations' i grenseområdet mellom to Kommune_2019-objekter, ved å kreve minimum 2 meter geometrisk overlapp. 
+* Forbedret ytelse i stedfestingstjenesten ved å redusere punkttetthet for geometrier kortere enn 500 m før beregning av rute.
+* Forbedret låsealgoritmen ved behandling av rene fagdata-endringssett slik at det ikke lenger lages sekundærlås for Vegsystem-objekter.
+
+### 2020-14.1
+
+* Rettet feil som førte til havari i stedfestingstjenesten ved beregning av punkttilknytning i sluttposisjonen til en veglenke.
+* Endret stedfestingstjenesten til også å bruke punktsegment i rute fra API Les og utvide til minimumslengde for strekningstilknytning.
+* Rettet feil som førte til databasefeil ved beregning av statistikk for et endringssett registrert med for lang tekst i X-Client.
+
+### 2020-14.0
+
+* Nytt endepunkt for å etablere OIDC-token gitt brukernavn og passord.
+* Rettet feil som førte til havari ved lukking av deassosierte vegobjekter.
+* Rettet feil som avviste et endringssett pga. ugyldig overlapp når samme vegobjekt både ble lukket og fikk korrigert stedfesting.
+* Rettet feil ved avkoding av rute fra API Les som førte til havari ved beregning av stedfesing på en del av vegnettet.
+* Rettet feil som førte til havarert behandling av endringssett når vegnettslukking fører til lukking av vegobjekt som også lukkes i endringssettet.
+* Rettet feil som førte til havari når samme vegobjektversjon både delvis korrigeres og delvis oppdateres i et endringssett.
+ 
+### 2020-13.0
+
+* Kan nå både lukke og korrigere samme vegobjektversjon i ett endringssett.
+* Rettet feil som hindret henting av brukerprofil fra SoaBasis for brukere med norske tegn i brukernavnet.
+ 
+### 2020-12.1
+
+* Rettet feil som gjorde at søkefeltet for brukernavn og klient i endringssettfanen i Kontrollpanelet ikke ble vist for fagdata-admin-brukere.
+* Rettet feil som forårsaket havari ved unødvendig overlappskontroll på vegobjekt som lukkes.
 
 ### 2020-12.0
 
