@@ -3,6 +3,12 @@
 ## Leveranser 2020
 
 ## Oktober
+### Datafangst 2020-2.7.0 (29. oktober)
+* Rettet feil i visning av stedfesting for vegobjekter importert fra NVDB
+* Manuell stedfesting kan nå også brukes med Skriv API uten å velge veg
+* Import av vegobjekter fra NVDB tåler at enkelte vegobjekter i settet mangler geometri
+* Riktig lenke til Sintef datakatalog
+
 ### Datafangst 2020-2.6.1
 * Kolonner i kontraktsliste sorteres i stigende rekkefølge ved første klikk
 * Mer av Datakatalogen mellomlagres i nettleser, for raskere oppstart
