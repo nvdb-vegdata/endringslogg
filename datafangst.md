@@ -3,7 +3,7 @@
 ## Leveranser 2020
 
 ## Oktober
-### Datafangst 2020-2.7.0 (29. oktober)
+### Datafangst 2020-2.7.0 (30. oktober)
 * Rettet feil i visning av stedfesting for vegobjekter importert fra NVDB
 * Manuell stedfesting kan nå også brukes med Skriv API uten å velge veg
 * Import av vegobjekter fra NVDB tåler at enkelte vegobjekter i settet mangler geometri
