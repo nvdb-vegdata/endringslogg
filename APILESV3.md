@@ -9,6 +9,16 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2020.17.0 (15.10.2020)
+* Forbedring av ruteberegning
+
+### 2020.16.0 (15.10.2020)
+* Forbedring av ruteberegning
+* Vegsystemreferanse ble ikke slått sammen for segmenterte vegobjekter
+
+### 2020.15.0 (22.09.2020)
+* Forbedring av ruteberegning
+
 ### 2020.14.0 (01.09.2020)
 * Forbedre tilfeller der `/veg` veksler mellom flere responser ved re-lastinger.
 * Fikset at `/vegobjekter/X?veglenkesekvens=Y` ikke returnerte objekter dersom vegobjekt var stedfestet mot veglenkeretning.
