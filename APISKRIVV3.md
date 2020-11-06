@@ -7,7 +7,14 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 
 ## Leveranser 2020
 
-### 2020-15.0
+Dato for utrulling i produksjon angitt i parantes.
+
+### 2020-15.1 (2020-11-xx)
+
+* Stedfestingstjenesten produserer nå strekningsstedfesting med konstant trafikantgruppe.
+* Rettet feil i kontrollpanelet i Atlas-miljø som gjorde det umulig å åpne endringssettet i ny fane fra endringssettets detaljvisning.
+
+### 2020-15.0 (2020-10-23)
 
 * Utvidet endringssettstatus med notabene ved overlapp i stedfestingen mellom to vegobjekter, når sideposisjon eller kjørefelt er udefinert i ett av dem.
 * Rettet feil i Kontrollpanel og Generator i Atlas-miljø som gjorde at BasicAuthProxy avviste requester med utgått iPlanetDirectoryPro-token.
@@ -19,7 +26,7 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 #### Oppdaterte XML-skjemaer
  * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/stedfest/stedfest.xsd
 
-### 2020-14.2
+### 2020-14.2 (2020-10-13)
 
 * Etablerte OIDC-pålogging i Kontrollpanel og Generator når API Skriv kjører i Atlas-miljø.
 * Rettet feil som gjorde at responser med ressurslenker brukte http og ikke https i URLer når API Skriv kjører i Atlas-miljø.
@@ -27,13 +34,13 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 * Forbedret ytelse i stedfestingstjenesten ved å redusere punkttetthet for geometrier kortere enn 500 m før beregning av rute.
 * Forbedret låsealgoritmen ved behandling av rene fagdata-endringssett slik at det ikke lenger lages sekundærlås for Vegsystem-objekter.
 
-### 2020-14.1
+### 2020-14.1 (2020-09-30)
 
 * Rettet feil som førte til havari i stedfestingstjenesten ved beregning av punkttilknytning i sluttposisjonen til en veglenke.
 * Endret stedfestingstjenesten til også å bruke punktsegment i rute fra API Les og utvide til minimumslengde for strekningstilknytning.
 * Rettet feil som førte til databasefeil ved beregning av statistikk for et endringssett registrert med for lang tekst i X-Client.
 
-### 2020-14.0
+### 2020-14.0 (2020-09-23)
 
 * Nytt endepunkt for å etablere OIDC-token gitt brukernavn og passord.
 * Rettet feil som førte til havari ved lukking av deassosierte vegobjekter.
@@ -42,22 +49,22 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 * Rettet feil som førte til havarert behandling av endringssett når vegnettslukking fører til lukking av vegobjekt som også lukkes i endringssettet.
 * Rettet feil som førte til havari når samme vegobjektversjon både delvis korrigeres og delvis oppdateres i et endringssett.
  
-### 2020-13.0
+### 2020-13.0 (2020-09-14)
 
 * Kan nå både lukke og korrigere samme vegobjektversjon i ett endringssett.
 * Rettet feil som hindret henting av brukerprofil fra SoaBasis for brukere med norske tegn i brukernavnet.
  
-### 2020-12.1
+### 2020-12.1 (2020-09-14)
 
 * Rettet feil som gjorde at søkefeltet for brukernavn og klient i endringssettfanen i Kontrollpanelet ikke ble vist for fagdata-admin-brukere.
 * Rettet feil som forårsaket havari ved unødvendig overlappskontroll på vegobjekt som lukkes.
 
-### 2020-12.0
+### 2020-12.0 (2020-08-20)
 
 * Kan nå kansellere et endringssett med status BEHANDLES.
 * Forbedret beregning av ID-egenskap for Kryssystem- og Sideanlegg-objekter på KPS-veg som er stedfestet på en veglenkes sluttposisjon.
 
-### 2020-11.0
+### 2020-11.0 (2020-08-13)
 
 * Stedfestingstjenesten beregner nå stedfesting som er gyldig i vegobjektets levetid.
 * Rettet feil i stedfestingstjenesten som gjorde at den havarerte ved store geometrier.
@@ -70,7 +77,7 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 * Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte pga numerisk unøyaktighet rundt lenkeposisjon 1.0.
 * Rettet feil ved beregning av ID-egenskap for Kryssystem-objekt på privat veg som er stedfestet på en veglenkes sluttposisjon.
 
-### 2020-10.0
+### 2020-10.0 (2020-07-01)
 
 * Støtter nå avkorting av historikk for datterobjekter når assosiasjonen i morobjektet fjernes, uansett levetid i den aktuelle morobjektversjonen.
 * Kontrollpanel: Navbar viser nå en lenke til API-dokumentasjonen.
@@ -78,7 +85,7 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 * Kontrollpanel: Rettet feil som gjorde at bare de 1000 første registrerte brukerne ble vist i nedtrekkslisten i fanen 'Datarettigheter'.
 * Rettet feil som førte til havari ved lesing av eksisterende Gate-objekter i NVDB.
 
-### 2020-9.1
+### 2020-9.1 (2020-06-23)
 
 * Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte under beregning av sideposisjon.
 * Rettet feil i valideringen av Gate-objekter som førte til avvisning når det ikke var angitt gatenavn.
@@ -88,7 +95,7 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 #### Oppdaterte XML-skjemaer
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
-### 2020-9.0
+### 2020-9.0 (2020-06-16)
 
 * Rettet feil i validering av kjørefelt i superstedfestingen til detaljerte veglenker som førte til avvisning når et kjørefelt er ugyldig på sluttdato for veglenken.
 * Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte under beregning av sideposisjon.
@@ -98,14 +105,14 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 * Rettet feil som gjorde at GET mot /rest/v3/endringssett uten å angi requestparameter `sorterPå` havarerte.
 * Forbedret responsen fra konverteringsendepunktene ved å levere endringssett i tråd med foretrukne standarder i NVDB og API Skriv.
 
-### 2020-8.0
+### 2020-8.0 (2020-06-02)
 
 * ID-egenskapen for vegobjekttypene Kryssystem og Sideanlegg beregnes og påføres nå automatisk under behandling.
 * Tillater nå at en delvis oppdatering eller korrigering legger til en ny verdi i en listeegenskap (assosiasjon eller stedfesting) som ikke er populert fra før.
 * Gjorde stedfestingstjenesten mer robust når beregnet rute inneholder singulariteter (punkter).
 * Rettet feil som gjorde det umulig å lukke vegnett der ikke-versjonerbare vegobjekter er delvis stedfestet.
 
-### 2020-7.0
+### 2020-7.0 (2020-06-02)
 
 * Støtte for fjerning av noder:
     * `GET|POST /endringssett/{id}`:
@@ -117,7 +124,7 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 #### Oppdaterte XML-skjemaer
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
-### 2020-6.0
+### 2020-6.0 (2020-05-14)
 
 * Nytt endepunkt for å beregne gyldig stedfesting for et vegobjekt med geometri: /rest/v3/stedfest
 * Støtte for ekstern referanse for et endringssett:
@@ -135,14 +142,14 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/stedfest/stedfest.xsd
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 
-### 2020-5.0
+### 2020-5.0 (2020-04-28)
 
 * Ny valideringsregel som avviser endringssett ved gjensidig overlapp mellom vegobjekttypene Strekning (916), Kryssdel (918) og Sideanleggsdel (920).
 * Forbedret valideringsmotoren slik at flere valideringsfeil avdekkes og meldes samlet i en behandling.
 * Rettet feil i transaksjonsendepunktet som førte til overforbruk av minne ved anrop uten søkeparameter.
 * Rettet feil som førte til avvisning pga. ikke-versjonerbar vegobjekttype ved følgeoppdatering etter vegnettslukking.
 
-### 2020-4.1
+### 2020-4.1 (2020-03-26)
 
 * Endringssett som behandles under prøvekjøring etterlater ikke lengre tomme oppdrag i NVDB.
 * Ved låsekonflikt omprøves nå behandling etter en pause med randomisert lengde.
@@ -151,7 +158,7 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 * Gjorde innhenting av vegkategori for vegnett mer robust når superstedfesting mangler i detaljerte veglenker.
 * Rettet feil som førte til at restedfesting av vegobjekter ved utskiftning av vegnettsgeometri havarerte når deler av samme vegnett lukkes.
 
-### 2020-4.0
+### 2020-4.0 (2020-03-16)
 
 * Nytt høydekoordinatsystem i NVDB: NN2000. SRID 6173 (EUREF89 UTM33 NN54) er ikke lenger tillatt og avvises nå med valideringsfeil.
   Eneste tillatte 3D koordinatsystem er SRID 5973 (EUREF89 UTM33 NN2000). Ved bruk av 2D koordinatsystem, forventes at høydekoordinater
@@ -159,7 +166,7 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 * Rettet feil som gjorde at lukking av samme vegobjektversjon i to ulike følgeoppdateringer ble avvist som i konflikt med hverandre.
 * Rettet feil i oppslag mot SoaBasis som gjorde at nva-roller ikke ble hentet for tjenestebrukere.
 
-### 2020-3.0
+### 2020-3.0 (2020-02-27)
 
 * Nytt endepunkt for å hente autorisasjoner (datarettigheter) for en bruker: /rest/v1/autorisasjon/{brukernavn}
     * En fagdatabruker kan bare hente sin egen autorisasjon.
