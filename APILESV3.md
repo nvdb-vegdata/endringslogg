@@ -9,6 +9,10 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+
+### 2020.19.0 (10.11.2020)
+* Forbedring av ruteberegning
+
 ### 2020.17.0 (15.10.2020)
 * Forbedring av ruteberegning
 
