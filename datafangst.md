@@ -2,6 +2,19 @@
 
 ## Leveranser 2020
 
+## November
+### Datafangst 2020-3.0.0
+* Ny versjon av stedfesting med API Skriv
+* "Fase" brukes ikke lenger som en del av stedfesting
+* vegnettet grupperes etter trafikantgruppe og stedfesting skjer på veglenker innenfor samme gruppe
+* Rettet en feil der endring av stedfesting noen ganger ikke ville oppdatere kartet
+* Diverse mindre justeringer på stedfesting
+* Riktig rapportering av manglende egenskaper på kopierte vegobjekter
+* Riktig avklaring av advarsel om manglende sammenkobling
+* Riktig sortering av egenskaper for skiltnummer
+* Kontraklisten sorterer som standard etter sist endret først
+* Fikset en skrivefeil
+
 ## Oktober
 ### Datafangst 2020-2.7.0 (30. oktober)
 * Rettet feil i visning av stedfesting for vegobjekter importert fra NVDB
