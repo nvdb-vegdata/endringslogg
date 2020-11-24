@@ -1,6 +1,7 @@
 # NVDB API Skriv - Endringslogg
 
 Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkbare for klienter og brukere, f.eks.:
+
 * kontraktsendringer for API-endepunktene
 * regelendringer i valideringsmotoren
 * endringer i Generator og Kontrollpanel
@@ -9,7 +10,19 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 
 Dato for utrulling i produksjon angitt i parantes.
 
-### 2020-15.1 (2020-11-xx)
+
+### 2020-15.3 (2020-11-23)
+
+* Rettet feil som førte til at detaljvisning ble aktivert ved klikk på sletteikon i Låser-fanen i Kontrollpanelet.
+* Forbedret håndtering av konnekteringslenker i stedfestingstjenesten.
+
+### 2020-15.2 (2020-11-16)
+
+* Rettet feil som ga responskode 500 når ugyldig refresh-token ble angitt i request til /oidc/forny
+* Klienter som bruker tjenestebrukere kan nå anrope APIet i Atlas-miljøet.
+* Rettet feil som førte til at endringssett ble avvist fordi det feilaktig ble detektert overlapp mellom mor- og datterobjekt.
+
+### 2020-15.1 (2020-11-06)
 
 * Stedfestingstjenesten produserer nå strekningsstedfesting med konstant trafikantgruppe.
 * Rettet feil i kontrollpanelet i Atlas-miljø som gjorde det umulig å åpne endringssettet i ny fane fra endringssettets detaljvisning.
