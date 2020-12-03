@@ -10,7 +10,15 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 
 Dato for utrulling i produksjon angitt i parantes.
 
+### 2020-16.0 (2020-12-02)
 
+* Endepunktet for transaksjoner tillater nå søk på tjenesteregel. Responsen inkluderer brukerinformasjon.
+* Kontrollpanelet er utvidet med ny fane for oppdrag og transaksjoner, med søkemuligheter.
+* Rettet feil i stedfestingstjenesten som førte til responskode 500 ved tilpasning av små kurver til minimum stedfestingslengde.
+
+#### Oppdaterte XML-skjemaer
+* https://nvdbapiskriv.atlas.vegvesen.no/rest/v1/transaksjon/transaksjon.xsd
+  
 ### 2020-15.3 (2020-11-23)
 
 * Rettet feil som førte til at detaljvisning ble aktivert ved klikk på sletteikon i Låser-fanen i Kontrollpanelet.
@@ -37,7 +45,7 @@ Dato for utrulling i produksjon angitt i parantes.
 * Rettet feil som førte til databasefeil under behandling av endringssett når det søkes i NVDB etter morobjekter til mer enn 1000 vegobjekter.
  
 #### Oppdaterte XML-skjemaer
- * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/stedfest/stedfest.xsd
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/stedfest/stedfest.xsd
 
 ### 2020-14.2 (2020-10-13)
 
