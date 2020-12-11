@@ -3,6 +3,11 @@
 ## Leveranser 2020
 
 ## Desember
+## Datafangst 2020-3.4.0
+* Forhindrer en feil i innlogginsmekanismene ved bruk av Atlas
+* Forhindre at Datafangst kræsjer når NVDB leverer stedfestinger på Privat Veg uten nummer
+* Forhindre at Datafangst kræsjer når NVDB lebvere vegsegmenter uten strekningsdata
+
 ## Datafangst 2020-3.3.0
 * Forhindrer en feil fra Skriv som førte til at punktobjekter kunne få doble stedfestinger
 * Varsel om endring av URL for datafangst til datafangst.vegvesen.no
