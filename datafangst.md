@@ -2,6 +2,13 @@
 
 ## Leveranser 2020
 
+## Desember
+### Datafangst 2020-3.1.0
+* Mulighet for å enkelt velg alle eller ingen ved automatisk stedfesting
+* Rettet en feil som gjorde at Datafangst kunne slutte å virke ved store innsendinger til Skriv
+* Ved import settes Operasjon til "Oppdater" som standard
+* Bedre rapportering av feilmeldinger fra Skriv til brukergrensesnittet
+
 ## November
 ### Datafangst 2020-3.0.0
 * Ny versjon av stedfesting med API Skriv
