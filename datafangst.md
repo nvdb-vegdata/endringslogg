@@ -2,8 +2,26 @@
 
 ## Leveranser 2020
 
+## Desember
+### Datafangst 2020-3.4.0 (11. desember)
+* Forhindrer en feil i innlogginsmekanismene ved bruk av Atlas
+* Forhindre at Datafangst kræsjer når NVDB leverer stedfestinger på Privat Veg uten nummer
+* Forhindre at Datafangst kræsjer når NVDB lebvere vegsegmenter uten strekningsdata
+
+### Datafangst 2020-3.3.0 (10. desember)
+* Forhindrer en feil fra Skriv som førte til at punktobjekter kunne få doble stedfestinger
+* Varsel om endring av URL for datafangst til datafangst.vegvesen.no
+* Rydde bort forvirrende og overflødige ikoner i sammenkoblingsfanen
+* Rette en feil som gjorde at CORS headers ikke ble tilgjengelig for API-klienter
+
 ## November
-### Datafangst 2020-3.0.0
+### Datafangst 2020-3.1.1 (26. november)
+* Mulighet for å enkelt velg alle eller ingen ved automatisk stedfesting
+* Rettet en feil som gjorde at Datafangst kunne slutte å virke ved store innsendinger til Skriv
+* Ved import settes Operasjon til "Oppdater" som standard
+* Bedre rapportering av feilmeldinger fra Skriv til brukergrensesnittet
+
+### Datafangst 2020-3.0.0 (23. november)
 * Ny versjon av stedfesting med API Skriv
 * "Fase" brukes ikke lenger som en del av stedfesting
 * vegnettet grupperes etter trafikantgruppe og stedfesting skjer på veglenker innenfor samme gruppe
