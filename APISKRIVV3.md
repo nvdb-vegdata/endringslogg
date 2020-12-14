@@ -4,11 +4,20 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 
 * kontraktsendringer for API-endepunktene
 * regelendringer i valideringsmotoren
-* endringer i Generator og Kontrollpanel
+* funksjonelle endringer i Generator og Kontrollpanel
 
 ## Leveranser 2020
 
 Dato for utrulling i produksjon angitt i parantes.
+
+### 2020-17.0
+
+* Stedfestingstjenesten kan nå beregne sideposisjon på bestilling.
+* Rettet feil som førte til at utstedt OIDC-token ikke ble ansett som gyldig ved bruk i Authorization-header.
+* Forbedret stedfestingstjenesten ved å maskere bort overflødige punktsegmenter fra rute beregnet av API Les.
+
+#### Oppdaterte XML-skjemaer
+* https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/stedfest/stedfest.xsd
 
 ### 2020-16.0 (2020-12-02)
 
