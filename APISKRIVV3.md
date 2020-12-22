@@ -10,7 +10,13 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 
 Dato for utrulling i produksjon angitt i parantes.
 
-### 2020-17.0
+### 2020-17.1 (2020-12-22)
+
+* Rettet feil som førte til at vegobjekter som ikke er sideposisjonrelevant fikk beregnet sideposisjon
+* Rettet feil som førte til at oppslag i LDAP-API av og til feilet og etterlot endringssett med feil fremdriftskode
+* Rettet feil som førte til 500-respons fra stedfestingstjenesten når det ikke var angitt typeVeg som parameter.
+
+### 2020-17.0 (2020-12-09)
 
 * Stedfestingstjenesten kan nå beregne sideposisjon på bestilling.
 * Rettet feil som førte til at utstedt OIDC-token ikke ble ansett som gyldig ved bruk i Authorization-header.
