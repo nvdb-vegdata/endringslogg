@@ -1,5 +1,13 @@
 # Datafangst - Endringslogg
 
+## Leveranser 2021
+### Datafangst 2021-1.0.0 (05. januar)
+* Sideposisjon blir satt automatisk ved stedfesting i de fleste tilfeller
+* Brukerseksjonen timer ikke lenger ut etter 30 minutter
+* Problem med sending av epost er løst
+* Riktig framdrift vises under automatisk stedfesting
+* Fikset at velgeikon ikke vistes i kart
+
 ## Leveranser 2020
 
 ## Desember
