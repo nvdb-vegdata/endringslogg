@@ -6,7 +6,7 @@
 * Brukerseksjonen timer ikke lenger ut etter 30 minutter
 * Problem med sending av epost er løst
 * Riktig framdrift vises under automatisk stedfesting
-* Fikset at velgeikon ikke vistes i kart
+* Fikset at velgeikon ikke vistes i kart på datafanen
 
 ## Leveranser 2020
 
