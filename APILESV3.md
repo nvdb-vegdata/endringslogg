@@ -10,6 +10,13 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 # Fullførte versjoner
 
 
+### 2021.1.0 (17.11.2020)
+* Forbedring av ruteberegning
+* /omrader/gater pagineres
+
+### 2020.20.0 (17.11.2020)
+* Forbedring av ruteberegning
+
 ### 2020.19.0 (10.11.2020)
 * Forbedring av ruteberegning
 
