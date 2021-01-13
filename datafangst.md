@@ -6,7 +6,7 @@
 * Fikset feil som gjorde at Geodata-kart ikke vises
 * Beskrivende navn vises i stedfestingsfanen
 * Vegobjekter blir sortert riktig numerisk
-* Innloggingsdialogen er fjernet for kantega-adresser
+* Kun mulig å logge inn når ny adresse brukes
 
 ### Datafangst 2021-1.0.0 (05. januar)
 * Sideposisjon blir satt automatisk ved stedfesting i de fleste tilfeller
