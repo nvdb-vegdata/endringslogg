@@ -10,7 +10,7 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 
 Dato for utrulling i produksjon angitt i parantes.
 
-### 2021-1.0 (2020-01-14)
+### 2021-1.0 (2021-01-14)
 
 * Verifiser at kall mot stedfesting gir en gyldig stedfesting tilbake
 * Søk med bruker i lower-case i Oppdragsfanen. Skal gi treff på samme måte som upper-case. Prøv også med en blanding.
