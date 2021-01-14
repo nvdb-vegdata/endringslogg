@@ -1,6 +1,13 @@
 # Datafangst - Endringslogg
 
 ## Leveranser 2021
+
+### Datafangst 2021-1.1.0 (14. januar)
+* Fikset feil som gjorde at Geodata-kart ikke vises
+* Beskrivende navn vises i stedfestingsfanen
+* Vegobjekter blir sortert riktig numerisk
+* Kun mulig å logge inn når ny adresse brukes
+
 ### Datafangst 2021-1.0.0 (05. januar)
 * Sideposisjon blir satt automatisk ved stedfesting i de fleste tilfeller
 * Brukerseksjonen timer ikke lenger ut etter 30 minutter
