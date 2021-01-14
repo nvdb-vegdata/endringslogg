@@ -2,7 +2,7 @@
 
 ## Leveranser 2021
 
-### Datafangst 2021-1.1.0 (13. januar)
+### Datafangst 2021-1.1.0 (14. januar)
 * Fikset feil som gjorde at Geodata-kart ikke vises
 * Beskrivende navn vises i stedfestingsfanen
 * Vegobjekter blir sortert riktig numerisk
