@@ -6,6 +6,17 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 * regelendringer i valideringsmotoren
 * funksjonelle endringer i Generator og Kontrollpanel
 
+## Leveranser 2021
+
+Dato for utrulling i produksjon angitt i parantes.
+
+### 2021-1.0 (2020-01-14)
+
+* Verifiser at kall mot stedfesting gir en gyldig stedfesting tilbake
+* Søk med bruker i lower-case i Oppdragsfanen. Skal gi treff på samme måte som upper-case. Prøv også med en blanding.
+* Verifiser at prøveinnsjekk av Ulykke gir AVVIST når hendelsesdato og startdato er ulik + UTFØRT når de er like
+* Bruk bodies i kommentar og gjenskap resultatet fra UTV i ATM
+
 ## Leveranser 2020
 
 Dato for utrulling i produksjon angitt i parantes.
