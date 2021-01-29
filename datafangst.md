@@ -3,8 +3,8 @@
 ## Leveranser 2021
 
 ### Datafangst 2021-1.2.0 (29. januar)
-* Ny geometri med multilinje, multiflate elller multipunkt blir kun godtatt når dette tillatt i henhold til Datakatalogen
-* Rettet en feil som gjørde at det ikke var mulig å koble en datter fra NVDB til mor uten at datter samtidig hadde andre endringer
+* Ny geometri med multilinje, multiflate eller multipunkt blir kun godtatt når dette tillatt i henhold til Datakatalogen
+* Rettet en feil som gjorde at det ikke var mulig å koble en datter fra NVDB til mor uten at datter samtidig hadde andre endringer
 * Koble til datter i kontrakt kan også brukes for døtre importert fra NVDB
 * Bedre tilbakemelding om resultat av sammenkobling
 * Teknisk endring: Datafangst sender nå med sporings-ID for logg
