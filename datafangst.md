@@ -2,13 +2,21 @@
 
 ## Leveranser 2021
 
+### Datafangst 2021-1.2.0 (29. januar)
+* Ny geometri med multilinje, multiflate eller multipunkt blir kun godtatt når dette tillatt i henhold til Datakatalogen
+* Rettet en feil som gjorde at det ikke var mulig å koble en datter fra NVDB til mor uten at datter samtidig hadde andre endringer
+* Koble til datter i kontrakt kan også brukes for døtre importert fra NVDB
+* Bedre tilbakemelding om resultat av sammenkobling
+* Teknisk endring: Datafangst sender nå med sporings-ID for logg
+* Datafangst API: URL'er i respons er nå spesifisert med riktig protokoll
+
 ### Datafangst 2021-1.1.0 (14. januar)
 * Fikset feil som gjorde at Geodata-kart ikke vises
 * Beskrivende navn vises i stedfestingsfanen
 * Vegobjekter blir sortert riktig numerisk
 * Kun mulig å logge inn når ny adresse brukes
 
-### Datafangst 2021-1.0.0 (05. januar)
+### Datafangst 2021-1.0.0 (5. januar)
 * Sideposisjon blir satt automatisk ved stedfesting i de fleste tilfeller
 * Brukerseksjonen timer ikke lenger ut etter 30 minutter
 * Problem med sending av epost er løst
