@@ -5,7 +5,7 @@
 ## Februar
 
 ### Datafangst 2021-1.3.0 (1. februar)
-* Støtte for ny versjon 2.23 av datakatalogen med multiflate.
+* Støtte for versjon 2.23 av datakatalogen med multiflate.
 
 ## Januar
 
