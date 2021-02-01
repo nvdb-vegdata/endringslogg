@@ -2,6 +2,13 @@
 
 ## Leveranser 2021
 
+## Februar
+
+### Datafangst 2021-1.3.0 (1. februar)
+* Støtte for versjon 2.23 av datakatalogen med multiflate.
+
+## Januar
+
 ### Datafangst 2021-1.2.0 (29. januar)
 * Ny geometri med multilinje, multiflate eller multipunkt blir kun godtatt når dette tillatt i henhold til Datakatalogen
 * Rettet en feil som gjorde at det ikke var mulig å koble en datter fra NVDB til mor uten at datter samtidig hadde andre endringer
