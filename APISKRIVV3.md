@@ -6,9 +6,10 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 * regelendringer i valideringsmotoren
 * funksjonelle endringer i Generator og Kontrollpanel
 
-## Leveranser 2021
+Dato for utrulling i produksjon er angitt i parantes.
 
-Dato for utrulling i produksjon angitt i parantes.
+
+## Leveranser 2021
 
 ### 2021.1.0 (2021-01-14)
 
@@ -17,9 +18,8 @@ Dato for utrulling i produksjon angitt i parantes.
 * Verifiser at prøveinnsjekk av Ulykke gir AVVIST når hendelsesdato og startdato er ulik + UTFØRT når de er like
 * Bruk bodies i kommentar og gjenskap resultatet fra UTV i ATM
 
-## Leveranser 2020
 
-Dato for utrulling i produksjon angitt i parantes.
+## Leveranser 2020
 
 ### 2020-17.1 (2020-12-22)
 
@@ -279,6 +279,7 @@ må brukeren nå ha spesifikke roller i LDAP.
 * Tillater nå multippel stedfesting for Strekning (916)
 * Rettet feil som hindret delvis oppdatering og delvis korrigering av strukturert geometriegenskap
 
+
 ## Leveranser 2019
 
 ### 2019-12.0
@@ -355,6 +356,7 @@ må brukeren nå ha spesifikke roller i LDAP.
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v3/endringssett/endringssett.xsd
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/oppdrag/oppdrag.xsd
 * https://www.utv.vegvesen.no/nvdb/apiskriv/rest/v1/transaksjon/transaksjon.xsd
+
 
 ## Leveranser under KRR-prosjektet 
 
