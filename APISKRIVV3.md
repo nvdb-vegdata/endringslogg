@@ -11,6 +11,17 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2021
 
+### 2021-2.0 (2021-02-08)
+
+* Håndhever MinimumPlanarAngle og MinimumVerticalAngle kun for lenker med åpen sluttdato
+* Ny fane for å slå opp i /les-endepunkter i Kontrollpanelet for admin brukere
+* Fjernet stack trace fra 500-respons
+* Overføre vegnummer fra Vegreferanse (532) til Vegsystem (915)
+* Rettet opp i at overlapp ved korrigert gyldighetsperiode ikke avvises
+* Deassosiering av mor datter, fjerner ikke datter om datter ikke har "må ha mor" egenskapen
+* Rettet opp i feil automatisk sideposisjon ved rundkjøring
+* Rettet opp i stedfestingsfeil for kontraktsområde oppdages ikke
+
 ### 2021.1.0 (2021-01-14)
 
 * Verifiser at kall mot stedfesting gir en gyldig stedfesting tilbake
