@@ -11,7 +11,7 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2021
 
-### 2021-2.0 (2021-02-08)
+### 2021.2.0 (2021-02-08)
 
 * Håndhever MinimumPlanarAngle og MinimumVerticalAngle kun for lenker med åpen sluttdato
 * Ny fane for å slå opp i /les-endepunkter i Kontrollpanelet for admin brukere
