@@ -11,7 +11,7 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 
 ### 2021.2.1 (11.02.2021)
-* Fikset bug i gemoetrien til strekningsobjekter
+* Fikset bug i geometrien til strekningsobjekter
 * Endepunktene /omrader (untatt /omrader/gater) og /vegobjekttyper går fra å bruke cache i en uke til å bruke cache om ETag matcher nyeste versjon
 
 ### 2021.1.0 (17.11.2020)
