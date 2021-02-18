@@ -13,7 +13,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 * Fikset at filter `0@123` og `1@123` ikke returnerer forventede objekter.
 * `/vegobjekter/946?fylke=X` returnerer forventede objekter.
 * Filtrering på ikke-eksisterende riksvegrute vil gi feilmelding.
-* `/omrader/kontraktsomrader,riksvegruter` grupperer objekter som tilhører samme logiske kontraktsområde/riksvegrute. For responsrevisjon 1 vil kun laveste id av disse objektene vises. Responsrevisjon 2 (`Accept: application/vnd.vegvesen.nvdb-v3-rev2+json`) er innført, med denne vil alle objekter bli referert.
+* `/omrader/kontraktsomrader,riksvegruter` grupperer objekter som tilhører samme logiske kontraktsområde/riksvegrute. For responsrevisjon 1 vil kun laveste id av disse objektene vises. Responsrevisjon 2 (`Accept: application/vnd.vegvesen.nvdb-v3-rev2+json`) er innført, med denne vil alle objekter bli referert. 
+Responsrevisjon 1 er fortsatt revisjonen som blir returnert dersom revisjon ikke er spesifisert. 
+Det vil komme flere endringer for responsrevisjon 2.
 
 ### 2021.2.1 (11.02.2021)
 * Fikset bug i geometrien til strekningsobjekter
