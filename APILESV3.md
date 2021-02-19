@@ -9,7 +9,7 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
-### 2021.4.0
+### 2021.4.0 (19.02.2021)
 * Fikset at filter `0@123` og `1@123` ikke returnerer forventede objekter.
 * `/vegobjekter/946?fylke=X` returnerer forventede objekter.
 * Filtrering på ikke-eksisterende riksvegrute vil gi feilmelding.
