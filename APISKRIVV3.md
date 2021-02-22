@@ -11,6 +11,16 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2021
 
+### 2021.32.0 (2021-02-22)
+
+* Geometrivalidering ser på geometriegenskapstypene samlet
+* Kontrollerer at nye lenker ikke har sluttdato
+* Leverer metrikker som antall behandlede endringssett, behandlingstid for endringssett o.l.
+* Dropper kontroll av heldekkende vegreferanse før 2006
+* Validerer geometritype i alle vegobjekter
+* Ratelimiter satt på alle endepunkt
+
+
 ### 2021.2.0 (2021-02-08)
 
 * Håndhever MinimumPlanarAngle og MinimumVerticalAngle kun for lenker med åpen sluttdato
