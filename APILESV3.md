@@ -9,6 +9,10 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2021.5.0 (05.03.2021)
+* Fikset at gate.sideveg ikke ble returnert fra /vegnett/veglenkesekvenser/segmentert/X når gate tilknyttet segmentet er sideveg
+* Fikset at gate.sideveg ikke ble returnert fra /vegobjekter/X?inkluder=alle når gate tilknyttet vegobjektet er sideveg.
+
 ### 2021.4.0 (19.02.2021)
 * Fikset at filter `0@123` og `1@123` ikke returnerer forventede objekter.
 * `/vegobjekter/946?fylke=X` returnerer forventede objekter.
