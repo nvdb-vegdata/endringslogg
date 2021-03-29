@@ -11,7 +11,16 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2021
 
-### 2021.32.0 (2021-02-22)
+### 2021.4.0 (2021-03-23)
+
+* Indikere manglende rolle for ny bruker
+* I Datarettigheter er det mulig å søke på brukernavn og navn
+* Kontroll for å hindre duplikate endringssett
+* Vise feilmelding ved innsyn i kontrollpanel
+* Batchjobb for endring av over 1000 vegreferanser i samme endringssett
+
+
+### 2021.3.0 (2021-02-22)
 
 * Geometrivalidering ser på geometriegenskapstypene samlet
 * Kontrollerer at nye lenker ikke har sluttdato
