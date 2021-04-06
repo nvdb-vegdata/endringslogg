@@ -11,6 +11,11 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2021
 
+### 2021.4.1 (2021-04-06)
+
+* Rettet opp i OIDC innlogging for eksterne brukere.
+
+
 ### 2021.4.0 (2021-03-23)
 
 * Indikere manglende rolle for ny bruker
