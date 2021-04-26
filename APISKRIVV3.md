@@ -11,9 +11,18 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2021
 
+### 2021.5.0 (2021-04-26)
+
+* Oppdatert bibliotek for behandling av geometri og topologi
+* Rettet opp feil i stedfesting som førte til CPU overload
+* Forbedret informasjonstekst for søk på transaksjoner i kontrollpanelet
+* Fikset feil med innlogging til generator
+* Fikset innloggingsproblematikk i docker-image
+* Mer brukervennlig feilmelding ved stedfesting på lenkesekvenser
+
 ### 2021.4.1 (2021-04-06)
 
-* Rettet opp i OIDC innlogging for eksterne brukere.
+* Rettet opp i OIDC innlogging for eksterne brukere
 
 
 ### 2021.4.0 (2021-03-23)
