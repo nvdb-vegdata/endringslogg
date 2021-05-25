@@ -1,5 +1,24 @@
 # Vegkart - Endringslogg
 
+# 2021.6.0
+
+### Feilrettinger
+* Fikset fjerning av et vegreferanse-filter fjerner alle
+* Fikset går ikke å velge flere kontraktsområder
+
+# 2021.5.0
+
+### Ny funksjonalitet
+* Sensitive data har ny info melding
+* Ikke indekserte data har ny info melding
+* Lagt til bruk av data og brukerveiledning i infovindu
+* Flere filtreringsmulighter: >, <, >=, <=
+* Viser bare gjeldende (tidsrelevante) vegobjekter, selv om det ikke er siste versjon
+* Fullstendig endringslogg flyttet. Vegkart viser bare nyeste endringslogg.
+
+### Feilrettinger
+* Fikset utvidning av objekter under kontraktsområde
+
 # 2021.4.1
 
 ### Feilrettinger
