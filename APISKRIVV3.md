@@ -13,12 +13,10 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ### 2021.6.1 (2021-06-11)
 
-* XML Schema inneholder flere navnerom
-* 7 nye Trafikkulykke-objekter ++ avvises av Skriv, feil i stedfestingsvalidering
-* Bytte utgående brukere i tester + se på feilende live integrasjonstester
+* Feilrettet XML Schema for Transaksjonsliste
+* Tilbakemelding på feil stedfesting er korrigert
 * Indikere dryrun i endringssett-status
-* Endre min verdi på nøyaktighet
-* Data stedfestet på gyldig vegnett avvises med årsak ikke gyldig i hele objektets levetid
+* Lavre lovlige verdi på nøyaktighet, geometri er endret fra 0 til -1
 
 ### 2021.5.0 (2021-04-26)
 
