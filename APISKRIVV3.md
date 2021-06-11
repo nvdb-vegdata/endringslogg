@@ -14,7 +14,7 @@ Dato for utrulling i produksjon er angitt i parantes.
 ### 2021.6.1 (2021-06-11)
 
 * Feilrettet XML Schema for Transaksjonsliste
-* Tilbakemelding på feil stedfesting er korrigert
+* Tilbakemelding på feil stedfesting er korrigert til å vise til riktig veglenkesekvens
 * Indikere dryrun i endringssett-status
 * Lavre lovlige verdi på nøyaktighet, geometri er endret fra 0 til -1
 
