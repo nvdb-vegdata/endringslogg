@@ -9,6 +9,23 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2021.8.0 (19.08.2021)
+* Fjerning av bakoverkompatibilitet mot tidligere håndtering av kontraktsområde og riksvegruter
+* Login-tilgjengelighet
+
+### 2021.7.0 (17.06.2021)
+* Historikk på vegobjekter (historikk-parameter)
+* Tilbakemelding om ikke-indekserte typer
+
+### 2021.6.0 (27.05.2021)
+* Modifisering av /vegobjekt-endepunktet. Støtter nå flere parametere og sluttdato. Se dokumentasjon på /vegobjekt.
+
+### 2021.5.2 (15.04.2021)
+* Oppdatert SRID til nyeste standard + dokumentasjon
+
+### 2021.5.1 (17.03.2021)
+* Bedre håndtering av JSON for gate-spørringer
+
 ### 2021.5.0 (05.03.2021)
 * Fikset at gate.sideveg ikke ble returnert fra /vegnett/veglenkesekvenser/segmentert/X når gate tilknyttet segmentet er sideveg
 * Fikset at gate.sideveg ikke ble returnert fra /vegobjekter/X?inkluder=alle når gate tilknyttet vegobjektet er sideveg.
