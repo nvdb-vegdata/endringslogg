@@ -11,6 +11,26 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2021
 
+### 2021.9.1 (2021-11-25)
+
+* Strengere autorisering på vegkategorier
+* Lagt til følgeoppdatering ved endring av mor-objekt
+* Kontrollerer og tilpasser klokkeslett-verdier
+* Forbedret feilmelding ved ulik sideposisjon eller feltkode
+
+### 2021.8.2 (2021-11-12)
+
+* Utvidet vegtyper med traktorveg, sti og annet
+
+### 2021.8.1 (2021-11-04)
+
+* Automatisk populering av vegnummer i Vegsystem
+* Rettet opp svakhet i autentisering
+* Bedret feilmelding for oppdatering av lukkede objekter
+* Kontrollerer om ny lenkesekvens ikke er for lang
+* Forbedret stedfesting
+* Generelle forbedringer i valideringspipelinen
+
 ### 2021.6.1 (2021-06-11)
 
 * Feilrettet XML Schema for Transaksjonsliste
