@@ -11,6 +11,10 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2021
 
+### 2021.9.3 (2021-11-30)
+
+* Forbedring av stedfestingsendepunkt
+
 ### 2021.9.1 (2021-11-25)
 
 * Strengere autorisering på vegkategorier
