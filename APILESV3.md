@@ -9,6 +9,13 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2021.12.1 (04.01.2022)
+* Inkluder tidspunktparameter på veg? og posisjon?
+
+### 2021.14.0 (16.12.2021)
+* Sikkerhetsfiks for Log4J
+* Typeveg utvidet med verdiene "traktorveg", "sti" og "annet"
+
 ### 2021.8.0 (19.08.2021)
 * Fjerning av bakoverkompatibilitet mot tidligere håndtering av kontraktsområde og riksvegruter
 * Login-tilgjengelighet
