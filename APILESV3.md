@@ -16,6 +16,12 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 * Sikkerhetsfiks for Log4J
 * Typeveg utvidet med verdiene "traktorveg", "sti" og "annet"
 
+### 2021.8.2 (01.11.2021)
+* Tilbakemelding om ikke indekserte objekttyper
+* Srid og inkluder i /vegobjekt
+* Fiks for tidspunkt paramter for /vegobjek
+* Rettet i dokumentasjon (blant annet lenke til "SVV Håndbok V830" feilet) 
+
 ### 2021.8.0 (19.08.2021)
 * Fjerning av bakoverkompatibilitet mot tidligere håndtering av kontraktsområde og riksvegruter
 * Login-tilgjengelighet
