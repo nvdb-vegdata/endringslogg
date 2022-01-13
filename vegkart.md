@@ -1,11 +1,83 @@
 # Vegkart - Endringslogg
 
+# 2022.1.1
+
+### Ny funksjonalitet
+* Vegkart benytter Content-Security-Policy header for forbedret sikkerhet
+
+### Feilrettinger
+* Støtter gammelt format for vegkart lenker
+
+----
+# 2022.1.0
+
+### Ny funksjonalitet
+* Åpner en liste med overlappende vegobjekter
+* Vegkart tillater filtering og kategorisering på sensitive egenskaper dersom brukeren har tilgang
+* Støtter vegobjekter uten stedfesting
+
+### Feilrettinger
+* Forbedret feilmeldinger ved ugyldige filtre
+* Utløpte feilmeldinger fjernes
+
+----
+# 2021.9.1
+
+### Endringer
+* Fjernet unødvendig henting av BAAT Tokens, bruker åpne kartlag
+* Optimalisert ytelse ved endring av kartutsnittet
+
+----
+# 2021.9.0
+
+### Ny funksjonalitet
+* Vegkart kan vise veger uten vegsystemreferanser
+* Veglenker viser "Medium" egenskap dersom det er tilgjengnelig
+
+----
+# 2021.8.1
+
+* Sender radius og requester parameter til Vegbilder
+* Bruker oppdatert API fra Geonorge for oppslag på stedsnavn
+
+----
+# 2021.8.0
+
+### Ny funksjonalitet
+* Oppdatert direkte søk på NVDBID
+* Innlogging til Vegkart (Ikke tilgang til sensitiv data, kommer i neste versjon)
+* Kan nå kategorisere på negative verdier
+* Kategoriserings-interval kan beskrives med usorterte tall og med absolutte verdier
+* Viser sluttdato på vegobjekter hvor det er aktuelt
+
+
+### Feilrettinger
+* Vegobjektvindu med lang tekst gjorde at exit-knappen forsvant
+* Ny versjon popup wil ikke fjerne state beskrivelse fra URL
+* Forbedret filtrering på egenskaper
+* Feilmeldinger forsvinner ikke dersom flere menyer er åpne
+* Kategorisering popup lukkes etter valgt kategori
+
+----
+# 2021.7.0
+
+### Ny funksjonalitet
+* Linker til vegbilder
+* Fjernet intervall-kategorisering for typer med definerte tallverdier
+
+
+### Feilrettinger
+* Fikset kombinasjon av flere områdefilter sammen med riksveg
+* Viser nå verdier som har verdien 0
+
+----
 # 2021.6.0
 
 ### Feilrettinger
 * Fikset fjerning av et vegreferanse-filter fjerner alle
 * Fikset går ikke å velge flere kontraktsområder
 
+----
 # 2021.5.0
 
 ### Ny funksjonalitet
