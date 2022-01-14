@@ -8,6 +8,15 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 
 Dato for utrulling i produksjon er angitt i parantes.
 
+## Leveranser 2022
+
+### 2022.0.5 (2022-01-14)
+
+* Områdeimport
+* Nytt stedfestingsparamter: Trafikkgruppe
+* Fikset feil i stedfestingstjenesten
+* Entreprenør kan nå registreres
+* Vegsystemreferanse blir presentert ved overlapp feil
 
 ## Leveranser 2021
 
