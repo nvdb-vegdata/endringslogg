@@ -9,6 +9,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2022.1.0 (20.01.2022)
+* Fiks uttak av statisitkk ved bruk av datofilter
+
 ### 2021.12.1 (04.01.2022)
 * Inkluder tidspunktparameter på veg? og posisjon?
 
