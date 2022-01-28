@@ -10,6 +10,15 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2022
 
+
+### 2022.0.8 (2022-01-28)
+
+* Forbedring av detaljering på feilmelding av overlapp
+
+### 2022.0.6 (2022-01-26)
+
+* Forbedret avvising av endringssett dersom det finnes versjoner som overlapper
+
 ### 2022.0.5 (2022-01-14)
 
 * Områdeimport
