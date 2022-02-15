@@ -10,6 +10,9 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2022
 
+### 2022.0.8 (2022-02-15)
+
+* Rettet opp versjonskonflikt ved restedfesting av assosiasjoner
 
 ### 2022.0.8 (2022-01-28)
 
