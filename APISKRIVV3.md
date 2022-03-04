@@ -10,7 +10,10 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2022
 
-### 2022.0.8 (2022-02-15)
+### 2022.0.11 (2022-02-15)
+* Rettet opp feil ved følgeoppdatering i forbindelse med reduksjon av stedfesting til overlappede vegobjekter
+
+### 2022.0.9 (2022-02-15)
 
 * Rettet opp versjonskonflikt ved restedfesting av assosiasjoner
 
