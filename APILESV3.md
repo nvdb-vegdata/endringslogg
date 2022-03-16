@@ -9,7 +9,11 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
-### 2022.1.1 (.01.2022)
+### 2022.1.3 (14.01.2022)
+* Søk på kartustnitt med lat/lon (wgs84) gav feil resultat (for mange treff)
+* Paginering på kontraktsområde med tegnet '&' i navnet, gav uriktig href for neste side
+
+### 2022.1.1 (28.01.2022)
 * Gi tilbakemelding dersom geometri for ruteberegning er utenfor område (kooridnater skal være i UTM33)
 
 ### 2022.1.0 (20.01.2022)
