@@ -10,6 +10,10 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2022
 
+### 2022.1.0 (2022-03-29)
+* Rettet opp feil ved mangelfull følgeoppdatering for enkelte objekttyper ved snuing av metreringsretning
+* Forbedring av feilmelding autorisasjonsfeil
+
 ### 2022.0.12 (2022-03-08)
 * Retting av feil der ny versjon av vegobjekt blir feilaktig opprettet automatisk etter overlappssjekk
 
