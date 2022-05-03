@@ -10,6 +10,10 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2022
 
+### 2022.1.1 (2022-05-03)
+* Rettet opp feil med at datterobjekt mister egenskaper etter automatisk oppdatering
+* Forbedret håndtering av jobber
+
 ### 2022.1.0 (2022-03-29)
 * Rettet opp feil ved mangelfull følgeoppdatering for enkelte objekttyper ved snuing av metreringsretning
 * Forbedring av feilmelding autorisasjonsfeil
