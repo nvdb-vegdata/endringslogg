@@ -9,6 +9,13 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2022.1.8 (14.06.2022)
+* Oppgradering av bibliotek - sikkerhetsfikser
+
+### 2022.1.5 (14.01.2022)
+* Dataguard i Produksjon: NVDB API Les V3
+* Statistikkendepunkt finner ingen kontraktsområder med fylke-filter
+
 ### 2022.1.3 (14.01.2022)
 * Søk på kartustnitt med lat/lon (wgs84) gav feil resultat (for mange treff)
 * Paginering på kontraktsområde med tegnet '&' i navnet, gav uriktig href for neste side
