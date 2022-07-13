@@ -9,6 +9,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2022.1.9 (12.07.2022)
+* Gatenavn som Stjerneveien øvre ble feilaktig skrevet om til Stjerneveien svingen for segmentert vegnett
+
 ### 2022.1.8 (14.06.2022)
 * Oppgradering av bibliotek - sikkerhetsfikser
 
