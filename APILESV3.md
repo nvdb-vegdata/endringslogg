@@ -9,6 +9,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2022.1.11 (13.09.2022)
+* Fiks for søk på vegobjekt med "alle_versjoner=true" - skal gi treff på historiske vegobjekt    
+
 ### 2022.1.10 (12.07.2022)
 * NVDB API Les V3 kan kalles fra lokal server  (If-None-Match to Access-Control-Allow-Headers)
 
