@@ -9,8 +9,16 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2022.1.14 (23.09.2022)
+# Objekter returneres med 8 desimaler for response i WGS84-koordinater, og 3 desimaler for respons i UTM-koordinater.
+# I tillegg til UTM33 er det nå lagt inn UTM 32 - 35. 
+# Parameter trafikantgruppe under /posisjon er beskrevet i API-dokumentasjon
+#
+# (Versjon 2022.1.13 ble hoppet over)
+
 ### 2022.1.12 (16.09.2022)
 # Søk på vegobjekt med "alle_versjoner=true" og veglenkesekvens=posisjon@veglenkesekvens henter ut historiske objekt
+# Lagt til trafikantgruppefiler på /posisjon
 
 ### 2022.1.11 (13.09.2022)
 * Fiks for søk på vegobjekt med "alle_versjoner=true" - skal gi treff på historiske vegobjekt    
