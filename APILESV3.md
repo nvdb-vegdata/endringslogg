@@ -9,6 +9,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2022.1.12 (16.09.2022)
+# Søk på vegobjekt med "alle_versjoner=true" og veglenkesekvens=posisjon@veglenkesekvens henter ut historiske objekt
+
 ### 2022.1.11 (13.09.2022)
 * Fiks for søk på vegobjekt med "alle_versjoner=true" - skal gi treff på historiske vegobjekt    
 
