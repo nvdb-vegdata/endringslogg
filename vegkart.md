@@ -1,7 +1,155 @@
 # Vegkart - Endringslogg
 
+# 2022.6.1
+### Feilrettinger
+ * Vegkart håndterer kombinering av punkter i ulike kategorier bedre
+ 
 ----
+# 2022.6.0
+### Ny funksjonalitet
+* **Innstillinger!** Brukere kan nå justere noe vegkartfunksjonalitet etter egne behov
+  * Velg om man skal inkludere trafikangruppe i vegsystemreferanser.
+  * Vis fullstendig geometri for mindre strekningsobjekter, eller klynge de sammen for å forbedre ytelse.
 
+----
+### Endringer 
+* Søk- og visning av koordinater er gjort mer synlig
+* Fjernet lenke til vegkart-2019
+
+----
+### Feilrettinger 
+* Gjenopprettet 'Min posisjon' funksjonen
+* Vegkart er mer forsiktig med å hente ut mange vegobjekt når områdefilter er aktivt
+
+----
+# 2022.5.6
+### Feilrettinger
+* Vegkart er mer robust mot vegobjekter uten geometri
+
+----
+# 2022.5.5
+### Feilrettinger
+* Vegkart krasjer ikke lengere når man velger 'ingen kategori'
+
+----
+# 2022.5.4
+### Endringer
+* Mulig å endre kommune på vegsystereferansefilter
+* Enklere navigasjon mellom mor-barn objekter
+* Synliggjort kobling mellom vegsystemreferansefilter og kommune
+* Vegkart viser overlappende vegobjekttyper (f.eks. skiltplater og skiltpunkt)
+* Måleredskapet tas med ved uttak av kartbilde
+
+### Feilrettinger
+* Tillater søk på vegsytemreferanse med strekning/dekstrekning/meter intervaller
+
+----
+# 2022.5.3
+### Endringer
+* Optimalisert innlasting av statisk data
+### Feilrettinger
+* Vegobjektklynger blir plassert i sine respektive kommuner når kommunefilter er aktivt
+
+----
+# 2022.5.2
+### Endringer
+* Lagre bilde av vegkart fra høyreklikk-meny
+* Støtter eksport med vegobjekt-relasjoner i csv
+* Mindre endringer til fargepalett for kategorisering
+
+----
+# 2022.5.1
+### Feilrettinger
+* Rettet kartprojeksjon for måleredskap
+
+----
+# 2022.5.0
+### Ny funksjonalitet
+* **Måleredskap!** Trykk på linjal-ikonet til venstre for å starte en måling.
+* Vegkart tillater oppslag på koordinater (UTM33)
+* Høyreklikk i kartet for å hente ut koordinatene til et punkt
+* Lenke for å laste ned valgt vegnett til CSV og JSON
+
+### Endringer
+* Forbedret feilmelding ved søk på ikke-indekserte vegobjekttyper
+
+----
+# 2022.4.5
+### Endringer
+* "Ingen verdi" vegobjekter vises under egen kategori ved intervall-kategorisering
+
+----
+# 2022.4.4
+### Endringer
+* Vegobjektrelasjoner er sortert alfabetisk
+* Vegkart viser antall mor- og datterobjekter
+* Forbedret visning av vegobjekt-lengder i sammendrag
+
+----
+# 2022.4.3
+### Feilrettinger
+* Vegkart fjernet områdefilter fra URL dersom vegsystemreferanse var satt
+
+----
+# 2022.4.2
+### Endringer 
+* Nytt utviklerverktøy (Vite) for bedre og raskere utvikling.
+
+----
+# 2022.4.1
+### Endringer
+* Ny 'zoom-til' knapp på område-filter og vegsystemreferanser
+* Zoom-til funksjon for vegsystemreferanser krever ikke lengere delstrekning
+* Forbedret felt for endring av vegsystemreferanser
+
+----
+# 2022.4.0
+### Ny funksjonalitet
+* Man kan nå trykke på vegsystemreferanser for å zoome til de i kartet. (Krever strekning og delstrekning er oppgitt)
+
+----
+# 2022.3.5
+### Endringer 
+* Endret "Skogsbilveg" ➔ "Skogsveg"
+
+### Feilrettinger 
+* Rettet feil knyttet til overlappende vegobjekter
+* Datosøk-parameter i URL dato bruker fastsatt datoformat
+
+----
+# 2022.3.4
+### Endringer 
+* Eksporterte sosifiler får '.sos'-filtype.
+
+### Feilrettinger
+* Visningsvalg i kategorivisning forblir ved endring i kartet.
+
+----
+# 2022.3.3
+### Endringer
+* Det 'Nye vegreferansesystemet' er nå omtalt som 'vegreferansesystemet'.
+
+----
+# 2022.3.2
+### Endringer
+* Vegnettlenker vises med meteringsretning som standard retning.
+* Datobestemt oppslag kan skrus av/på.
+* Vegkart URL kan inneholde datobestemt oppslag
+
+### Feilrettinger
+* Vegnett hentes med tidspunkt-parameter dersom det er satt
+
+----
+# 2022.3.1
+### Ny funksjonalitet
+* Vegkart tillater søk i tid! 
+
+    Bruk feltet 'begrens søk til startdato' for å hente ut historiske data på en gitt dato.
+        
+### Endringer: 
+Feilmeldinger logges i Loggsentralen
+
+----
 # 2022.1.1
 
 ### Ny funksjonalitet
