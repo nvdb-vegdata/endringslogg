@@ -1,5 +1,7 @@
 # Vegkart - Endringslogg
 
+----
+
 # 2022.1.1
 
 ### Ny funksjonalitet
