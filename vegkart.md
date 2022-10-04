@@ -1,11 +1,5 @@
 # Vegkart - Endringslogg
 
-# 2022.6.1 (04.10.22)
-### Feilrettinger
- * Vegkart håndterer kombinering av punkter i ulike kategorier bedre
-
-----
-
 # 2022.6.0
 ### Ny funksjonalitet
 * **Innstillinger!** Brukere kan nå justere noe vegkartfunksjonalitet etter egne behov
