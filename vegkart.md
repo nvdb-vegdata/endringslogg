@@ -3,21 +3,6 @@
 
 
 
-# 2022.6.0
-### Ny funksjonalitet
-* **Innstillinger!** Brukere kan nå justere noe vegkartfunksjonalitet etter egne behov
-  * Velg om man skal inkludere trafikangruppe i vegsystemreferanser.
-  * Vis fullstendig geometri for mindre strekningsobjekter, eller klynge de sammen for å forbedre ytelse.
-
-### Endringer 
-* Søk- og visning av koordinater er gjort mer synlig
-* Fjernet lenke til vegkart-2019
-
-### Feilrettinger 
-* Gjenopprettet 'Min posisjon' funksjonen
-* Vegkart er mer forsiktig med å hente ut mange vegobjekt når områdefilter er aktivt
-
-----
 # 2022.5.6
 ### Feilrettinger
 * Vegkart er mer robust mot vegobjekter uten geometri
