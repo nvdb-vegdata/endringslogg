@@ -1,5 +1,14 @@
 # Vegkart - Endringslogg
 
+# 2022.6.2 (07.10.22) 
+### Endringer
+* Vegkart viser dato i versjonslogg for nye utgivelser
+* Nytt skjermbilde når vegkart støtter på problemer
+### Feilrettinger
+* Vegkart tømmer lagrede data dersom det oppstår feil
+
+----
+
 # 2022.6.0 (19.09.22)
 ### Ny funksjonalitet
 * **Innstillinger!** Brukere kan nå justere noe vegkartfunksjonalitet etter egne behov
