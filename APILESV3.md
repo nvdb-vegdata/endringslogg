@@ -9,6 +9,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2022.1.17 (10.10.2022)
+* Hotfix for ugyldig JSON serialisering av egenskaper
+
 ### 2022.1.16 (06.10.2022)
 * Oppdatert biblioteker for logging
 
