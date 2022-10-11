@@ -9,6 +9,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2022.1.16 (06.10.2022)
+* Oppdatert biblioteker for logging
+
 ### 2022.1.15 (05.10.2022)
 * Fiks for gatenavn med '/' som tidligere ble skrevet om til "nedre"
 * Nytt endepunkt for å hente ut informasjon om egenskapstype og hvilken vegobjekttype den hører til
