@@ -9,6 +9,10 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2022.1.15 (05.10.2022)
+* Fiks for gatenavn med '/' som tidligere ble skrevet om til "nedre"
+* Nytt endepunkt for å hente ut informasjon om egenskapstype og hvilken vegobjekttype den hører til
+
 ### 2022.1.14 (23.09.2022)
 # Objekter returneres med 8 desimaler for response i WGS84-koordinater, og 3 desimaler for respons i UTM-koordinater.
 # I tillegg til UTM33 er det nå lagt inn UTM 32 - 35. 
