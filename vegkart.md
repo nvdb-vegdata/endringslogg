@@ -1,5 +1,10 @@
 # Vegkart - Endringslogg
 
+# 2022.6.3 (24.10.22)
+### Feilrettinger
+* Gjennopprettet gråtonekartet
+----
+
 
 # 2022.6.2 (07.10.22) 
 ### Endringer
