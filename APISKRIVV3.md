@@ -10,6 +10,12 @@ Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2022
 
+### 2022.2.3 (2022-10-28)
+* Validering av Z koordinat i geometri
+* Utvidet datarettigheter innsikt i kontrollpanel
+* Oppdatert avhengigheter
+* Rettet opp feil som førte til at arbeidere ikke ble frigjort frigjort fra jobber
+
 ### 2022.1.3 (2022-10-04)
 * Slått av hendelselogg for GET
 * Endret feilmelding for lukkede objekter
