@@ -9,6 +9,14 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2022.1.18 (x.10.2022)
+* Filtrering med vegsystemreferanse på Statistikk for vegobjekter
+* Gjort mulig å hente ut egenskaper som mangler eier
+* Oppdatert test for egenskaper
+* Endret SRID i respons for projeksjoner:
+   * UTM32 - 25832 &rarr; 5972
+   * UTM34 - 25834 &rarr; 5974
+   * UTM35 - 25835 &rarr; 5975
 ### 2022.1.17 (10.10.2022)
 * Hotfix for ugyldig JSON serialisering av egenskaper
 
