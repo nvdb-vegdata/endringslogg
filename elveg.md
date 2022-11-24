@@ -3,7 +3,7 @@
 Oversikt over hvilken installasjon som er installert i hvilket miljø:
 * UTV - https://elveg.utv.atlas.vegvesen.no/environment.json
 * ATM - https://elveg.test.atlas.vegvesen.no/environment.json
-* PROD - https://elveg.atlas.vegvesen.no/status/environment.json
+* PROD - https://elveg.atlas.vegvesen.no/environment.json
 
 # Fullførte versjoner 
 
