@@ -9,6 +9,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2022.1.23 (02.12.2022)
+* Oppdatert bibliotek for strenghåndtering 
+
 ### 2022.1.18 (31.10.2022)
 * Filtrering med vegsystemreferanse på Statistikk for vegobjekter
 * Gjort mulig å hente ut egenskaper som mangler eier
