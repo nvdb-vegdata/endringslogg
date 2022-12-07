@@ -1,5 +1,12 @@
 # Vegkart - Endringslogg
 
+# 2022.6.4 (07.12.22)
+### Ny funksjonalitet
+* Kvalitetsparametere kan nå vises, endres i innstillinger
+### Endringer
+* Zoom-knapp lagt til for mobilbrukere
+----
+
 # 2022.6.3 (24.10.22)
 ### Feilrettinger
 * Gjennopprettet gråtonekartet
