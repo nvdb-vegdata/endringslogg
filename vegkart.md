@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2022.6.5 (07.12.22)
+### Endringer
+* Forbedret tilgjengelighet for dialoger
+* Forbedret tilgjengelighet for bryterknapper
+----
+
 # 2022.6.4 (07.12.22)
 ### Ny funksjonalitet
 * Kvalitetsparametere kan nå vises, endres i innstillinger
