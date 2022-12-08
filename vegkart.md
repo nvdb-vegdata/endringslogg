@@ -1,6 +1,11 @@
 # Vegkart - Endringslogg
 
 
+# 2022.6.6-HOTFIX (08.12.22)
+### Feilretting
+* Rettet systemkrasj knyttet til kartlagsvelgeren
+----
+
 # 2022.6.5 (07.12.22)
 ### Endringer
 * Forbedret tilgjengelighet for dialoger
