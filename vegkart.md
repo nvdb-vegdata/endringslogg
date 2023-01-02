@@ -1,5 +1,15 @@
 # Vegkart - Endringslogg
 
+# 2022.7.0 (02.01.23)
+* Nytt design på søkeresultater!
+### Ny funksjonalitet
+* Legg til kommunefilter ved å søke på kommunenummer; f.eks. 5001, i stedet for Trondheim
+* Tegn polygon for å filtrere området! Slå opp 'Polygonsøk' i søkefeltet for å tegne polygon.
+### Endringer
+* Vegkart er mer forutsigbar i fargevalg for kategoriserte vegobjekter
+
+----
+
 
 # 2022.6.6-HOTFIX (08.12.22)
 ### Feilretting
