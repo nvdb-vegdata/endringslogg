@@ -9,6 +9,10 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2023.1.0 (04.01.2023)
+* Innsendte polygoner blir nå forenklet
+* Les tillater nå POST spørringer for å motta større spørringer
+
 ### 2022.1.23 (02.12.2022)
 * Oppdatert bibliotek for strenghåndtering 
 
