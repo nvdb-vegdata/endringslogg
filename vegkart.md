@@ -1,5 +1,16 @@
 # Vegkart - Endringslogg
 
+# 2023.1.0 (16.01.23)
+### Ny funksjonalitet
+* Slå av og på områdefilter som vegsystemreferanser og kommuner ved å trykke på det tilhørende ikonet
+### Endringer
+* Endret rekkefølge på farger for valg av flere vegobjekttyper
+* Endret melding når vegkart krasjer 
+### Feilrettinger
+* Forbedret tolking av riksvegruter i url
+
+----
+
 # 2022.7.0 (02.01.23)
 * Nytt design på søkeresultater!
 ### Ny funksjonalitet
