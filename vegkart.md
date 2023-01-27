@@ -3,16 +3,16 @@
 # 2023.1.2 (27.01.23)
 ### Endringer
 * Vegkart henter kartlag med BAAT Token 
-* "Kategori"-ikonet er større slik at fargene blir synligere
+* Tydeligere symbol i tegnforklaringen for strekningsdata
 
 ----
 
 # 2023.1.0 (16.01.23)
 ### Ny funksjonalitet
-* Slå av og på områdefilter som vegsystemreferanser og kommuner ved å trykke på det tilhørende ikonet
+* Mulighet for å slå av- og på søkeområde (f.eks kommuner og vegsystemreferanser)
 ### Endringer
 * Endret rekkefølge på farger for valg av flere vegobjekttyper
-* Endret melding når vegkart krasjer 
+* Feilmeldingen som kommer når Vegkart krasjer inneholder nå løsningstips
 ### Feilrettinger
 * Forbedret tolking av riksvegruter i url
 
