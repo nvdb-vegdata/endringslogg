@@ -1,5 +1,12 @@
 # Vegkart - Endringslogg
 
+# 2023.1.2 (27.01.23)
+### Endringer
+* Vegkart henter kartlag med BAAT Token 
+* "Kategori"-ikonet er større slik at fargene blir synligere
+
+----
+
 
 # 2023.1.0 (16.01.23)
 ### Ny funksjonalitet
