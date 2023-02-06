@@ -8,7 +8,20 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 
 Dato for utrulling i produksjon er angitt i parantes.
 
+## Leveranser 2023
+* Kan godta tall og bokstaver for tillatte verdier for målemetode
+* Forbedret behandlignen av vegobjekt 824 Skredpunkt
+* Ny funksjon: Gjenopprette lukket objekt. Les mer her [dokumentasjon](https://nvdb.atlas.vegvesen.no/docs/nvdbapis/endringssett/Oppbygging#gjenoppretting)
+* Statistikk-dashboard for Adminer
+
 ## Leveranser 2022
+
+### 2022.3.4 (2022-11-29)
+* Lagring av dato/tid for utført indeksering pr. transaksjon/endringssett
+
+### 2022.3.0 (2022-11-18)
+* Utfasing av 532 Vegreferanse
+* Reaktivert vegnummerering for privatveg uten nummer
 
 ### 2022.2.3 (2022-10-28)
 * Validering av Z koordinat i geometri
