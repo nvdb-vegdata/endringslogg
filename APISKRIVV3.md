@@ -11,7 +11,7 @@ Dato for utrulling i produksjon er angitt i parantes.
 ## Leveranser 2023
 ### 2023.3.4 (2023-02-14)
 * Feilretting automatisk oppdatering av skredpunkt etter registrering av trafikkmengdeobjekt
-### 2022.3.4 (2023-02-03)
+### 2023.0.7 (2023-02-03)
 * Kan godta tall og bokstaver for tillatte verdier for målemetode
 * Forbedret behandlignen av vegobjekt 824 Skredpunkt
 * Ny funksjon: Gjenopprette lukket objekt. Les mer her [dokumentasjon](https://nvdb.atlas.vegvesen.no/docs/nvdbapis/endringssett/Oppbygging#gjenoppretting)
