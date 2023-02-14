@@ -9,7 +9,7 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2023
-### 2023.3.4 (2023-02-14)
+### 2023.0.10 (2023-02-14)
 * Feilretting automatisk oppdatering av skredpunkt etter registrering av trafikkmengdeobjekt
 ### 2023.0.7 (2023-02-03)
 * Kan godta tall og bokstaver for tillatte verdier for målemetode
