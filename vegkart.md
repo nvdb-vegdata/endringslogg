@@ -13,7 +13,6 @@
 
 ----
 
-
 # 2023.1.0 (16.01.23)
 ### Ny funksjonalitet
 * Mulighet for å slå av- og på søkeområde (f.eks kommuner og vegsystemreferanser)
@@ -24,6 +23,15 @@
 * Forbedret tolking av riksvegruter i url
 
 ----
+
+# 2022.7.0-HOTFIX
+### Feilretting
+* Rettet feil ved "trykk-i-kart" for meterverdier og Vegbilder
+* Forbedret håndtering av skjermede objekttyper
+
+
+----
+
 
 # 2022.7.0 (02.01.23)
 * Nytt design på søkeresultater!
@@ -66,7 +74,6 @@
 * Nytt skjermbilde når vegkart støtter på problemer
 ### Feilrettinger
 * Vegkart tømmer lagrede data dersom det oppstår feil
-
 ----
 
 # 2022.6.0 (19.09.22)
@@ -84,9 +91,6 @@
 * Vegkart er mer forsiktig med å hente ut mange vegobjekt når områdefilter er aktivt
 
 ----
-
-
-
 
 # 2022.5.6
 ### Feilrettinger
