@@ -6,42 +6,6 @@
 
 ----
 
-# 2023.1.3 (10.02.23)
-### Feilretting
-* Søk basert på dato reagerer når man trykker enter eller når fokus endres fra datofelt
-
-----
-
-# 2023.1.3 (10.02.23)
-### Feilretting
-* Søk basert på dato reagerer når man trykker enter eller når fokus endres fra datofelt
-
-----
-
-# 2023.1.3 (10.02.23)
-### Feilretting
-* Søk basert på dato reagerer når man trykker enter eller når fokus endres fra datofelt
-
-----
-
-# 2023.1.3 (10.02.23)
-### Feilretting
-* Søk basert på dato reagerer når man trykker enter eller når fokus endres fra datofelt
-
-----
-
-# 2023.1.3 (10.02.23)
-### Feilretting
-* Søk basert på dato reagerer når man trykker enter eller når fokus endres fra datofelt
-
-----
-
-# 2023.1.3 (10.02.23)
-### Feilretting
-* Søk basert på dato reagerer når man trykker enter eller når fokus endres fra datofelt
-
-----
-
 # 2023.1.2 (27.01.23)
 ### Endringer
 * Vegkart henter kartlag med BAAT Token 
