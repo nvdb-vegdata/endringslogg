@@ -9,7 +9,7 @@
 # 2023.1.2 (27.01.23)
 ### Endringer
 * Vegkart henter kartlag med BAAT Token 
-* "Kategori"-ikonet er større slik at fargene blir synligere
+* Tydeligere symbol i tegnforklaringen for strekningsdata
 
 ----
 
