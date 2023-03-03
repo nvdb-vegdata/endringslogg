@@ -9,6 +9,8 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2023
+### 2023.1.6 (2023-03-03)
+* Rettet synkroniseringskall fra Ind
 ### 2023.1.4 (2023-02-27)
 * Heldekkende objekter vil nå snappe til naboobjekt ved små hull
 ### 2023.0.10 (2023-02-14)
