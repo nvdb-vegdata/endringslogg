@@ -1,5 +1,15 @@
 # Vegkart - Endringslogg
 
+# 2023.1.4 (03.03.23)
+### Endringer
+* Vegsystemreferansen kan nå filtreres på kommune (samme vegnummer kan finnes i flere kommuner)
+* Vegkart viser ny geometrikvalitetsparameter *datafangstmetode*
+### Feilretting
+* Gjenbruk av vegkart-url med vegsystemreferanse er igjen mulig
+* Rettet krasj ved visning av kvalitetsparameter
+
+----
+
 # 2023.1.3 (10.02.23)
 ### Feilretting
 * Søk basert på dato reagerer når man trykker enter eller når fokus endres fra datofelt
