@@ -9,6 +9,10 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2023.1.0 (06.03.2023)
+* Polygoner som overskrider grensen rundt Norge gir nå resultat fra det gyldige området
+* Gjort mulig å ha kommunenummer i starten av vegsystemreferanse parameter på enkelte endepunkt (se API dokumentasjon)
+
 ### 2023.1.0 (04.01.2023)
 * Innsendte polygoner blir nå forenklet
 * Les tillater nå POST spørringer for å motta større spørringer
