@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2023.1.6 (17.03.23)
+### Feilretting
+* Bruker nå https url i stede for http for å hente eiendomsgrenser fra Kartverket
+
+----
+
 # 2023.1.5 (17.03.23)
 ### Endringer
 * Eiendomsgrenser fra Kartverket kan nå vises i Vegkart
