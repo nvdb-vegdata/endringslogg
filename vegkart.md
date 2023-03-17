@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2023.1.5 (17.03.23)
+### Endringer
+* Eiendomsgrenser fra Kartverket kan nå vises i Vegkart
+
+----
+
 # 2023.1.4 (03.03.23)
 ### Endringer
 * Vegsystemreferansen kan nå filtreres på kommune (samme vegnummer kan finnes i flere kommuner)
