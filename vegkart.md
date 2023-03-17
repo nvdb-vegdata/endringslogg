@@ -2,7 +2,7 @@
 
 # 2023.1.6 (17.03.23)
 ### Feilretting
-* Bruker nå https url i stede for http for å hente eiendomsgrenser fra Kartverket
+* Rettet kobling mot eiendomsgrenser i enkelte nettlesere
 
 ----
 
