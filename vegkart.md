@@ -1,5 +1,13 @@
 # Vegkart - Endringslogg
 
+# 2023.1.7 (30.03.23)
+### Feilretting
+* Vegkart har bedre støtte for visning av lange vegsystemreferanser
+### Endringer
+* Vegobjekter som ikke er innenfor kartutsnittet markeres nå med 'Utenfor kartvindu' i stedet for 'skjult i kart'
+
+----
+
 # 2023.1.6 (17.03.23)
 ### Feilretting
 * Rettet kobling mot eiendomsgrenser i enkelte nettlesere
