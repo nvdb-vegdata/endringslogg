@@ -1,5 +1,10 @@
 # Vegkart - Endringslogg
 
+# 2023.1.8 (30.03.23)
+### Endringer
+* Ved systemfeil vises lenke til NVDB Status
+----
+
 # 2023.1.7 (30.03.23)
 ### Feilretting
 * Vegkart har bedre støtte for visning av lange vegsystemreferanser
