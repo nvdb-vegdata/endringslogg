@@ -9,6 +9,9 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2023
+### 2023.2.0 (2023-04-11)
+* Endringsett som fikk systemfeil siden exception ble kastet i singleParentValidato vil nå bli avvist med melding om mulig datafeil.
+* Det er nå mulig å registrere ikke tidsromrelevante vegobjekttyper på vegnett som er gyldig på startdato/hendelsesdato, men som senere har blitt lukket.
 ### 2023.1.9 (2023-03-27)
 * Heldekkende objekter vil nå snappe til naboobjekt ved små hull
 * Fjernet bruk av Transportlenke (539)
