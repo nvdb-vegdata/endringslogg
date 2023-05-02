@@ -1,5 +1,20 @@
 # Vegkart - Endringslogg
 
+# 2023.1.9 (02.05.23)
+### Ny funksjonalitet
+* **Nytt måleredskap!** Vegkart kan nå måle areal og omkrets. Verktøyet finner du under linjal-ikonet.
+* Rapporter feil på vegobjekt og langs veg ved hjelp av ny lenke til Fiksvegdata. 
+Bruk utropstegnknappen i vegobjekt og i vegsystemreferansevinduet.
+
+### Endringer
+* "Zoom til" funksjonen på vegsystemreferanse viser nå hele den valgte strekningen. 
+Tidligere har den kun vist det første punktet.
+
+### Feilrettinger
+* Rettet feil hvor det vises `undefined` under noen egenskapsverdier. Feilen oppsto på egenskapsverdier med oppgitt enhet, men hvor enheten mangler kortform.
+
+----
+
 # 2023.1.8 (30.03.23)
 ### Endringer
 * Ved systemfeil vises lenke til NVDB Status
