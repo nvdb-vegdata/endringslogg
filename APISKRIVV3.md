@@ -9,6 +9,9 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2023
+### 2023.2.6 (2023-05-09)
+* Forbedret utregning av Skredpunkt.
+* Støtte for ny geometrikvalitetsparametrene (datafangstmetode og datafangstmetodeHøyde)
 ### 2023.2.2 (2023-04-12)
 * Forbedret følgeoppdateringer i forbindelse med overlappsautomatikk.
 ### 2023.2.0 (2023-04-11)
