@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2023.1.10 (12.06.23)
+### Endringer
+* Vegnettslenker viser nå *feltoversikt* i sin info-boks. Feltoversikten vises alltid med utangspunkt i lenkeretningen.
+
+----
+
 # 2023.1.9 (02.05.23)
 ### Ny funksjonalitet
 * **Nytt måleredskap!** Vegkart kan nå måle areal og omkrets. Verktøyet finner du under linjal-ikonet.
