@@ -1,5 +1,16 @@
 # Vegkart - Endringslogg
 
+# 2023.1.11 (12.06.23)
+### Endringer
+* Kvalitetsinformasjon er nå synlig som standard. Klikk på innstillinger for å endre.
+* Standard bakgrunnskart er nå kalt Norgeskart.
+
+### Feilrettinger
+* Det er nå mulig å logge inn igjen.
+* Rettet feil hvor lenker til søk i Vegkart med vegsystemreferanse uten strekning (f.eks. E39) forårsaket feil.
+
+----
+
 # 2023.1.10 (12.06.23)
 ### Endringer
 * Vegnettslenker viser nå *feltoversikt* i sin info-boks. Feltoversikten vises alltid med utangspunkt i lenkeretningen.
