@@ -1,5 +1,12 @@
 # Vegkart - Endringslogg
 
+# 2023.1.12 (03.07.23)
+### Endringer
+* Endret symbolisering av Gangfelt, Gangvei, Fortau, Trapp og Konnektering ved bruk av "Velg vegnett".
+* Feltoversikt er nå synlig for Kjørebane og Kjørefelt.
+
+----
+
 # 2023.1.11 (12.06.23)
 ### Endringer
 * Kvalitetsinformasjon er nå synlig som standard. Klikk på innstillinger for å endre.
