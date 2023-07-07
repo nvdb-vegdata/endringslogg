@@ -1,5 +1,14 @@
 # Vegkart - Endringslogg
 
+# 2023.1.13 (07.07.23)
+### Endringer
+* Metadata er nå skjult som standard. Klikk på innstillinger for å endre.
+
+### Feilrettinger
+* Vegobjekt uten vegsystemreferanse vises uten feilmelding.
+
+----
+
 # 2023.1.12 (03.07.23)
 ### Endringer
 * Endret symbolisering av Gangfelt, Gangvei, Fortau, Trapp og Konnektering ved bruk av "Velg vegnett".
