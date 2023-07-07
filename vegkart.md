@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2023.1.14 (07.07.23)
+### Feilrettinger
+* Viser kvalitetsinformasjon som egen del av objektinformasjonen.
+
+----
+
 # 2023.1.13 (07.07.23)
 ### Endringer
 * Metadata er nå skjult som standard. Klikk på innstillinger for å endre.
