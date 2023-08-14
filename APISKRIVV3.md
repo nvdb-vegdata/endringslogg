@@ -9,13 +9,16 @@ Endringsloggen gir oversikt over endringer og feilrettinger som er synlige/merkb
 Dato for utrulling i produksjon er angitt i parantes.
 
 ## Leveranser 2023
+### 2023.2.11 (2023-08-14)
+*  Innsending av ulovlige unicode karakterer gir avvisning
+*  Barn blir oppdatert til ny versjon når mor lukkes uten kaskadelukking og barnet ikke behøver mor
 ### 2023.2.6 (2023-05-09)
 * Forbedret utregning av Skredpunkt.
 * Støtte for ny geometrikvalitetsparametrene (datafangstmetode og datafangstmetodeHøyde)
 ### 2023.2.2 (2023-04-12)
 * Forbedret følgeoppdateringer i forbindelse med overlappsautomatikk.
 ### 2023.2.0 (2023-04-11)
-* Endringsett som fikk systemfeil siden exception ble kastet i singleParentValidato vil nå bli avvist med melding om mulig datafeil.
+* Endringsett som fikk systemfeil siden exception ble kastet i singleParentValidator vil nå bli avvist med melding om mulig datafeil.
 * Det er nå mulig å registrere ikke tidsromrelevante vegobjekttyper på vegnett som er gyldig på startdato/hendelsesdato, men som senere har blitt lukket.
 ### 2023.1.9 (2023-03-27)
 * Heldekkende objekter vil nå snappe til naboobjekt ved små hull
