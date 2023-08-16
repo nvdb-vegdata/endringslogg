@@ -1,5 +1,12 @@
 # Vegkart - Endringslogg
 
+# 2023.1.17 (15.08.23)
+### Feilrettinger
+* Rettet feil der sluttnode ikke vises på veglenke.
+* Rettet feil der feltoversikt ikke vises for veglenker på detaljnivå “Vegtrasé” eller “Vegtrasé og kjørebane”.
+
+----
+
 # 2023.1.16 (15.08.23)
 ### Endringer
 * Innstillinger slettes ikke lenger når applikasjonsfeil oppstår.
