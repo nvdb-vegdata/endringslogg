@@ -1,5 +1,16 @@
 # Vegkart - Endringslogg
 
+# 2023.1.15 (15.08.23)
+### Endringer
+* Bruker nå det detaljerte kartet på et lavere zoomnivå.
+* Det finnes nå en spesifikk URL for veglenke, /veglenke:id:lenke:segment
+* Viser egengeometri for vegobjekter dersom den er tilgjengelig.
+
+### Feilrettinger
+* Rettet feil hvor informasjon fra tidligere valgt vegsegment henger igjen i visning.
+
+----
+
 ----
 
 # 2023.1.14 (07.07.23)
