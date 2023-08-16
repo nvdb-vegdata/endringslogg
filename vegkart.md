@@ -1,5 +1,7 @@
 # Vegkart - Endringslogg
 
+----
+
 # 2023.1.14 (07.07.23)
 ### Feilrettinger
 * Viser kvalitetsinformasjon som egen del av objektinformasjonen.
