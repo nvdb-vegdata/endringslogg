@@ -1,5 +1,14 @@
 # Vegkart - Endringslogg
 
+# 2023.1.16 (15.08.23)
+### Endringer
+* Innstillinger slettes ikke lenger når applikasjonsfeil oppstår.
+
+### Feilrettinger
+* Rettet feil ved visning av kontraktsobjekt der navnet inneholder komma.
+
+----
+
 # 2023.1.15 (15.08.23)
 ### Endringer
 * Bruker nå det detaljerte kartet på et lavere zoomnivå.
