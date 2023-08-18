@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2023.1.17-HOTFIX (18.08.23)
+### Feilrettinger
+* Nå vises egengeometri for objektene igjen (hvis den finnes).
+
+----
+
 # 2023.1.17 (15.08.23)
 ### Feilrettinger
 * Rettet feil der sluttnode ikke vises på veglenke.
