@@ -1,5 +1,15 @@
 # Vegkart - Endringslogg
 
+# 2023.1.18 (28.08.23)
+### Endringer
+* Viser nå målestokkstall i kartet.
+
+### Feilrettinger
+* Rettet feil der Vegkart krasjer ved klikk på enkelte veglenker.
+* Rettet feil der deler av URL forsvinner når url er limt inn.
+
+----
+
 # 2023.1.17-HOTFIX (18.08.23)
 ### Feilrettinger
 * Nå vises egengeometri for objektene igjen (hvis den finnes).
