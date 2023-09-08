@@ -1,5 +1,13 @@
 # Vegkart - Endringslogg
 
+# 2023.1.19 (08.09.23)
+### Feilrettinger
+* Rettet feil der Vegkart krasjer ved interaksjon med vegobjekter uten geometri.
+* Rettet feil der flateobjekt tar fokus og gjør det umulig å velge andre objekter.
+* Rettet feil der søk på Vegsystemreferanse med 3 siffer i kommunenummer feiler.
+
+----
+
 # 2023.1.18 (28.08.23)
 ### Endringer
 * Viser nå målestokkstall i kartet.
