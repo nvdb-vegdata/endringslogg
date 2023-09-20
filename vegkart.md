@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2023.1.20 (20.09.23)
+### Endringer
+* Du må nå bekrefte endrede innstillinger for at de skal tre i kraft i innstillingsdialogen.
+
+----
+
 # 2023.1.19 (08.09.23)
 ### Feilrettinger
 * Rettet feil der Vegkart krasjer ved interaksjon med vegobjekter uten geometri.
