@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2023.1.21 (02.10.23)
+### Feilrettinger
+* Rettet feil der flateobjekt tar fokus og gjør det umulig å velge andre objekter.
+
+----
+
 # 2023.1.20 (20.09.23)
 ### Endringer
 * Du må nå bekrefte endrede innstillinger for at de skal tre i kraft i innstillingsdialogen.
