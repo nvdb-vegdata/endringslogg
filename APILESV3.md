@@ -12,9 +12,6 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 ### 2023.2.17 (19.10.2023)
 * Skrive ut objektid for gateid sammen med adressenavn og adressekode på segmenterte veglenkesekvenser 
 
-### 2023.2.16 (13.10.2023)
-* Inkluder vegsegmenter for historiske objekt 
-
 ### 2023.2.15 (11.10.2023)
 * Akseptere id_token utstedt fra idporten
 
