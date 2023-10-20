@@ -9,6 +9,28 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2023.2.17 (19.10.2023)
+* Skrive ut objektid for gateid sammen med adressenavn og adressekode på segmenterte veglenkesekvenser 
+
+### 2023.2.16 (13.10.2023)
+* Inkluder vegsegmenter for historiske objekt 
+
+### 2023.2.15 (11.10.2023)
+* Akseptere id_token utstedt fra idporten
+
+### 2023.2.12 (8.9.2023)
+* Utvide /omrader/fylker og /omrader/kommuner med ny egenskapstype Organisasjonsnummer
+* Intern fiks:  Helsesjekk rapporterte problemer - blant annet SQLRecoverableException
+
+### 2023.2.10 (31.08.2023)
+* Retting for ugylde tegn ved utheting i XML-format
+* Retting for sensitive data
+* Feilretting for oversetting mellom vegreferanse og vegsystemreferanse
+* Kommunenummer i vegsystemreferanse for KPS veger feilet
+* Det var en feil i generering av URL for neste side med data du kan hente (i elementet metadata).
+* RefreshToken brukt på auth/refersh-endepunktet fungerte ikke
+* Endepunket /beta/ruteberegning feilet når man sende inn null-verdier på POST-request
+
 ### 2023.1.0 (06.03.2023)
 * Polygoner som overskrider grensen rundt Norge gir nå resultat fra det gyldige området
 * Gjort mulig å ha kommunenummer i starten av vegsystemreferanse parameter på enkelte endepunkt (se API dokumentasjon)
