@@ -9,6 +9,10 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2023.2.18 (30.10.2023)
+*  Historiske vegobjekter som har vegsegmenter kommer ut i responsen, likt som aktive vegobjekter, gitt
+*  at parameter segmentering=true sendes med.
+
 ### 2023.2.17 (19.10.2023)
 * Skrive ut objektid for gateid sammen med adressenavn og adressekode på segmenterte veglenkesekvenser 
 
