@@ -1,12 +1,17 @@
 # Vegkart - Endringslogg
 
+# 2023.1.22 (25.10.23)
+### Feilrettinger
+* Rettet feil der områdefilter dupliseres ved lagring og åpning av lenker til Vegkart.
+* Rettet feil der valgt objekt med langt typenavn håndteres dårlig.
+
+----
+  
 # 2023.1.21 (02.10.23)
 ### Feilrettinger
 * Valgte objekter blir nå korrekt merket med hvitt.
 
 ----
-
-
 
 # 2023.1.20 (20.09.23)
 ### Endringer
