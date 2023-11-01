@@ -1,11 +1,5 @@
 # Vegkart - Endringslogg
 
-# 2023.1.23 (31.10.23)
-### Endringer
-* Optimalisert klusteringsalgoritmen for bedre visning ved høye zoom-nivåer.
-* Klusteringsinnstillinger kan nå endres i innstillingsmenyen.
-
-----
 
 # 2023.1.22 (25.10.23)
 ### Feilrettinger
