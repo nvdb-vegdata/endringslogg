@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2023.1.24 (06.11.23)
+### Endringer
+* Vegkart benytter nå Kartverkets nyeste og mest oppdaterte bakgrunnskart.
+
+----
+
 # 2023.1.23 (31.10.23)
 ### Endringer
 * Dersom punktobjekter ligger tett, kan man velge å vise geometri som separate punkter, i stedet for punktgrupper. 
