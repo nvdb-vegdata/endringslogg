@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2023.1.25 (15.11.23)
+### Feilrettinger
+* Rettet feil der flere objekter åpnet seg ved overlappende posisjoner.
+
+----
+
 # 2023.1.24 (06.11.23)
 ### Endringer
 * Vegkart benytter nå Kartverkets nyeste og mest oppdaterte bakgrunnskart.
