@@ -9,6 +9,9 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 
 # Fullførte versjoner
 
+### 2023.2.22 (22.11.2023)
+* Rettet feil med nedlasting av binære filer
+
 ### 2023.2.18 (30.10.2023)
 *  Historiske vegobjekter som har vegsegmenter kommer ut i responsen, likt som aktive vegobjekter, gitt
 *  at parameter segmentering=true sendes med.
