@@ -1,5 +1,12 @@
 # Vegkart - Endringslogg
 
+# 2023.1.28 (20.12.23)
+### Feilrettinger
+* Rettet feil der endring av URL krevde to trykk på "Enter"-knappen
+* Rettet feil der kartlag ikke ble bevart når vegkart åpnes fra URL
+
+----
+
 # 2023.1.25 (15.11.23)
 ### Feilrettinger
 * Rettet feil der flere objekter åpnet seg ved overlappende posisjoner.
