@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2023.12.21 (11.01.24)
+### Feilrettinger
+* Rettet feil der kategorisering ga varierende antall objekter for samme kategori med forskjellige operatorer.
+
+----
+
 # 2023.1.28 (20.12.23)
 ### Feilrettinger
 * Rettet feil der endring av URL krevde to trykk på "Enter"-knappen
