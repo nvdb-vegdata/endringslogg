@@ -1,5 +1,7 @@
 # Vegkart - Endringslogg
 
+----
+
 # 2023.12.27 (11.01.24)
 ### Feilrettinger
 * Rettet feil der assosiert tunnelovervåking feilaktig ble vist som en egenskap.
