@@ -1,6 +1,6 @@
 # Vegkart - Endringslogg
 
-# 2024.01.16-30 (16.01.24)
+# 2024.01.16 (16.01.24)
 ### Endringer
 * Oppdatert "Be om tilgang"-lenken under pålogging for korrekt informasjon om tilgang.
 ----
