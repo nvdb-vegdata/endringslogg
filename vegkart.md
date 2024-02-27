@@ -1,5 +1,10 @@
 # Vegkart - Endringslogg
 
+# 2023.02.27-38 (27.02.24)
+### Endringer
+* Oppdatert styling for fortau, trapper og gangfelt.
+----
+
 # 2024.01.16 (16.01.24)
 ### Endringer
 * Oppdatert "Be om tilgang"-lenken under pålogging for korrekt informasjon om tilgang.
