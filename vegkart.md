@@ -1,5 +1,13 @@
 # Vegkart - Endringslogg
 
+# 2024.03.18-46 (18.03.24)
+### Feilrettinger
+* Rettet feil der vegnettet ble tegnet oppå objektene.
+
+### Ny funksjonalitet
+* Projeksjon for CSV/SOSI eksport kan nå velges i innstillinger. (UTM32-UTM35, UTM33 er standard)
+----
+
 # 2023.02.27-38 (27.02.24)
 ### Endringer
 * Oppdatert styling for fortau, trapper og gangfelt.
