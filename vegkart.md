@@ -1,5 +1,10 @@
 # Vegkart - Endringslogg
 
+# 2024.04.04-51
+### Endringer
+* Når retningsgrunnlaget er satt til Veglenkes retning, vises nå alle lenker i grått og med pil, uavhengig av andre faktorer.
+* Når retningsgrunnlaget er satt til Metreringsretning vises kun metrerte veger med pil. Veger metrert i samme retning som lenkeretning vises i grått, mens der metreringsretning er motsatt lenkeretning vises disse i rødt. Umetrerte veglenker vises uten pil.
+
 # 2024.03.18-46 (18.03.24)
 ### Feilrettinger
 * Rettet feil der vegnettet ble tegnet oppå objektene.
