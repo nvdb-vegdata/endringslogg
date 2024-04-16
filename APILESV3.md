@@ -16,7 +16,7 @@ Se mer dokumentasjon om NVDV API LES V3: [her](https://nvdb.atlas.vegvesen.no/do
 
 ## 2024.1.2 (15.04.2024)
 ### Feilrettinger
-* Objekt `1015599138` har `"Empty"` geometri. Fikset feil i avrunding av geometri.
+* Rettet feil hvor avrunding av geometri kunne skape tomme geometrier. 
 
 ## 2024.1.1 (09.01.2024)
 #### Endringer
