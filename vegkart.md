@@ -1,5 +1,9 @@
 # Vegkart - Endringslogg
 
+# 2024.04.11-57
+### Endringer
+* Lagt til hvit bakgrunn for koordinatvisning i nedre høyre hjørne for forbedret synlighet.
+
 # 2024.04.04-51
 ### Endringer
 * Når retningsgrunnlaget er satt til Veglenkes retning, vises nå alle lenker i grått og med pil, uavhengig av andre faktorer.
