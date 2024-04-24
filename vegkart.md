@@ -1,5 +1,9 @@
 # Vegkart - Endringslogg
 
+# 2024.04.24-60
+### Endringer
+* Forbedret fargekontrast og nyanseforskjeller mellom alle kategorier for å øke synligheten og skille tydeligere mellom dem.
+
 # 2024.04.11-57
 ### Endringer
 * Lagt til hvit bakgrunn for koordinatvisning i nedre høyre hjørne for forbedret synlighet.
