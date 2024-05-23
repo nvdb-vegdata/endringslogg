@@ -10,6 +10,16 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 Se mer dokumentasjon om NVDV API LES V3: [her](https://nvdb.atlas.vegvesen.no/docs/category/nvdb-api-les)
 # Fullførte versjoner
 
+## 24.1.3
+### Endringer
+* /dokumentasjon/openapi/ virket ikke i 24.1.2  
+* Konfigurerbar begrensning av sidestørrelser - Oppdatert max pagesize for flere objekttyper som f.eks:  577, 580, 106, 107  
+
+## 24.1.2
+### Endringer
+* Kjører med nyere Springboot(2.7.9 -> 3.1.5) , Solr (8.7 -> 8.11.3) og Zookeeper (3.6 -> 3.8.4)
+* Oppgradert fra Tomcat 9 til 10 og dermed fra javax til jakarta
+
 ## 2024.1.4 (15.04.2024)
 ### Feilrettinger
 * Fikset at metrics ikke forsvinner når API Les har kjørt en stund.
