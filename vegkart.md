@@ -1,5 +1,10 @@
 # Vegkart - Endringslogg
 
+# 2024.06.03-71
+### Endringer
+* Endret behandling av URL-er (merk: gamle bokmerker og lenker fungerer ikke lenger).
+* Lagt til Traktorveg, Sti og Annet i kategorivalgene.
+
 # 2024.04.24-60
 ### Endringer
 * Forbedret fargekontrast og nyanseforskjeller mellom alle kategorier for å øke synligheten og skille tydeligere mellom dem.
