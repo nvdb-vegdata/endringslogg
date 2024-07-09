@@ -1,5 +1,9 @@
 # Vegkart - Endringslogg
 
+# 2024.07.09-80
+### Feilrettinger
+* Rettet feil der filtre ikke ble tolket korrekt når URL ble delt.
+  
 # 2024.06.03-71
 ### Endringer
 * Endret behandling av URL-er (merk: gamle bokmerker og lenker fungerer ikke lenger).
