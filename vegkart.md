@@ -1,5 +1,9 @@
 # Vegkart - Endringslogg
 
+# 2024.08.07-3
+### Feilrettinger
+* Forbedret konvertering av vegnett-applikasjonstilstand til URL.
+
 # 2024.07.09-80
 ### Feilrettinger
 * Rettet feil der filtre ikke ble tolket korrekt når URL ble delt.
