@@ -1,5 +1,10 @@
 # Vegkart - Endringslogg
 
+# 2024.08.15-107
+### Ny funksjonalitet
+* Implementert funksjonalitet som lar brukeren velge mellom fire ulike visningsalternativer for tillatte verdier i SOSI-filer.
+* Brukeren kan nå slå av og på disse alternativene i innstillingene.
+
 # 2024.08.07-3
 ### Feilrettinger
 * Forbedret konvertering av vegnett-applikasjonstilstand til URL.
