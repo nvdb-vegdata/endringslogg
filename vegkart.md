@@ -1,5 +1,35 @@
 # Vegkart - Endringslogg
 
+# 2024.10.10-151
+### Endringer
+* Areal vises i km² fra 0.1 km² og oppover.
+* Tittel ved mus over måleknappene viser nå riktig tekst.
+* Vegreferanseboks åpnes ikke lenger i løpet av måling.
+* Nytt design og innhold på informasjonsboks.
+
+# 2024.10.01-143
+### Feilrettinger
+* Lenker med mange vegobjekttyper tolkes nå riktig.
+
+# 2024.09.25-134
+### Ny funksjonalitet
+* Søkefeltet støtter nå søk på WGS84 koordinater, både nord/øst og øst/nord.
+
+### Forbedringer
+* Migrert til ny karttjeneste for henting av topologiske og gråtone kart.
+
+### Feilrettinger
+* Farger blir ikke lenger like når søk i vegkart åpnes fra lenke.
+
+# 2024.09.11-123
+### Ny funksjonalitet
+* Det er nå mulig å utføre UTM33-koordinatsøk både i lon/lat- og lat/lon-format.
+
+### Endringer
+* Standard bakgrunnskart endret fra Norgeskart til Standard. Endret rekkefølgen i kartvalg for bedre brukervennlighet.
+* Lagt til informasjonsknapp for absoluttverdier i kategoriseringspanelet.
+* Diverse språk- og tilgjengelighetsforbedringer.
+  
 # 2024.08.15-107
 ### Ny funksjonalitet
 * Implementert funksjonalitet som lar brukeren velge mellom fire ulike visningsalternativer for tillatte verdier i SOSI-filer.
