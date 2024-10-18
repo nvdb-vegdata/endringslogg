@@ -1,5 +1,9 @@
 # Vegkart - Endringslogg
 
+# 2024.10.18-55
+### Feilrettinger
+* Rettet feil ved åpning av høyreklikksmenyen.
+  
 # 2024.10.10-151
 ### Endringer
 * Areal vises i km² fra 0.1 km² og oppover.
