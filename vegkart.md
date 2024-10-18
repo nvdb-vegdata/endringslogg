@@ -1,6 +1,6 @@
 # Vegkart - Endringslogg
 
-# 2024.10.18-55
+# 2024.10.17-54
 ### Feilrettinger
   
 # 2024.10.10-151
