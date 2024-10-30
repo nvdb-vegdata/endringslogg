@@ -1,4 +1,7 @@
 # Vegkart - Endringslogg
+# 2024.10.30-162
+### Feilrettinger
+* Rettet feil ved åpning av høyreklikksmenyen.
 
 # 2024.10.18-2
 ### Feilrettinger
