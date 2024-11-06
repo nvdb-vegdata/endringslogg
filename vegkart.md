@@ -1,4 +1,15 @@
 # Vegkart - Endringslogg
+
+# 2024.11.06 (2024-11-06..)-172
+### Ny funksjonalitet
+* Innstillinger: Det er mulig å velge API-versjon (v3 eller v4), men standard API-versjon er fortsatt v3.
+* Feilmeldingsikon for advarsel og info er forbedret.
+* Man får tilbakemelding/info dersom det ikke fins vegsystemreferanser i nærheten av søk.
+* Forbedret tabellvisning som viser vegobjekter per fylke.
+* Tabellvisning vises kun når man er zoomer ut i API-v4.
+* Tabellvisningen i API-v4 viser oppsummering for hele Norge, tabellen fra API-v3 viser oppsumering over kartutsnittet.
+
+----
 # 2024.10.30-162
 ### Feilrettinger
 * Rettet feil ved åpning av høyreklikksmenyen.
