@@ -1,6 +1,6 @@
 # Vegkart - Endringslogg
 
-# 2024.11.06 (2024-11-06..)-172
+# 2024.11.06-172
 ### Ny funksjonalitet
 * Innstillinger: Det er mulig å velge API-versjon (v3 eller v4), men standard API-versjon er fortsatt v3.
 * Feilmeldingsikon for advarsel og info er forbedret.
