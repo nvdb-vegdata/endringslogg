@@ -1,5 +1,14 @@
 # Vegkart - Endringslogg
 
+# 2024.11.25 (25.11.24)-184
+### Endringer
+* Vegnett for API v4 hentes raskere enn før.
+* Nettsiden lastes ikke lenger inn på nytt ved bytte av API-versjon.
+* Valgt veglenkesekvens lagres i url
+* Søk på riksvegruter med EnumID eller rute-navn
+
+----
+
 # 2024.11.06-172
 ### Ny funksjonalitet
 * Innstillinger: Det er mulig å velge API-versjon (v3 eller v4), men standard API-versjon er fortsatt v3.
