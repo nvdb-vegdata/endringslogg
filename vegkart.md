@@ -1,9 +1,15 @@
 # Vegkart - Endringslogg
 
+# 2024.11.27-190
+### Endringer
+* Eksport av vegobjekter med sensitive data, fungerer nå for brukere utenfor vegvesenet sitt interne nett.
+* Filnavn ved eksport av vegobjekter har fått ny navngiving.
+* Progresjon ved eksport av vegobjekter vises ikke lenger av nettleseren.
+* I dennne sammenheng har varselet "Nedlasting startet ...", blitt endret til "Nedlasting pågår" og vises nå helt til nedlastingen er ferdig.
 
+----
 
-
-# 2024.11.25 (25.11.24)-184
+# 2024.11.25-184
 ### Endringer
 * Vegnett for API v4 hentes raskere enn før.
 * Nettsiden lastes ikke lenger inn på nytt ved bytte av API-versjon.
