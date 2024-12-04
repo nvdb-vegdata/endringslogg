@@ -1,5 +1,15 @@
 # Vegkart - Endringslogg
 
+# 2024.12.04-197
+### Ny funksjonalitet
+* Brukere av Vegkart på mobil og nettbrett får spørsmål om de ønsker å forlate programmet.
+### Forbedringer 
+* Filter for vegobjekter har fått et visuelt løft.
+### Feilrettinger
+* Henting av segmentert vegnett med store kartutsnitt, feiler ikke lenger (gjelder API-v3).
+
+----
+
 # 2024.11.27-190
 ### Endringer
 * Eksport av vegobjekter med sensitive data, fungerer nå for brukere utenfor vegvesenet sitt interne nett.
