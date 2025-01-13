@@ -1,5 +1,22 @@
 # Vegkart - Endringslogg
 
+# 2025.01.10-221
+### Ny funksjonalitet
+* Det er nå mulig å søke gjennom mulige verdier for egenskapsfilter av typen tekst, tall og dato.
+* Det er lagt til informasjon om bruk av * ved søk i egenskapsfilter av typen tekst. Se informasjonen ved å holde musepekeren over informasjon-ikonet ved siden av tekstfeltet.
+* Valg av API-versjon i innstillinger blir nå brukt ved eksport.
+### Forbedringer
+* Forbedring av universell utforming på bryterknapper.
+* Klikk i kartet for å vise vegsystemreferanse tar nå hensyn til søk basert på dato.
+* Personvernerklæringen er oppdatert.
+* Ubrukte lenker på informasjonssiden er fjernet.
+* Informasjonssiden viser nå oppdateringsdato for datagrunnlag.
+* Tittelen på instillingen for API-versjon er endret fra "Velg API-versjon (lagres ikke på tvers av økter)" til "API-versjon (kun relevant for testing)".
+### Feilrettinger
+Vegkart klarer nå å håndtere ugyldige kvalitetsverdier. Slike verdier vises nå som "Ugyldig verdi".
+
+----
+
 # 2024.12.04-197
 ### Ny funksjonalitet
 * Brukere av Vegkart på mobil og nettbrett får spørsmål om de ønsker å forlate programmet.
