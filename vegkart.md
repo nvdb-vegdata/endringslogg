@@ -1,5 +1,27 @@
 # Vegkart - Endringslogg
 
+# 2025.02.11-241
+### Ny funksjonalitet
+* Søkefeltet viser nylige søk hvis søkefeltet er tomt og brukeren har klikket i søkefeltet.
+* CSV-Eksport gir mulighet for visning av datoen et objekt ble opprettet. Valget gjøres i innstillingsvinduet for eksport.
+### Forbedringer
+* Kontaktinformasjon vises i informasjonsvinduet.
+* Forbedringer av universell utforming i innstillinger og ved eksport.
+* Endret ordbruk fra "notifikasjoner" til "varslinger".
+### Feilrettinger
+* Vegkart vil ikke lenger gi feilmelding hvis bruker trykker pil ned i søkefeltet når søkeressultatet er tomt.
+* Vegkart vil ikke lenger gi feilmelding hvis bruker trykker tab i søkefelt med tekst.
+
+----
+
+# 2025.01.22-228
+### Feilrettinger
+* Fikset feil hvor resultater fra tidligere søk ble vist i stedet for gjeldende søk.
+* Fikset kritisk V4 feil som gjorde det umulig å søke opp vegobjekttyper.
+* Fikset plassering av vegsystemreferansemarkør for referanser med meterverdier som inneholder "m0".
+
+----
+
 # 2025.01.10-221
 ### Ny funksjonalitet
 * Det er nå mulig å søke gjennom mulige verdier for egenskapsfilter av typen tekst, tall og dato.
