@@ -1,5 +1,12 @@
 # Vegkart - Endringslogg
 
+# 2025.02.21-250
+* Forbedringer av universell utforming i innloggingsvinduet og andre små forbedringer på verktøylinjen.
+### Feilrettinger
+* Tilkobling til eiendomsgrense-tjeneste oppdatert. Eindomsgrenser vises nå igjen når innstillingen er valgt.
+
+----
+
 # 2025.02.11-241
 ### Ny funksjonalitet
 * Søkefeltet viser nylige søk hvis søkefeltet er tomt og brukeren har klikket i søkefeltet.
