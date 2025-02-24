@@ -1,6 +1,7 @@
 # Vegkart - Endringslogg
 
 # 2025.02.21-250
+### Forbedringer
 * Forbedringer av universell utforming i innloggingsvinduet og andre små forbedringer på verktøylinjen.
 ### Feilrettinger
 * Tilkobling til eiendomsgrense-tjeneste oppdatert. Eindomsgrenser vises nå igjen når innstillingen er valgt.
