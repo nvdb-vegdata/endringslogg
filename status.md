@@ -6,6 +6,4 @@
 * Endringslogg vises nå på /changelog eller via 'Om status' siden. 
 
 ### 🐛 Feilrettinger
-* Fikset en feil der filtreringer på systemer krasket siden.
-
-----
+* Fikset en feil der filtreringer på systemer krasjet siden.
