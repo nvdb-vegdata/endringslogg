@@ -1,5 +1,12 @@
 # Vegkart - Endringslogg
 
+# 2025.02.26-257
+### Feilrettinger
+* Checkbokser og radioknapper er nå synlige under "Velg vegnett"
+* Måling av areal fungerer nå med kryssende linjer.
+
+----
+
 # 2025.02.21-250
 ### Forbedringer
 * Forbedringer av universell utforming i innloggingsvinduet og andre små forbedringer på verktøylinjen.
