@@ -2,7 +2,7 @@
 
 # 2025.02.26-257
 ### Feilrettinger
-* Checkbokser og radioknapper er nå synlige under "Velg vegnett"
+* Checkbokser og radioknapper er nå synlige under "Velg vegnett".
 * Måling av areal fungerer nå med kryssende linjer.
 
 ----
