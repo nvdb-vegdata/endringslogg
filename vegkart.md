@@ -1,5 +1,13 @@
 # Vegkart - Endringslogg
 
+# 2025.03.13-268
+### Forbedringer
+* Varselboksen  vil nå inneholde mer detaljert info ved driftsfeil
+* Uleste varsler markeres med rød prikk i Varselboksen
+* Infoboksen inneholder nå "Tilgjengelighetserklæring"
+
+----
+
 # 2025.02.26-257
 ### Feilrettinger
 * Checkbokser og radioknapper er nå synlige under "Velg vegnett".
