@@ -2,9 +2,9 @@
 
 # 2025.03.13-268
 ### Forbedringer
-* Varselboksen  vil nå inneholde mer detaljert info ved driftsfeil
-* Uleste varsler markeres med rød prikk i Varselboksen
-* Infoboksen inneholder nå "Tilgjengelighetserklæring"
+* Varselboksen  vil nå inneholde mer detaljert info ved driftsfeil.
+* Uleste varsler markeres med rød prikk i Varselboksen.
+* Infoboksen inneholder nå "Tilgjengelighetserklæring".
 
 ----
 
