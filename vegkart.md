@@ -1,5 +1,16 @@
 # Vegkart - Endringslogg
 
+# 2025.04.09-286
+### Forbedringer
+* Mer universell utforming på knapper og lenker.
+### Feilrettinger
+* Formatering av koordinater rettet fra EU89 til EUREF89.
+* Rettet feil der "total lengde" for vegobjektspørringer ble vist eller skjult feilaktig.
+* Rettet feil der SOSI-eksport av vegobjekter filtrert på område ikke fungerte.
+
+
+----
+
 # 2025.03.13-268
 ### Forbedringer
 * Varselboksen  vil nå inneholde mer detaljert info ved driftsfeil.
