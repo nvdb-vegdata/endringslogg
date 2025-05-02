@@ -1,5 +1,7 @@
 # Vegkart - Endringslogg
 
+----
+
 # 2025.04.09-286
 ### Forbedringer
 * Mer universell utforming på knapper og lenker.
