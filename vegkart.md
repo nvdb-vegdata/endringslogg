@@ -1,5 +1,15 @@
 # Vegkart - Endringslogg
 
+# 2025.05.27-314
+### Forbedringer
+* Vegkart bruker nå nyeste versjon av Kartverkets karttjeneste.
+* Nye kartlag er tilgjengelige i kartlagvelgeren i venstre marg.
+### Feilrettinger
+* Valgt kartlag vises nå i kartlagvelgeren når man er zoomet langt inn.
+* Rettet feil ved valg av samme kartlag når man er zoomet langt inn.
+
+----
+
 ----
 
 # 2025.04.09-286
