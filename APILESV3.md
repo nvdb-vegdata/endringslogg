@@ -10,6 +10,86 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 Se mer dokumentasjon om NVDV API LES V3: [her](https://nvdb.atlas.vegvesen.no/docs/category/nvdb-api-les)
 # Fullførte versjoner
 
+## 25.0.10
+### Endringer
+* Feil i dokumentasjon i API Les v3 for vegobjekter hvor det stod segmentering default er true.  Det er default false.
+
+## 25.0.9 
+### Endringer
+* Sikkerhetsoppgradering av API Les V3
+
+## 25.0.8
+### Endringer
+* Elveg mode skal ikke gi ut feltoversikt på vegobjektsegmenter
+
+## 25.0.7
+### Endringer
+* PageSize=120 for objekttype 107 (værutsatt vei).
+
+## 25.0.6
+### Endringer
+* Rettet feil hvor styring av maks antall objekter per side i uthenting av objekter ble ignorert. 
+ Dette medførte krasj eller lange responstider for objekttyper med store datamengdet (f.eks store geoemetrier).
+
+## 25.0.2
+### Endringer
+* Sikkerhetsoppgradering av API Les V3 
+
+## 24.1.20
+### Endringer
+* API Les V3/ Elveg API  laster ikke Datakatalog 2.40_1000
+
+## 24.1.20
+### Endringer
+* API Les V3/ Elveg API  laster ikke Datakatalog 2.40_1000
+
+## 24.1.19
+### Endringer
+* Legge til enumid for riksveger ved statistikk-spørringer i v4
+
+## 24.1.18
+### Endringer
+* Ratelimiter for API Les V3 virket ikke lenger.
+
+## 24.1.17
+### Endringer
+* Tilpasning til vegsegmenter med feltoversikt for Vegobjekter i V4
+
+## 24.1.16
+### Endringer
+* Gate endrer navn og egenksapsnavn.  Responskode versjon 5 gir nå adresse i stedet for gate.
+* Søk på ?riksvegrute=enumid eller "navn" for vegnett og vegobjekt
+* Vegobjekt/vegnett skal ha kontraktsområde-id med i respons
+* Rapporter antall vegobjekter i statistikk-spørringer
+
+## 24.1.13
+### Endringer
+* Stedfesting av type multipoint får nå riktig stedfesting som punkter (ikke med utstrekning).
+* Problemer med serialisering av vegobjekt - skrur av filtering på mor overlapper barn i tid.
+
+## 24.1.11
+### Endringer
+* Mangler sjekk for verdi i historisk parameter
+* Endepunkt /vegobjekter/905 feiler med 500-respons
+* Rettet problem for rutetjeneste hvor roadusergroup ikke finnes/har samme verdi ved start eller slutt på ruten.
+* Få veglenkenes "feltoversikt" med ut i responsen på vegobjekter.vegsegmenter
+* Tilpasse indeksering til ny parameter for Riksvegrute
+* Utelate utdaterte foreldre
+* enumId med liten i
+
+## 24.1.5
+### Endringer
+* Svingerestriksjon vises som punkter
+* Geometri blir ikke med i enkelte tilfeller
+* Datafangstmetode "byg" vises ikke.
+* Utvid statistikk med inkluder parameter - inkluder=lengde,antall
+  skal gi svar med både lengde og antall
+
+## 24.1.4
+### Endringer
+* Gi alltid ut egengeometri for usegmenterte vegobjekttyper
+* Dataguard for STM, ATM og PROD - bygg ny versjon på nytt Baseimage
+
 ## 24.1.3
 ### Endringer
 * /dokumentasjon/openapi/ virket ikke i 24.1.2  
