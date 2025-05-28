@@ -10,64 +10,60 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 Se mer dokumentasjon om NVDV API LES V3: [her](https://nvdb.atlas.vegvesen.no/docs/category/nvdb-api-les)
 # Fullførte versjoner
 
-## 25.0.10
+## 25.0.10 (2025-05-23)
 ### Endringer
 * Feil i dokumentasjon i API Les v3 for vegobjekter hvor det stod segmentering default er true.  Det er default false.
 
-## 25.0.9 
+## 25.0.9 (2025-05-19)
 ### Endringer
 * Sikkerhetsoppgradering av API Les V3
 
-## 25.0.8
+## 25.0.8 (2025-05-15)
 ### Endringer
 * Elveg mode skal ikke gi ut feltoversikt på vegobjektsegmenter
 
-## 25.0.7
+## 25.0.7 (2025-04-10)
 ### Endringer
 * PageSize=120 for objekttype 107 (værutsatt vei).
 
-## 25.0.6
+## 25.0.6 (2025-04-09)
 ### Endringer
 * Rettet feil hvor styring av maks antall objekter per side i uthenting av objekter ble ignorert. 
  Dette medførte krasj eller lange responstider for objekttyper med store datamengdet (f.eks store geoemetrier).
 
-## 25.0.2
+## 25.0.2 (2025-03-27)
 ### Endringer
 * Sikkerhetsoppgradering av API Les V3 
 
-## 24.1.20
+## 24.1.20 (2025-03-10)
 ### Endringer
 * API Les V3/ Elveg API  laster ikke Datakatalog 2.40_1000
 
-## 24.1.20
-### Endringer
-* API Les V3/ Elveg API  laster ikke Datakatalog 2.40_1000
-
-## 24.1.19
+## 24.1.19 (2024-11-26)
 ### Endringer
 * Legge til enumid for riksveger ved statistikk-spørringer i v4
 
-## 24.1.18
+## 24.1.18 (2024-11-08)
 ### Endringer
 * Ratelimiter for API Les V3 virket ikke lenger.
 
-## 24.1.17
+## 24.1.17 (2024-10-29)
 ### Endringer
 * Tilpasning til vegsegmenter med feltoversikt for Vegobjekter i V4
 
-## 24.1.16
+## 24.1.16 (2024-10-16)
 ### Endringer
 * Gate endrer navn og egenksapsnavn.  Responskode versjon 5 gir nå adresse i stedet for gate.
 * Søk på ?riksvegrute=enumid eller "navn" for vegnett og vegobjekt
 * Vegobjekt/vegnett skal ha kontraktsområde-id med i respons
 * Rapporter antall vegobjekter i statistikk-spørringer
 
-## 24.1.13
+## 24.1.13 (2024-09-17)
 ### Endringer
 * Stedfesting av type multipoint får nå riktig stedfesting som punkter (ikke med utstrekning).
 * Problemer med serialisering av vegobjekt - skrur av filtering på mor overlapper barn i tid.
 
-## 24.1.11
+## 24.1.11 (2024-09-14)
 ### Endringer
 * Mangler sjekk for verdi i historisk parameter
 * Endepunkt /vegobjekter/905 feiler med 500-respons
@@ -77,7 +73,7 @@ Se mer dokumentasjon om NVDV API LES V3: [her](https://nvdb.atlas.vegvesen.no/do
 * Utelate utdaterte foreldre
 * enumId med liten i
 
-## 24.1.5
+## 24.1.5 (2024-06-10)
 ### Endringer
 * Svingerestriksjon vises som punkter
 * Geometri blir ikke med i enkelte tilfeller
@@ -85,17 +81,18 @@ Se mer dokumentasjon om NVDV API LES V3: [her](https://nvdb.atlas.vegvesen.no/do
 * Utvid statistikk med inkluder parameter - inkluder=lengde,antall
   skal gi svar med både lengde og antall
 
-## 24.1.4
+## 24.1.4 (2024-06-10)
 ### Endringer
 * Gi alltid ut egengeometri for usegmenterte vegobjekttyper
 * Dataguard for STM, ATM og PROD - bygg ny versjon på nytt Baseimage
 
-## 24.1.3
+## 24.1.3 (2024-05-23)
 ### Endringer
-* /dokumentasjon/openapi/ virket ikke i 24.1.2  
-* Konfigurerbar begrensning av sidestørrelser - Oppdatert max pagesize for flere objekttyper som f.eks:  577, 580, 106, 107  
+* /dokumentasjon/openapi/ virket ikke 
+* Konfigurerbar begrensning av sidestørrelser - Oppdatert max pagesize for flere objekttyper som f.eks:  577, 580, 106, 107
+* Oppgradering av bibliotek
 
-## 24.1.2
+## 24.1.2 (2024-05-21)
 ### Endringer
 * Kjører med nyere Springboot(2.7.9 -> 3.1.5) , Solr (8.7 -> 8.11.3) og Zookeeper (3.6 -> 3.8.4)
 * Oppgradert fra Tomcat 9 til 10 og dermed fra javax til jakarta
