@@ -1,5 +1,183 @@
 # Vegkart - Endringslogg
 
+# 2025.05.27-314
+### Forbedringer
+* Vegkart bruker nå nyeste versjon av Kartverkets karttjeneste.
+* Nye kartlag er tilgjengelige i kartlagvelgeren i venstre marg.
+### Feilrettinger
+* Valgt kartlag vises nå i kartlagvelgeren når man er zoomet langt inn.
+* Rettet feil ved valg av samme kartlag når man er zoomet langt inn.
+
+----
+
+----
+
+# 2025.04.09-286
+### Forbedringer
+* Mer universell utforming på knapper og lenker.
+### Feilrettinger
+* Formatering av koordinater rettet fra EU89 til EUREF89.
+* Rettet feil der "total lengde" for vegobjektspørringer ble vist eller skjult feilaktig.
+* Rettet feil der SOSI-eksport av vegobjekter filtrert på område ikke fungerte.
+
+
+----
+
+# 2025.03.13-268
+### Forbedringer
+* Varselboksen  vil nå inneholde mer detaljert info ved driftsfeil.
+* Uleste varsler markeres med rød prikk i Varselboksen.
+* Infoboksen inneholder nå "Tilgjengelighetserklæring".
+
+----
+
+# 2025.02.26-257
+### Feilrettinger
+* Checkbokser og radioknapper er nå synlige under "Velg vegnett".
+* Måling av areal fungerer nå med kryssende linjer.
+
+----
+
+# 2025.02.21-250
+### Forbedringer
+* Forbedringer av universell utforming i innloggingsvinduet og andre små forbedringer på verktøylinjen.
+### Feilrettinger
+* Tilkobling til eiendomsgrense-tjeneste oppdatert. Eindomsgrenser vises nå igjen når innstillingen er valgt.
+
+----
+
+# 2025.02.11-241
+### Ny funksjonalitet
+* Søkefeltet viser nylige søk hvis søkefeltet er tomt og brukeren har klikket i søkefeltet.
+* CSV-Eksport gir mulighet for visning av datoen et objekt ble opprettet. Valget gjøres i innstillingsvinduet for eksport.
+### Forbedringer
+* Kontaktinformasjon vises i informasjonsvinduet.
+* Forbedringer av universell utforming i innstillinger og ved eksport.
+* Endret ordbruk fra "notifikasjoner" til "varslinger".
+### Feilrettinger
+* Vegkart vil ikke lenger gi feilmelding hvis bruker trykker pil ned i søkefeltet når søkeressultatet er tomt.
+* Vegkart vil ikke lenger gi feilmelding hvis bruker trykker tab i søkefelt med tekst.
+
+----
+
+# 2025.01.22-228
+### Feilrettinger
+* Fikset feil hvor resultater fra tidligere søk ble vist i stedet for gjeldende søk.
+* Fikset kritisk V4 feil som gjorde det umulig å søke opp vegobjekttyper.
+* Fikset plassering av vegsystemreferansemarkør for referanser med meterverdier som inneholder "m0".
+
+----
+
+# 2025.01.10-221
+### Ny funksjonalitet
+* Det er nå mulig å søke gjennom mulige verdier for egenskapsfilter av typen tekst, tall og dato.
+* Det er lagt til informasjon om bruk av * ved søk i egenskapsfilter av typen tekst. Se informasjonen ved å holde musepekeren over informasjon-ikonet ved siden av tekstfeltet.
+* Valg av API-versjon i innstillinger blir nå brukt ved eksport.
+### Forbedringer
+* Forbedring av universell utforming på bryterknapper.
+* Klikk i kartet for å vise vegsystemreferanse tar nå hensyn til søk basert på dato.
+* Personvernerklæringen er oppdatert.
+* Ubrukte lenker på informasjonssiden er fjernet.
+* Informasjonssiden viser nå oppdateringsdato for datagrunnlag.
+* Tittelen på instillingen for API-versjon er endret fra "Velg API-versjon (lagres ikke på tvers av økter)" til "API-versjon (kun relevant for testing)".
+### Feilrettinger
+Vegkart klarer nå å håndtere ugyldige kvalitetsverdier. Slike verdier vises nå som "Ugyldig verdi".
+
+----
+
+# 2024.12.04-197
+### Ny funksjonalitet
+* Brukere av Vegkart på mobil og nettbrett får spørsmål om de ønsker å forlate programmet.
+### Forbedringer 
+* Filter for vegobjekter har fått et visuelt løft.
+### Feilrettinger
+* Henting av segmentert vegnett med store kartutsnitt, feiler ikke lenger (gjelder API-v3).
+
+----
+
+# 2024.11.27-190
+### Endringer
+* Eksport av vegobjekter med sensitive data, fungerer nå for brukere utenfor vegvesenet sitt interne nett.
+* Filnavn ved eksport av vegobjekter har fått ny navngiving.
+* Progresjon ved eksport av vegobjekter vises ikke lenger av nettleseren.
+* I dennne sammenheng har varselet "Nedlasting startet ...", blitt endret til "Nedlasting pågår" og vises nå helt til nedlastingen er ferdig.
+
+----
+
+# 2024.11.25-184
+### Endringer
+* Vegnett for API v4 hentes raskere enn før.
+* Nettsiden lastes ikke lenger inn på nytt ved bytte av API-versjon.
+* Valgt veglenkesekvens lagres i url
+* Søk på riksvegruter med EnumID eller rute-navn
+
+----
+
+# 2024.11.06-172
+### Ny funksjonalitet
+* Innstillinger: Det er mulig å velge API-versjon (v3 eller v4), men standard API-versjon er fortsatt v3.
+* Feilmeldingsikon for advarsel og info er forbedret.
+* Man får tilbakemelding/info dersom det ikke fins vegsystemreferanser i nærheten av søk.
+* Forbedret tabellvisning som viser vegobjekter per fylke.
+* Tabellvisning vises kun når man er zoomer ut i API-v4.
+* Tabellvisningen i API-v4 viser oppsummering for hele Norge, tabellen fra API-v3 viser oppsumering over kartutsnittet.
+
+----
+# 2024.10.30-162
+### Feilrettinger
+* Rettet feil ved åpning av høyreklikksmenyen.
+
+# 2024.10.18-2
+### Feilrettinger
+  
+# 2024.10.10-151
+### Endringer
+* Areal vises i km² fra 0.1 km² og oppover.
+* Tittel ved mus over måleknappene viser nå riktig tekst.
+* Vegreferanseboks åpnes ikke lenger i løpet av måling.
+* Nytt design og innhold på informasjonsboks.
+
+# 2024.10.01-143
+### Feilrettinger
+* Lenker med mange vegobjekttyper tolkes nå riktig.
+
+# 2024.09.25-134
+### Ny funksjonalitet
+* Søkefeltet støtter nå søk på WGS84 koordinater, både nord/øst og øst/nord.
+
+### Forbedringer
+* Migrert til ny karttjeneste for henting av topologiske og gråtone kart.
+
+### Feilrettinger
+* Farger blir ikke lenger like når søk i vegkart åpnes fra lenke.
+
+# 2024.09.11-123
+### Ny funksjonalitet
+* Det er nå mulig å utføre UTM33-koordinatsøk både i lon/lat- og lat/lon-format.
+
+### Endringer
+* Standard bakgrunnskart endret fra Norgeskart til Standard. Endret rekkefølgen i kartvalg for bedre brukervennlighet.
+* Lagt til informasjonsknapp for absoluttverdier i kategoriseringspanelet.
+* Diverse språk- og tilgjengelighetsforbedringer.
+  
+# 2024.08.15-107
+### Ny funksjonalitet
+* Implementert funksjonalitet som lar brukeren velge mellom fire ulike visningsalternativer for tillatte verdier i SOSI-filer.
+* Brukeren kan nå slå av og på disse alternativene i innstillingene.
+
+# 2024.08.07-3
+### Feilrettinger
+* Forbedret konvertering av vegnett-applikasjonstilstand til URL.
+
+# 2024.07.09-80
+### Feilrettinger
+* Rettet feil der filtre ikke ble tolket korrekt når URL ble delt.
+  
+# 2024.06.03-71
+### Endringer
+* Endret behandling av URL-er (merk: gamle bokmerker og lenker fungerer ikke lenger).
+* Lagt til Traktorveg, Sti og Annet i kategorivalgene.
+
 # 2024.04.24-60
 ### Endringer
 * Forbedret fargekontrast og nyanseforskjeller mellom alle kategorier for å øke synligheten og skille tydeligere mellom dem.
