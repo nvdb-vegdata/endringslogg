@@ -10,6 +10,11 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 Se mer dokumentasjon om NVDV API LES V3: [her](https://nvdb.atlas.vegvesen.no/docs/category/nvdb-api-les)
 # Fullførte versjoner
 
+## 25.0.11 (2025-06-06)
+### Endringer
+* Rettet sikkerhetshull
+* Oppdatert lenke som til dokumentasjonssiden for API Les V3 (ny nvdb.no)
+
 ## 25.0.10 (2025-05-23)
 ### Endringer
 * Feil i dokumentasjon i API Les v3 for vegobjekter hvor det stod segmentering default er true.  Det er default false.
