@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2025.06.11-322
+### Forbedringer
+* Les API-v4 er nå standard API-versjon i Vegkart.
+
+----
+
 # 2025.05.27-314
 ### Forbedringer
 * Vegkart bruker nå nyeste versjon av Kartverkets karttjeneste.
