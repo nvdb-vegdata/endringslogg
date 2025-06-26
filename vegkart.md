@@ -1,5 +1,11 @@
 # Vegkart - Endringslogg
 
+# 2025.06.25-328
+### Feilrettinger
+* Rettet feil der vegkategori ikke ble redusert på lavere zoomnive der det blir for mange objekter om man har med alle.
+
+----
+
 # 2025.06.11-322
 ### Forbedringer
 * Les API-v4 er nå standard API-versjon i Vegkart.
