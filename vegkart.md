@@ -1,5 +1,15 @@
 # Vegkart - Endringslogg
 
+# 2025.08.12-365
+### Forbedringer
+* Konnekteringslenker vises i rødt hvis retningsgrunnlaget er satt til "Metreringsretning" og metreringsretningen er mot lenkeretningen.
+### Feilrettinger
+* Fikset tegning av retningsgrunnlag for veglenker.
+* Historiske veglenker kan nå velges igjen.
+* Fargefeil ved kategorisering for noen vegobjekttyper er rettet.
+
+----
+
 # 2025.06.25-328
 ### Feilrettinger
 * Rettet feil der vegkategori ikke ble redusert på lavere zoomnive der det blir for mange objekter om man har med alle.
