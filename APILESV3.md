@@ -10,6 +10,11 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 Se mer dokumentasjon om NVDV API LES V3: [her](https://nvdb.atlas.vegvesen.no/docs/category/nvdb-api-les)
 # Fullførte versjoner
 
+
+## 25.0.14 (2025-08-14)
+### Endringer
+* System for hvitlisting av klienter - API Les V3 kun tilgjengelig for autoriserte klienter etter 1. september 2025. 
+
 ## 25.0.11 (2025-06-06)
 ### Endringer
 * Rettet sikkerhetshull
