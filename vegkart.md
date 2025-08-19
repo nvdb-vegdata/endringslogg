@@ -1,5 +1,12 @@
 # Vegkart - Endringslogg
 
+# 2025.08.18-371
+### Forbedringer
+* Vegsystemreferanser for valgt vegobjekt viser nå gitt sideposisjon i parantes.
+* Fjernet assosierte objekter fra listen med filter for et vegobjekt.
+
+----
+
 # 2025.08.12-365
 ### Forbedringer
 * Konnekteringslenker vises i rødt hvis retningsgrunnlaget er satt til "Metreringsretning" og metreringsretningen er mot lenkeretningen.
