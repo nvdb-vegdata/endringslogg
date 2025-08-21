@@ -1,5 +1,27 @@
 # Vegkart - Endringslogg
 
+# 2025.08.20-374
+### Ny datakatalog i Vegkart
+* Den gamle datakatalogen er erstattet med et vindu koblet til [https://datakatalogen.atlas.vegvesen.no/](https://datakatalogen.atlas.vegvesen.no/). Dette sikrer at den nyeste versjonen av datakatalogen alltid er tilgjengelig i Vegkart, med samme funksjonalitet som på datakatalogen.no. I tillegg har vi lagt til funksjonalitet for å sikre god integrering med Vegkart.
+* For å åpne og lukke datakatalogen, brukes samme knapp som tidligere.
+* For å legge til et vegobjekt i søket, kan du klikke på den blå lenken som viser antall vegobjekter for en gitt vegobjekttype.
+* For å legge til et vegobjekt filtrert på en bestemt egenskapstype, kan du klikke på den blå globusen ved siden av den aktuelle egenskapstypen.
+* For å legge til et vegobjekt filtrert på en spesifikk verdi, klikk først på det grønne "hent statistikk"-ikonet ved siden av den blå globusen for egenskapstypen, og deretter på den blå lenken ved siden av den aktuelle verdien.
+* Det er mulig å legge til filtre på vegobjekter som allerede er inkludert i søket, på samme måte som beskrevet ovenfor.
+* Datakatalogen kan åpnes i tre ulike visninger:
+  * **Liten visning**: Vises i høyre marg.
+  * **Stor visning**: Dekker mesteparten av kartet.
+  * **Eget vindu**: Åpnes i et eksternt vindu.
+* For å bytte mellom visningene, klikk på det tilsvarende ikonet/knappen i menyen øverst til høyre i datakatalogen.
+* Hold musepekeren over en knapp for å se hva den gjør.
+* Kryss-ikonet lukker datakatalogen.
+* Hus-ikonet tar deg tilbake til startsiden.
+* Standardvisningen for datakatalogen kan endres i innstillingene for Vegkart.
+* For å manuelt endre størrelsen på datakatalogen, dra i kanten nederst til høyre. Liten visning festes til høyre hjørne av Vegkart, mens stor visning festes til venstre hjørne.
+* For å tilbakestille størrelsen til standard, klikk på knappen til venstre i datakatalog-menyen. Denne knappen vises kun etter at størrelsen manuelt er endret.
+
+----
+
 # 2025.08.18-371
 ### Forbedringer
 * Vegsystemreferanser for valgt vegobjekt viser nå gitt sideposisjon i parantes.
