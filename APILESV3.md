@@ -10,7 +10,7 @@ Oversikt over hvilken installasjon som er installert i hvilket miljø:
 Se mer dokumentasjon om NVDV API LES V3: [her](https://nvdb.atlas.vegvesen.no/docs/category/nvdb-api-les)
 # Fullførte versjoner
 
-## 25.0.14 (2025-08-26)
+## 25.0.16 (2025-08-26)
 ### Endringer
 * Oppdatere tekst på API V3 landingsside
 
