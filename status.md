@@ -1,5 +1,9 @@
 # NVDB Status - Endringslogg
 
+## 2025.09.01
+### ✨ Forbedringer
+* Forbedret universell utforming: tabell etterkommer nå synlig fokus og har synlig fokus ved tabbing. 
+
 ## 2025.07.22
 ### Ny funksjonalitet
 * Lenke til nvdb.no.
