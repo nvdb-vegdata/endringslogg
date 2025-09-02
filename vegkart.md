@@ -1,5 +1,19 @@
 # Vegkart - Endringslogg
 
+# 2025.09.02-389
+### Forbedringer
+* Vegobjekter vises nå detaljert på ytterste zoomnivå hvis antall er under 3000 for linjeobjekter og 15000 for punktobjekter.
+* Nå mulig å søke på stedsnavn med korte navn, f.eks. "Bø" eller "Å".
+### Ytelse
+* Raskere søk på områder når man ikke søker basert på dato.
+* Kontraktsområder og riksvegruter vises alltid som statistikk-bobler i kartet når man er zoomet ut.
+### Feilrettinger
+* Områder i søk vises nå med full geometri.
+* Ved søk filtrert på vegkategori vises ikke lenger vegobjekter med feil vegkategori hvis antall vegobjekter er for høyt. Statistikk-bobler vises istedenfor.
+* Statistikk-bobler tar nå hensyn til alle filtre.
+
+----
+
 # 2025.08.20-374
 ### Ny datakatalog i Vegkart
 * Den gamle datakatalogen er erstattet med et vindu koblet til [https://datakatalogen.atlas.vegvesen.no/](https://datakatalogen.atlas.vegvesen.no/). Dette sikrer at den nyeste versjonen av datakatalogen alltid er tilgjengelig i Vegkart, med samme funksjonalitet som på datakatalogen.no. I tillegg har vi lagt til funksjonalitet for å sikre god integrering med Vegkart.
