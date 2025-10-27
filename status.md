@@ -1,5 +1,11 @@
 # NVDB Status - Endringslogg
 
+## 2025.10.20
+### Ny funksjonalitet
+* Systemside: Pågående, planlagte, og avsluttede hendelser (sist time) vises nå direkte inne på hvert system sin oversikt.
+### ✨ Forbedringer
+* Diverste UU og design-endringer. Header-tags er erstattet med p-tags der det ikke er behov for headers. Størrelse på logo og navbar.
+
 ## 2025.09.01
 ### ✨ Forbedringer
 * Forbedret universell utforming: tabell etterkommer nå synlig fokus og har synlig fokus ved tabbing. 
