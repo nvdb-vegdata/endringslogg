@@ -1,5 +1,27 @@
 # Vegkart - Endringslogg
 
+# 2025.10.27-24
+### Forbedringer ved nedlasting av datasett
+* Det er nå mulig å laste ned datasett direkte for vegnett og vegobjekter i høyre marg uten å åpne eksportvinduet ved å klikke på nedlastingsikonene CSV, SOSI eller API.
+* Hvis man holder musepekeren over nedlastingsikonet, vises informasjon om valgte innstillinger.
+* Innstillinger for eksport kan åpnes ved å klikke på tannhjul-ikonet til høyre for nedlasting av datasettene. Innstillingene er felles for vegnett og vegobjekter.
+* Et lås-ikon vises ved siden av CSV- og SOSI-eksportknappene når sensitive data er inkludert i eksporten, dvs. når brukeren er logget inn og vegobjektene inneholder sensitive data.
+
+----
+
+# 2025.09.18-12
+### Endringer
+* Valg av API-versjon V3 i innstillinger lagres kun for økten.
+* Vannmerke vises i kartet når API-V3 er valgt.
+### Feilrettinger
+* Filtrering på egenskapsverdier med datatype kortdato(MM-DD) fungerer nå som forventet.
+* Høydereferanse vises når "Geometri" har verdi. .
+### Forbedringer
+* Gråtonede kart har nå grå bakgrunn i stedet for svart.
+* Hold musepekeren over spørsmålstegn-ikonet ved vegsystemreferanser for forklaring.
+
+----
+
 # 2025.09.02-389
 ### Forbedringer
 * Vegobjekter vises nå detaljert på ytterste zoomnivå hvis antall er under 3000 for linjeobjekter og 15000 for punktobjekter.
