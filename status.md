@@ -1,5 +1,10 @@
 # NVDB Status - Endringslogg
 
+## 2025.11.05-10 (frontend), 2025.11.12-6 (backend)
+### Ny funksjonalitet
+* Hendelsesoversikt: Brukere kan nå sende inn tilbakemelding på planlagte hendelser.
+* Api: Nytt endepunkt for å sende inn tilbakemelding på planlagte hendelser.
+  
 ## 2025.10.20
 ### Ny funksjonalitet
 * Systemside: Pågående, planlagte, og avsluttede hendelser (sist time) vises nå direkte inne på hvert system sin oversikt.
