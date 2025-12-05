@@ -1,5 +1,9 @@
 # NVDB Status - Endringslogg
 
+## 2025.12.01-14
+### Ny funksjonalitet
+* Bruker kan nå kopiere en delbar lenke til en gitt hendelse.
+
 ## 2025.11.05-10 (frontend), 2025.11.12-6 (backend)
 ### Ny funksjonalitet
 * Hendelsesoversikt: Brukere kan nå sende inn tilbakemelding på planlagte hendelser.
