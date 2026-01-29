@@ -1,5 +1,9 @@
 # NVDB Status - Endringslogg
 
+## 2026.01.29-17
+### ✨ Forbedringer
+* Forside: om et system har en hendelse vises nå navnet på systemet, samt hvilken hendelse det er.
+  
 ## 2025.12.01-14
 ### Ny funksjonalitet
 * Bruker kan nå kopiere en delbar lenke til en gitt hendelse.
