@@ -1,5 +1,23 @@
 # Vegkart - Endringslogg
 
+# 2026.01.08-70
+### Feilrettinger
+* Det er nå mulig å trykke på vegsystemreferanse for valgt vegobjekt i en gitt kommune.
+* Stedfestninger av typen 'Sving' vises korrekt for valgte vegobjekter.
+* Utdraget av vegnettet som vises ved polygonsøk oppdateres når polygonet oppdateres.
+### Forbedringer
+* Det er nå mulig å søke etter flere stedsnavn ved å trykke på "Vis flere stedsnavn" i bunnen av stedsnavnlisten.
+* Les API-v4 filtrerer nå på enumverdi i stedet for enumID. Dette gjør det mulig å for eksempel søke etter fartsgrenser med verdi lavere enn 30 km/t, selv om enumID for 5 km/t og 20 km/t er høyere enn enumID for 30 km/t.
+* For objekter med mer enn en geometriegenskap vises nå all kvalitetsinformasjon.
+
+----
+
+# 2025.12.01-52
+### Forbedringer
+* "Eksportinnstillinger" tilfredsstiller nå krav til Universell utforming.
+
+----
+
 # 2025.10.27-24
 ### Forbedringer ved nedlasting av datasett
 * Det er nå mulig å laste ned datasett direkte for vegnett og vegobjekter i høyre marg uten å åpne eksportvinduet ved å klikke på nedlastingsikonene CSV, SOSI eller API.
