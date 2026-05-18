@@ -1,5 +1,10 @@
 # NVDB Status - Endringslogg
 
+## 2026.05.18-16071
+### Forbedringer
+* Navigasjonsbar: Navigasjonsbar har fått ny styling.
+* Navigasjonsbar: Ny og forbedret meny for mobil.
+
 ## 2026.01.29-17
 ### ✨ Forbedringer
 * Forside: om et system har en hendelse vises nå navnet på systemet, samt hvilken hendelse det er.
