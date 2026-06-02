@@ -2,7 +2,7 @@
 
 ## 2026.05.28
 ### ✨ Forbedringer
-* Nytt skjema for hendelsesregistrering, SVV Styling på tekst- og datofelter.
+* Nytt skjema for hendelsesregistrering, SVV styling på tekst- og datofelter.
 * Knapper er nå i SVV styling, og andre fargeforbedringer.
 
 ## 2026.05.18-16071
