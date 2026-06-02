@@ -1,7 +1,12 @@
 # NVDB Status - Endringslogg
 
+## 2026.05.28
+### ✨ Forbedringer
+* Nytt skjema for hendelsesregistrering, SVV Styling på tekst- og datofelter.
+* Knapper er nå i SVV styling, og andre fargeforbedringer.
+
 ## 2026.05.18-16071
-### Forbedringer
+### ✨ Forbedringer
 * Navigasjonsbar: Navigasjonsbar har fått ny styling.
 * Navigasjonsbar: Ny og forbedret meny for mobil.
 
